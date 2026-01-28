@@ -1265,3 +1265,33 @@ body {
     transform: scale(1.1);
     background: rgba(0, 0, 0, 0.1);
 }
+
+/* ============================================
+   SEARCH HIGHLIGHT
+   ============================================ */
+.search-highlight {
+    animation: highlightPulse 2s ease-in-out;
+    background: linear-gradient(90deg,
+            rgba(46, 91, 255, 0.1),
+            rgba(46, 91, 255, 0.2),
+            rgba(46, 91, 255, 0.1)) !important;
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 3px rgba(46, 91, 255, 0.1);
+}
+
+@keyframes highlightPulse {
+
+    0%,
+    100% {
+        background: var(--bg-card);
+        box-shadow: 0 0 0 0 rgba(46, 91, 255, 0);
+    }
+
+    50% {
+        background: linear-gradient(90deg,
+                rgba(46, 91, 255, 0.15),
+                rgba(46, 91, 255, 0.25),
+                rgba(46, 91, 255, 0.15));
+        box-shadow: 0 0 0 4px rgba(46, 91, 255, 0.2);
+    }
+}

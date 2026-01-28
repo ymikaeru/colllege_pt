@@ -628,10 +628,13 @@ function showContent(title) {
     // Metadados - Caminho do conteúdo
     const metaContainer = document.getElementById('modalMeta');
     if (title.pathInfo) {
+        // Prepare title string for passing to function - escape single quotes
+        const titleStringEscaped = title.title.replace(/'/g, "\\'");
+
         metaContainer.innerHTML = `
             <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('volume', ${title.pathInfo.volumeIndex})">${title.pathInfo.volume}</div>
             <div class="modal-meta-item">→</div>
-            <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('theme', ${title.pathInfo.volumeIndex}, ${title.pathInfo.themeIndex})">${title.pathInfo.theme}</div>
+            <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('theme', ${title.pathInfo.volumeIndex}, ${title.pathInfo.themeIndex}, '${titleStringEscaped}')">${title.pathInfo.theme}</div>
         `;
     } else {
         metaContainer.innerHTML = '';
@@ -813,14 +816,71 @@ function applyFontSize() {
 // ============================================
 // MODAL NAVIGATION HELPERS
 // ============================================
-function closeModalAndNavigate(type, volumeIndex, themeIndex) {
+// ============================================
+// MODAL NAVIGATION HELPERS
+// ============================================
+function closeModalAndNavigate(type, volumeIndex, themeIndex, targetTitle = null) {
     closeModal();
 
     if (type === 'volume' && volumeIndex >= 0) {
         showThemes(volumeIndex);
     } else if (type === 'theme' && volumeIndex >= 0 && themeIndex >= 0) {
-        showTitles(volumeIndex, themeIndex);
+        if (targetTitle) {
+            navigateToAndHighlight(volumeIndex, themeIndex, targetTitle);
+        } else {
+            showTitles(volumeIndex, themeIndex);
+        }
     }
+}
+
+function navigateToAndHighlight(volumeIndex, themeIndex, titleString) {
+    // Navega para a view de temas
+    showThemes(volumeIndex);
+
+    // Aguarda um momento para a view renderizar
+    setTimeout(() => {
+        // Expande o card do tema
+        const card = document.getElementById(`theme-card-${themeIndex}`);
+        const container = document.getElementById(`theme-titles-${themeIndex}`);
+        const volume = data[volumeIndex];
+        const theme = volume.themes[themeIndex];
+
+        if (card && !card.classList.contains('expanded')) {
+            card.classList.add('expanded');
+            if (container.innerHTML.trim() === '') {
+                renderTitlesInTheme(container, theme.titles);
+            }
+        }
+
+        // Aguarda a renderização dos títulos
+        setTimeout(() => {
+            // Encontra o elemento do título dentro do container
+            const titleItems = container.querySelectorAll('.title-item-name');
+            let targetElement = null;
+
+            titleItems.forEach(item => {
+                if (item.textContent === titleString) {
+                    targetElement = item.closest('.title-item');
+                }
+            });
+
+            if (targetElement) {
+                // Scroll suave até o elemento
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+
+                // Adiciona classe de highlight
+                targetElement.classList.add('search-highlight');
+
+                // Remove o highlight após 3 segundos
+                setTimeout(() => {
+                    targetElement.classList.remove('search-highlight');
+                }, 3000);
+            }
+        }, 300);
+    }, 100);
 }
 
 // ============================================
