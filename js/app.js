@@ -8,6 +8,7 @@ let searchTerm = '';
 let currentFontSize = localStorage.getItem('modalFontSize') || 'medium';
 let showTranslation = false;
 let currentTitleData = null;
+let searchTimeout = null;
 
 // ============================================
 // DATA LOADING
@@ -169,15 +170,33 @@ function animateCounter(elementId, target) {
 // SEARCH FUNCTIONALITY
 // ============================================
 function handleSearch(e) {
+    // Limpa o timeout anterior
+    if (searchTimeout) {
+        clearTimeout(searchTimeout);
+    }
+
     searchTerm = e.target.value.toLowerCase().trim();
 
+    // Se o campo estiver vazio, volta para volumes imediatamente
     if (!searchTerm) {
         showVolumes();
         return;
     }
 
-    const results = searchContent(searchTerm);
-    displaySearchResults(results);
+    // Requer mínimo de 2 caracteres antes de buscar
+    if (searchTerm.length < 2) {
+        return;
+    }
+
+    // Aguarda 500ms após o usuário parar de digitar
+    searchTimeout = setTimeout(() => {
+        const results = searchContent(searchTerm);
+
+        // Se houver resultados, navega para o primeiro
+        if (results.length > 0) {
+            navigateToSearchResult(results[0]);
+        }
+    }, 500);
 }
 
 function searchContent(term) {
@@ -203,6 +222,89 @@ function searchContent(term) {
     });
 
     return results;
+}
+
+function navigateToSearchResult(result) {
+    // Encontra os índices do volume e tema
+    const volumeIndex = data.findIndex(v => v.volume === result.volume);
+    const volume = data[volumeIndex];
+    const themeIndex = volume.themes.findIndex(t => t.theme === result.theme);
+
+    // Navega para a view de temas
+    showThemes(volumeIndex);
+
+    // Aguarda um momento para a view renderizar
+    setTimeout(() => {
+        // Expande o card do tema
+        const card = document.getElementById(`theme-card-${themeIndex}`);
+        const container = document.getElementById(`theme-titles-${themeIndex}`);
+        const theme = volume.themes[themeIndex];
+
+        if (card && !card.classList.contains('expanded')) {
+            card.classList.add('expanded');
+            if (container.innerHTML.trim() === '') {
+                renderTitlesInTheme(container, theme.titles);
+            }
+        }
+
+        // Aguarda a renderização dos títulos
+        setTimeout(() => {
+            // Encontra o elemento do título dentro do container
+            const titleItems = container.querySelectorAll('.title-item-name');
+            let targetElement = null;
+
+            titleItems.forEach(item => {
+                if (item.textContent === result.title.title) {
+                    targetElement = item.closest('.title-item');
+                }
+            });
+
+            if (targetElement) {
+                // Scroll suave até o elemento
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+
+                // Adiciona classe de highlight
+                targetElement.classList.add('search-highlight');
+
+                // Remove o highlight após 3 segundos
+                setTimeout(() => {
+                    targetElement.classList.remove('search-highlight');
+                }, 3000);
+            }
+
+            // Limpa o input de busca após navegar
+            document.getElementById('searchInput').value = '';
+        }, 300);
+    }, 100);
+}
+
+function displayNoResults() {
+    // Cria um overlay temporário com mensagem
+    const overlay = document.createElement('div');
+    overlay.className = 'search-no-results-overlay';
+    overlay.innerHTML = `
+        <div class="search-no-results-content">
+            <p style="font-size: 3rem; margin-bottom: 1rem;">🔍</p>
+            <p>見つかりませんでした</p>
+            <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: 0.5rem;">"${searchTerm}"</p>
+        </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    // Remove o overlay após 2 segundos
+    setTimeout(() => {
+        overlay.classList.add('fade-out');
+        setTimeout(() => {
+            document.body.removeChild(overlay);
+        }, 300);
+    }, 2000);
+
+    // Limpa o input
+    document.getElementById('searchInput').value = '';
 }
 
 function displaySearchResults(results) {
