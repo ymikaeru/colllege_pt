@@ -241,6 +241,7 @@ body {
 .card.expanded {
     justify-content: flex-start;
     height: auto;
+    min-height: auto;
 }
 
 .card:hover {
@@ -293,8 +294,8 @@ body {
 
 .titles-container {
     display: none;
-    margin-top: var(--spacing-md);
-    padding-top: var(--spacing-md);
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-sm);
     border-top: 1px solid var(--border);
     animation: fadeIn var(--transition-fast);
 }
