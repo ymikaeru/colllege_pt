@@ -220,7 +220,7 @@ body {
 }
 
 #themesList {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
 }
 
 @media (max-width: 768px) {
@@ -266,6 +266,47 @@ body {
     gap: var(--spacing-xs);
 }
 
+.card-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-info {
+    flex: 1;
+}
+
+.accordion-icon {
+    font-size: 0.8rem;
+    color: var(--text-tertiary);
+    transition: transform var(--transition-base);
+    margin-left: var(--spacing-sm);
+}
+
+.card.expanded {
+    background: var(--bg-card);
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px var(--shadow-hover);
+}
+
+.card.expanded .accordion-icon {
+    transform: rotate(180deg);
+    color: var(--primary);
+}
+
+.titles-container {
+    display: none;
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border);
+    animation: fadeIn var(--transition-fast);
+}
+
+.card.expanded .titles-container {
+    display: block;
+}
+
 /* ============================================
    TITLES LIST
    ============================================ */
@@ -291,8 +332,7 @@ body {
     transition: all var(--transition-base);
     /* Updated transition to all for hover effects */
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .title-item:hover {
@@ -335,7 +375,9 @@ body {
 }
 
 .title-item-publications {
-    display: none;
+    font-size: 0.85rem;
+    color: var(--text-tertiary);
+    margin-top: var(--spacing-xs);
 }
 
 /* ============================================
@@ -343,19 +385,44 @@ body {
    ============================================ */
 .back-button {
     background: var(--bg-tertiary);
-    border: 1px solid var(--border);
+    border: none;
     color: var(--text-primary);
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--radius-md);
-    font-size: 0.95rem;
-    font-weight: 500;
     cursor: pointer;
-    transition: all var(--transition-fast);
-    margin-bottom: var(--spacing-lg);
+    font-size: 0.9rem;
+    transition: all var(--transition-base);
     display: inline-flex;
     align-items: center;
-    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
 }
+
+.view-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-button {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-base);
+    height: fit-content;
+}
+
+.text-button:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-color: var(--text-secondary);
+}
+
+
 
 .back-button:hover {
     background: var(--bg-card);
@@ -447,6 +514,60 @@ body {
     background: var(--bg-tertiary);
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--radius-sm);
+}
+
+.modal-meta-link {
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.modal-meta-link:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.modal-controls {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+    margin-top: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.font-size-controls {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.control-button {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    min-width: 36px;
+}
+
+.control-button:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.control-button.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.translation-button.hidden {
+    display: none;
 }
 
 .modal-body {
@@ -666,6 +787,7 @@ body {
     margin-bottom: var(--spacing-lg);
     */
 }
+
 /* ============================================
    LOGIN PAGE
    ============================================ */
@@ -751,7 +873,8 @@ body {
 
 /* Error Message */
 .error-message {
-    color: #e53935; /* Red */
+    color: #e53935;
+    /* Red */
     font-size: 0.9rem;
     margin-top: -0.5rem;
     margin-bottom: 0.5rem;
@@ -760,4 +883,41 @@ body {
 
 .error-message.hidden {
     visibility: hidden;
+}
+
+/* Go To Top Button */
+.go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px var(--shadow);
+    transition: all var(--transition-base);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+}
+
+.go-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.go-to-top:hover {
+    background: var(--primary-dark);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px var(--shadow-hover);
 }

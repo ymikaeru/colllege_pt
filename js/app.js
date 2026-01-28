@@ -5,6 +5,9 @@ let data = [];
 let currentVolume = null;
 let currentTheme = null;
 let searchTerm = '';
+let currentFontSize = localStorage.getItem('modalFontSize') || 'medium';
+let showTranslation = false;
+let currentTitleData = null;
 
 // ============================================
 // DATA LOADING
@@ -70,6 +73,14 @@ function setupEventListeners() {
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeModal();
     });
+
+    // Font size controls
+    document.getElementById('decreaseFontSize').addEventListener('click', () => changeFontSize('decrease'));
+    document.getElementById('resetFontSize').addEventListener('click', () => changeFontSize('reset'));
+    document.getElementById('increaseFontSize').addEventListener('click', () => changeFontSize('increase'));
+
+    // Translation button
+    document.getElementById('translationButton').addEventListener('click', toggleTranslation);
 }
 
 // ============================================
@@ -222,9 +233,6 @@ function displaySearchResults(results) {
                 <div class="title-item-name">${result.title.title}</div>
                 <div class="title-item-badge">${result.title.publications.length} 文献</div>
             </div>
-            <div class="title-item-publications">
-                ${result.volume} / ${result.theme}
-            </div>
         </div>
     `).join('');
 
@@ -237,12 +245,19 @@ function displaySearchResults(results) {
 function openSearchResultByIndex(index) {
     if (window.currentSearchResults && window.currentSearchResults[index]) {
         const result = window.currentSearchResults[index];
+
+        // Find volume and theme indices
+        const volumeIndex = data.findIndex(v => v.volume === result.volume);
+        const themeIndex = volumeIndex >= 0 ? data[volumeIndex].themes.findIndex(t => t.theme === result.theme) : -1;
+
         // Inject path info into the title object for the modal
         const titleWithContext = {
             ...result.title,
             pathInfo: {
                 volume: formatVolumeName(result.volume),
-                theme: result.theme
+                theme: result.theme,
+                volumeIndex: volumeIndex,
+                themeIndex: themeIndex
             }
         };
         showContent(titleWithContext);
@@ -276,7 +291,7 @@ function showVolumes() {
             <div class="card" onclick="showThemes(${index})">
                 <div class="card-title">${formatVolumeName(volume.volume)}</div>
                 <div class="card-subtitle">
-                    ${themeCount} カテゴリ · ${titleCount} 文献
+                    ${themeCount} カテゴリ · ${titleCount} トピック
                 </div>
             </div>
         `;
@@ -297,6 +312,7 @@ function showThemes(volumeIndex) {
     document.getElementById('statsFooter').style.display = 'none';
 
     document.getElementById('volumeTitle').textContent = formatVolumeName(volume.volume);
+    document.getElementById('backToThemes').style.display = 'none';
     document.getElementById('backToVolumes').style.display = 'inline-flex';
 
     const container = document.getElementById('themesList');
@@ -304,11 +320,17 @@ function showThemes(volumeIndex) {
         const titleCount = theme.titles.length;
 
         return `
-            <div class="card" onclick="showTitles(${volumeIndex}, ${themeIndex})">
-                <div class="card-title">${theme.theme}</div>
-                <div class="card-subtitle">
-                    ${titleCount} 文献
+            <div id="theme-card-${themeIndex}" class="card" onclick="toggleTheme(${volumeIndex}, ${themeIndex})">
+                <div class="card-header-content">
+                    <div class="card-info">
+                        <div class="card-title">${theme.theme}</div>
+                        <div class="card-subtitle">
+                            ${titleCount} トピック
+                        </div>
+                    </div>
+                    <div class="accordion-icon">▼</div>
                 </div>
+                <div id="theme-titles-${themeIndex}" class="titles-container"></div>
             </div>
         `;
     }).join('');
@@ -317,7 +339,115 @@ function showThemes(volumeIndex) {
         { text: '巻一覧', action: showVolumes },
         { text: formatVolumeName(volume.volume), active: true }
     ]);
+
+    updateToggleAllButtonState();
 }
+
+function toggleTheme(volumeIndex, themeIndex) {
+    const card = document.getElementById(`theme-card-${themeIndex}`);
+    const container = document.getElementById(`theme-titles-${themeIndex}`);
+    const volume = data[volumeIndex];
+    const theme = volume.themes[themeIndex];
+
+    const isExpanded = card.classList.contains('expanded');
+
+    if (isExpanded) {
+        card.classList.remove('expanded');
+    } else {
+        card.classList.add('expanded');
+        if (container.innerHTML.trim() === '') {
+            renderTitlesInTheme(container, theme.titles);
+        }
+    }
+    updateToggleAllButtonState();
+}
+
+function toggleAllThemes() {
+    const container = document.getElementById('themesList');
+    if (!container) return;
+    const cards = container.querySelectorAll('.card');
+    const btn = document.getElementById('closeAllThemesBtn');
+
+    const anyExpanded = Array.from(cards).some(card => card.classList.contains('expanded'));
+
+    if (anyExpanded) {
+        // Close all
+        cards.forEach(card => card.classList.remove('expanded'));
+        btn.textContent = '全て開く';
+    } else {
+        // Open all
+        const volume = data[data.findIndex(v => v.volume === document.getElementById('volumeTitle').textContent)] || data[currentVolume];
+
+        cards.forEach((card, index) => {
+            card.classList.add('expanded');
+            const titlesContainer = card.querySelector('.titles-container');
+            if (titlesContainer && titlesContainer.innerHTML.trim() === '') {
+                // Determine index match. themesList maps directly to volume.themes
+                const theme = volume.themes[index];
+                renderTitlesInTheme(titlesContainer, theme.titles);
+            }
+        });
+        btn.textContent = '全て閉じる';
+    }
+}
+
+function updateToggleAllButtonState() {
+    const container = document.getElementById('themesList');
+    if (!container) return;
+    const cards = container.querySelectorAll('.card');
+    const btn = document.getElementById('closeAllThemesBtn');
+
+    const anyExpanded = Array.from(cards).some(card => card.classList.contains('expanded'));
+
+    if (anyExpanded) {
+        btn.textContent = '全て閉じる';
+    } else {
+        btn.textContent = '全て開く';
+    }
+}
+
+function renderTitlesInTheme(container, titles) {
+    const groupedTitles = groupNumberedTitles(titles);
+
+    container.innerHTML = groupedTitles.map((title, index) => {
+        if (title.title === '---') {
+            return `<div class="separator-item"></div>`;
+        }
+
+        return `
+        <div class="title-item" onclick="event.stopPropagation(); showContentFromAccordion('${title.title.replace(/'/g, "\\'")}')">
+            <div class="title-item-header">
+                <div class="title-item-name">${title.title}</div>
+                <div class="title-item-badge">${title.publications.length} 文献</div>
+            </div>
+        </div>
+    `}).join('');
+}
+
+function showContentFromAccordion(titleString) {
+    if (currentVolume === null) return;
+    const volume = data[currentVolume];
+
+    for (let t = 0; t < volume.themes.length; t++) {
+        const theme = volume.themes[t];
+        const grouped = groupNumberedTitles(theme.titles);
+        const found = grouped.find(g => g.title === titleString);
+        if (found) {
+            const titleWithContext = {
+                ...found,
+                pathInfo: {
+                    volume: formatVolumeName(volume.volume),
+                    theme: theme.theme,
+                    volumeIndex: currentVolume,
+                    themeIndex: t
+                }
+            };
+            showContent(titleWithContext);
+            return;
+        }
+    }
+}
+
 
 function showTitles(volumeIndex, themeIndex) {
     hideAllViews();
@@ -351,10 +481,6 @@ function showTitles(volumeIndex, themeIndex) {
                 <div class="title-item-name">${title.title}</div>
                 <div class="title-item-badge">${title.publications.length} 文献</div>
             </div>
-            <div class="title-item-publications">
-                ${title.publications.slice(0, 2).map(pub => parseMarkdown(pub.source)).join(' · ')}
-                ${title.publications.length > 2 ? ` · +${title.publications.length - 2}` : ''}
-            </div>
         </div>
     `}).join('');
 
@@ -378,6 +504,10 @@ function showContent(title) {
     const modal = document.getElementById('contentModal');
     document.getElementById('modalTitle').textContent = title.title;
 
+    // Store current title data for translation toggle
+    currentTitleData = title;
+    showTranslation = false;
+
     // Processa os dados para navegação e conteúdo
     const processedPubs = title.publications
         .filter(pub => pub.content && pub.content.trim()) // Filter out empty content
@@ -386,6 +516,16 @@ function showContent(title) {
             id: `pub-${index}`,
             displayTitle: pub.header || (pub.type === 'intro' ? 'はじめに' : '無題')
         }));
+
+    // Check if any publication has translation
+    const hasTranslation = processedPubs.some(pub => pub.translation && pub.translation.trim());
+    const translationButton = document.getElementById('translationButton');
+    if (hasTranslation) {
+        translationButton.classList.remove('hidden');
+        translationButton.classList.remove('active');
+    } else {
+        translationButton.classList.add('hidden');
+    }
 
     // Conta ocorrências de cada título para numerar duplicatas
     const titleCounts = {};
@@ -418,22 +558,29 @@ function showContent(title) {
     const metaContainer = document.getElementById('modalMeta');
     if (title.pathInfo) {
         metaContainer.innerHTML = `
-            <div class="modal-meta-item">${title.pathInfo.volume}</div>
-            <div class="modal-meta-item">${title.pathInfo.theme}</div>
+            <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('volume', ${title.pathInfo.volumeIndex})">${title.pathInfo.volume}</div>
+            <div class="modal-meta-item">→</div>
+            <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('theme', ${title.pathInfo.volumeIndex}, ${title.pathInfo.themeIndex})">${title.pathInfo.theme}</div>
         `;
     } else {
         metaContainer.innerHTML = '';
     }
 
     // Gera o HTML do conteúdo
-    const publicationsHTML = navigationItems.map(pub => `
+    const publicationsHTML = navigationItems.map(pub => {
+        const contentToShow = showTranslation && pub.translation ? pub.translation : pub.content;
+        return `
         <div id="${pub.id}" class="publication">
             <div class="publication-header">${parseMarkdown(pub.displayTitle)}</div>
-            <div class="publication-content">${parseMarkdown(pub.content || '内容がありません')}</div>
+            <div class="publication-content">${parseMarkdown(contentToShow || '内容がありません')}</div>
         </div>
-    `).join('');
+    `}).join('');
 
     document.getElementById('modalBody').innerHTML = navHTML + publicationsHTML;
+
+    // Apply font size
+    applyFontSize();
+
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
 }
@@ -538,6 +685,97 @@ function groupNumberedTitles(titles) {
 }
 
 // ============================================
+// FONT SIZE CONTROL
+// ============================================
+function changeFontSize(action) {
+    const sizes = ['small', 'medium', 'large', 'x-large'];
+    const currentIndex = sizes.indexOf(currentFontSize);
+
+    if (action === 'decrease' && currentIndex > 0) {
+        currentFontSize = sizes[currentIndex - 1];
+    } else if (action === 'increase' && currentIndex < sizes.length - 1) {
+        currentFontSize = sizes[currentIndex + 1];
+    } else if (action === 'reset') {
+        currentFontSize = 'medium';
+    }
+
+    localStorage.setItem('modalFontSize', currentFontSize);
+    applyFontSize();
+}
+
+function applyFontSize() {
+    const modalBody = document.getElementById('modalBody');
+    const fontSizes = {
+        'small': '0.9rem',
+        'medium': '1rem',
+        'large': '1.1rem',
+        'x-large': '1.2rem'
+    };
+
+    if (modalBody) {
+        modalBody.style.fontSize = fontSizes[currentFontSize] || fontSizes['medium'];
+    }
+}
+
+// ============================================
+// MODAL NAVIGATION HELPERS
+// ============================================
+function closeModalAndNavigate(type, volumeIndex, themeIndex) {
+    closeModal();
+
+    if (type === 'volume' && volumeIndex >= 0) {
+        showThemes(volumeIndex);
+    } else if (type === 'theme' && volumeIndex >= 0 && themeIndex >= 0) {
+        showTitles(volumeIndex, themeIndex);
+    }
+}
+
+// ============================================
+// TRANSLATION TOGGLE
+// ============================================
+function toggleTranslation() {
+    showTranslation = !showTranslation;
+    const translationButton = document.getElementById('translationButton');
+
+    if (showTranslation) {
+        translationButton.classList.add('active');
+    } else {
+        translationButton.classList.remove('active');
+    }
+
+    // Reload content with translation toggle
+    if (currentTitleData) {
+        showContent(currentTitleData);
+    }
+}
+
+// ============================================
+// SCROLL TO TOP
+// ============================================
+function setupScrollToTop() {
+    const goToTopBtn = document.getElementById('goToTopBtn');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            goToTopBtn.classList.add('visible');
+        } else {
+            goToTopBtn.classList.remove('visible');
+        }
+    });
+
+    goToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
+// ============================================
 // INITIALIZE ON LOAD
 // ============================================
-document.addEventListener('DOMContentLoaded', loadData);
+document.addEventListener('DOMContentLoaded', () => {
+    loadData();
+    setupScrollToTop();
+    document.getElementById('closeAllThemesBtn').addEventListener('click', toggleAllThemes);
+});
