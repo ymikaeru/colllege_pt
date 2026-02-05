@@ -9,7 +9,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 16,
       "publication_title": "御神前のお下がりと仏壇",
       "publication_title_ptbr": "Alimentos retirados do Altar Divino e o Altar Budista (御神前のお下がりと仏壇)",
@@ -20,7 +20,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 17,
       "publication_title": "お供えする花",
       "publication_title_ptbr": "Flores para oferecer (お供えする花)",
@@ -31,7 +31,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 18,
       "publication_title": "御神前にお供えする花",
       "publication_title_ptbr": "Flores para oferecer ao Altar Divino (御神前にお供えする花)",
@@ -42,7 +42,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 19,
       "publication_title": "蓮華と神前への花",
       "publication_title_ptbr": "A Flor de Lótus e flores para o Altar (蓮華と神前への花)",
@@ -53,7 +53,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 20,
       "publication_title": "御玉串の向き",
       "publication_title_ptbr": "A orientação do Otamagushi (御玉串の向き)",
@@ -64,7 +64,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 21,
       "publication_title": "月次祭廻りとお供え",
       "publication_title_ptbr": "Visitas de Culto Mensal e Oferendas (月次祭廻りとお供え)",
@@ -75,7 +75,7 @@
     {
       "title_idx": 23,
       "title": "御神体の献饌",
-      "title_ptbr": "",
+      "title_ptbr": "Oferendas ao Goshintai",
       "pub_idx": 22,
       "publication_title": "鏡餅、三六九",
       "publication_title_ptbr": "Kagamimochi e o Miroku (3-6-9) (鏡餅、三六九)",
@@ -86,7 +86,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 0,
       "publication_title": "御神体のススはハタキではらう",
       "publication_title_ptbr": "Remover a fuligem do Goshintai com espanador (御神体のススはハタキではらう)",
@@ -97,7 +97,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 1,
       "publication_title": "御神体についたハエ、鳥のクソは問題なし",
       "publication_title_ptbr": "Sujeira de moscas ou pássaros no Goshintai não é problema (御神体についたハエ、鳥のクソは問題なし)",
@@ -108,7 +108,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 2,
       "publication_title": "御神体を汚した場合の処置",
       "publication_title_ptbr": "Procedimento ao sujar o Goshintai (御神体を汚した場合の処置)",
@@ -119,7 +119,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 3,
       "publication_title": "御神体にウグイスのフンがついた場合",
       "publication_title_ptbr": "Caso de dejeto de rouxinol no Goshintai (御神体にウグイスのフンがついた場合)",
@@ -130,7 +130,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 4,
       "publication_title": "御神体にクモのクソがついた場合",
       "publication_title_ptbr": "Caso de dejeto de aranha no Goshintai (御神体にクモのクソがついた場合)",
@@ -141,7 +141,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 5,
       "publication_title": "虫糞のシミ",
       "publication_title_ptbr": "Mancha de dejeto de inseto (虫糞のシミ)",
@@ -152,7 +152,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 6,
       "publication_title": "御神体をお茶で汚した場合",
       "publication_title_ptbr": "Caso o Goshintai seja sujo com chá (御神体をお茶で汚した場合)",
@@ -163,7 +163,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 7,
       "publication_title": "子供が御神体にお茶をこぼした事例",
       "publication_title_ptbr": "Exemplo de criança que derramou chá no Goshintai (子供が御神体にお茶をこぼした事例)",
@@ -174,7 +174,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 8,
       "publication_title": "御神体に花粉がついたら表具師に取ってもらえばいい",
       "publication_title_ptbr": "Se cair pólen no Goshintai, basta pedir ao moldureiro para remover (御神体に花粉がついたら表具師に取ってもらえばいい)",
@@ -185,7 +185,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 9,
       "publication_title": "御神体にシミができた場合",
       "publication_title_ptbr": "Caso surjam manchas no Goshintai (御神体にシミができた場合)",
@@ -196,7 +196,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 10,
       "publication_title": "御神体に雨漏りのシミがついた場合",
       "publication_title_ptbr": "Mancha de goteira sobre a caligrafia do Goshintai (御神体に雨漏りのシミがついた場合)",
@@ -207,7 +207,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 11,
       "publication_title": "御神体に雨漏りのシミがついた場合",
       "publication_title_ptbr": "Mancha de goteira que não sai (御神体に雨漏りのシミがついた場合)",
@@ -218,7 +218,7 @@
     {
       "title_idx": 24,
       "title": "御神体に対する粗相",
-      "title_ptbr": "",
+      "title_ptbr": "Descuido com o Goshintai",
       "pub_idx": 12,
       "publication_title": "御神体にシミがついた場合",
       "publication_title_ptbr": "Manchas no Goshintai (御神体にシミがついた場合)",

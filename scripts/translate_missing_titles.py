@@ -51,7 +51,20 @@ TRANSLATIONS = {
     "お光の企画案": "Projetos sobre o Ohikari",
     "お光の忌避": "Evitar o Ohikari",
     "妊婦の御腹帯": "Cinta para Grávidas (Obi)",
-    "御霊紙": "Papel Espiritual (Mitama-gami)"
+    "御霊紙": "Papel Espiritual (Mitama-gami)",
+    "御神体奉斎と前世の因縁": "Entronização do Goshintai e Afinidade de Vidas Passadas",
+    "御神体奉斎の時期": "Época da Entronização do Goshintai",
+    "御神体奉斎と家族の反対": "Entronização do Goshintai e Oposição da Família",
+    "御神体奉斎の場所": "Local da Entronização do Goshintai",
+    "御神体奉斎の規矩": "Normas da Entronização do Goshintai",
+    "御神体の再奉斎": "Reentronização do Goshintai",
+    "御神体の作法": "Etiqueta do Goshintai",
+    "御神体の献饌": "Oferendas ao Goshintai",
+    "御神体に対する粗相": "Descuido com o Goshintai",
+    "御神体の御焼却": "Queima do Goshintai",
+    "御神体の譲渡等": "Transferência do Goshintai, etc.",
+    "御神体と他の仏像等": "Goshintai e Outras Imagens Budistas, etc.",
+    "御神体奉斎による発狂": "Loucura causada pela Entronização do Goshintai"
 }
 
 def main():
