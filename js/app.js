@@ -9,6 +9,7 @@ let currentFontSize = localStorage.getItem('modalFontSize') || 'medium';
 let showTranslation = false;
 let currentTitleData = null;
 let searchTimeout = null;
+let filterTranslatedOnly = false;
 
 // ============================================
 // DATA LOADING
@@ -70,6 +71,12 @@ function setupEventListeners() {
 
     // Translation button
     document.getElementById('translationButton').addEventListener('click', toggleTranslation);
+
+    // Filter button
+    const filterBtn = document.getElementById('filterTranslatedBtn');
+    if (filterBtn) {
+        filterBtn.addEventListener('click', toggleTranslatedFilter);
+    }
 }
 
 // ============================================
@@ -324,22 +331,93 @@ function showVolumes() {
 
     const container = document.getElementById('volumesList');
     updateStatistics(); // Reset to global stats
-    container.innerHTML = data.map((volume, index) => {
+
+    // Filter data if needed
+    let displayData = data;
+    if (filterTranslatedOnly) {
+        displayData = data.filter(volume => hasVolumeTranslation(volume));
+    }
+
+    if (displayData.length === 0 && filterTranslatedOnly) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
+                <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
+                <p>Nenhum volume com tradução encontrada</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = displayData.map((volume, index) => {
+        // We need to map back to original index if we are filtering, 
+        // BUT showThemes uses index to access 'data'. 
+        // So we need to find the real index of this volume in the main 'data' array.
+        const originalIndex = data.indexOf(volume);
+
         const themeCount = volume.themes.length;
         let titleCount = 0;
         volume.themes.forEach(theme => titleCount += theme.titles.length);
 
+        // Count translated items for badge if filter is on
+        let translatedCountStr = "";
+        if (filterTranslatedOnly) {
+            let translatedThemes = 0;
+            volume.themes.forEach(t => {
+                if (hasThemeTranslation(t)) translatedThemes++;
+            });
+            translatedCountStr = `<span style="margin-left:8px; font-size:0.8em; color:var(--primary);">(${translatedThemes} temas traduzidos)</span>`;
+        }
+
         return `
-            <div class="card" onclick="showThemes(${index})">
+            <div class="card" onclick="showThemes(${originalIndex})">
                 <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
                 <div class="card-subtitle">
-                    ${themeCount} Temas · ${titleCount} Tópicos
+                    ${themeCount} Temas · ${titleCount} Tópicos ${translatedCountStr}
                 </div>
             </div>
         `;
     }).join('');
 
     updateBreadcrumb([{ text: 'Volumes', active: true }]);
+}
+
+function toggleTranslatedFilter() {
+    filterTranslatedOnly = !filterTranslatedOnly;
+    const btn = document.getElementById('filterTranslatedBtn');
+    if (filterTranslatedOnly) {
+        btn.classList.add('active');
+    } else {
+        btn.classList.remove('active');
+    }
+
+    // If we are in volumes view, refresh it
+    if (!document.getElementById('volumesView').classList.contains('hidden')) {
+        showVolumes();
+    } else {
+        // If we are deeper, maybe go back to volumes or trying to filter current view?
+        // For now, let's go back to volumes to avoid confusion/complex filtration deep down
+        showVolumes();
+    }
+}
+
+function hasVolumeTranslation(volume) {
+    return volume.themes.some(theme => hasThemeTranslation(theme));
+}
+
+function hasThemeTranslation(theme) {
+    // Check if theme has explicit PT title OR has any translated content
+    // Note: Most themes have theme_ptbr generated, so relying on that might be too broad 
+    // if the content isn't actually translated.
+    // Better to check for actual translated content in publications OR explicitly marked translated titles.
+
+    // Check if any title has translation
+    return theme.titles.some(title => {
+        // Title has PT translation?
+        if (title.title_ptbr && title.title_ptbr !== title.title) return true;
+
+        // Publications have content_ptbr?
+        return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+    });
 }
 
 function showThemes(volumeIndex) {
@@ -362,7 +440,27 @@ function showThemes(volumeIndex) {
     if (toggleBtn) toggleBtn.style.display = 'none';
 
     const container = document.getElementById('themesList');
-    container.innerHTML = volume.themes.map((theme, themeIndex) => {
+
+    // Filter themes if needed
+    let displayThemes = volume.themes;
+    if (filterTranslatedOnly) {
+        displayThemes = volume.themes.filter(theme => hasThemeTranslation(theme));
+    }
+
+    if (displayThemes.length === 0 && filterTranslatedOnly) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
+                <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
+                <p>Nenhum tema traduzido neste volume</p>
+            </div>
+        `;
+        return;
+    }
+
+    container.innerHTML = displayThemes.map((theme, _) => {
+        // Find original index
+        const themeIndex = volume.themes.indexOf(theme);
+
         // Filtrar títulos válidos
         const validTitles = filterValidTitles(theme.titles);
         const groupedTitles = groupNumberedTitles(validTitles);
@@ -498,9 +596,28 @@ function filterValidTitles(titles) {
 
 function renderTitlesInTheme(container, titles) {
     // Filtrar títulos vazios e separadores órfãos
-    const titlesWithContent = filterValidTitles(titles);
+    let titlesWithContent = filterValidTitles(titles);
+
+    // Apply translation filter if active
+    if (filterTranslatedOnly) {
+        titlesWithContent = titlesWithContent.filter(title => {
+            // Keep separators to maintain structure? Or remove?
+            // Removing separators might break visual grouping, but separators aren't "translated".
+            // Let's keep separator if we are filtering? No, usually filters remove non-matches.
+            if (title.title === '---') return false;
+
+            // Check for translation
+            if (title.title_ptbr && title.title_ptbr !== title.title) return true;
+            return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+        });
+    }
 
     const groupedTitles = groupNumberedTitles(titlesWithContent);
+
+    if (groupedTitles.length === 0) {
+        container.innerHTML = `<div style="padding:10px; color:var(--text-tertiary); font-style:italic;">Nenhum tópico traduzido</div>`;
+        return;
+    }
 
     container.innerHTML = groupedTitles.map((title, index) => {
         if (title.title === '---') {
@@ -568,7 +685,17 @@ function showTitles(volumeIndex, themeIndex) {
     document.getElementById('statsFooter').style.display = 'none';
 
     // Filtra títulos vazios e separadores órfãos, depois agrupa
-    const titlesWithContent = filterValidTitles(theme.titles);
+    let titlesWithContent = filterValidTitles(theme.titles);
+
+    // Apply translation filter if active
+    if (filterTranslatedOnly) {
+        titlesWithContent = titlesWithContent.filter(title => {
+            if (title.title === '---') return false;
+            if (title.title_ptbr && title.title_ptbr !== title.title) return true;
+            return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+        });
+    }
+
     const groupedTitles = groupNumberedTitles(titlesWithContent);
     window.currentGroupedTitles = groupedTitles;
 
