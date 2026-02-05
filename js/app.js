@@ -330,55 +330,7 @@ function showVolumes() {
     // ------------------------------------------
     // MODE 1: SHOW TRANSLATED ONLY (FILTER ACTIVE)
     // ------------------------------------------
-    if (filterTranslatedOnly) {
-        // Filter data if needed
-        const displayData = data.filter(volume => hasVolumeTranslation(volume));
 
-        if (displayData.length === 0) {
-            container.innerHTML = `
-                <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
-                    <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
-                    <p>Nenhum volume com tradução encontrada</p>
-                </div>
-            `;
-            updateBreadcrumb([
-                { text: 'Volumes', action: exitTranslatedFilter },
-                { text: 'Conteúdo Traduzido', active: true }
-            ]);
-            return;
-        }
-
-        container.innerHTML = displayData.map((volume, index) => {
-            // Find real index
-            const originalIndex = data.indexOf(volume);
-
-            const themeCount = volume.themes.length;
-            let titleCount = 0;
-            volume.themes.forEach(theme => titleCount += theme.titles.length);
-
-            // Count translated items for badge
-            let translatedThemes = 0;
-            volume.themes.forEach(t => {
-                if (hasThemeTranslation(t)) translatedThemes++;
-            });
-            const translatedCountStr = `<span style="margin-left:8px; font-size:0.8em; color:var(--primary);">(${translatedThemes} temas traduzidos)</span>`;
-
-            return `
-                <div class="card" onclick="showThemes(${originalIndex})">
-                    <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
-                    <div class="card-subtitle">
-                        ${themeCount} Temas · ${titleCount} Tópicos ${translatedCountStr}
-                    </div>
-                </div>
-            `;
-        }).join('');
-
-        updateBreadcrumb([
-            { text: 'Volumes', action: exitTranslatedFilter },
-            { text: 'Conteúdo Traduzido', active: true }
-        ]);
-        return;
-    }
 
     // ------------------------------------------
     // MODE 2: NORMAL VIEW (SHOW ALL VOLUMES + VIRTUAL CARD)
@@ -403,7 +355,7 @@ function showVolumes() {
         <div class="card" onclick="enterTranslatedFilter()" style="border-style: dashed; border-color: var(--primary);">
             <div class="card-title">🌐 Ensinamentos Traduzidos</div>
             <div class="card-subtitle">
-                Acesse todo o conteúdo já traduzido para Português
+                Acesse todo o conteúdo já traduzido para Português em lista única
             </div>
         </div>
     `;
@@ -414,7 +366,153 @@ function showVolumes() {
 
 function enterTranslatedFilter() {
     filterTranslatedOnly = true;
-    showVolumes();
+    const translatedTree = getTranslatedContentTree();
+
+    hideAllViews();
+
+    // Custom view for translated content reusable components
+    const view = document.getElementById('titlesView');
+    view.classList.remove('hidden');
+    document.getElementById('backToThemes').style.display = 'none';
+
+    // Update stats logic to show nothing or custom stats? 
+    // updateStatistics can handle context data if we flatten it, but for categorized view maybe just hide stats or show total translated count.
+    // For now, let's just update the list.
+
+    const container = document.getElementById('titlesList');
+
+    if (translatedTree.length === 0) {
+        container.innerHTML = `
+            <div style="text-align: center; padding: 3rem; color: var(--text-tertiary);">
+                <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
+                <p>Nenhum conteúdo traduzido encontrado</p>
+            </div>
+        `;
+    } else {
+        container.innerHTML = renderTranslatedTree(translatedTree);
+    }
+
+    document.getElementById('themeTitle').textContent = `Ensinamentos Traduzidos`;
+
+    updateBreadcrumb([
+        { text: 'Volumes', action: exitTranslatedFilter },
+        { text: 'Ensinamentos Traduzidos', active: true }
+    ]);
+}
+
+function getTranslatedContentTree() {
+    const tree = [];
+
+    data.forEach(volume => {
+        const translatedThemes = [];
+
+        volume.themes.forEach(theme => {
+            const translatedTitles = [];
+
+            theme.titles.forEach(title => {
+                if (isFullyTranslated(title)) {
+                    translatedTitles.push(title);
+                }
+            });
+
+            if (translatedTitles.length > 0) {
+                translatedThemes.push({
+                    originalTheme: theme,
+                    titles: translatedTitles
+                });
+            }
+        });
+
+        if (translatedThemes.length > 0) {
+            tree.push({
+                originalVolume: volume,
+                themes: translatedThemes
+            });
+        }
+    });
+
+    return tree;
+}
+
+function renderTranslatedTree(tree) {
+    return tree.map(volObj => `
+        <div class="translated-volume-group" style="margin-bottom: 2rem;">
+            <div style="font-size: 1.2rem; font-weight: bold; color: var(--primary); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--border-color);">
+                ${volObj.originalVolume.volume_ptbr || formatVolumeName(volObj.originalVolume.volume)}
+            </div>
+            ${volObj.themes.map(themeObj => `
+                <div class="translated-theme-group" style="margin-left: 1rem; margin-bottom: 1.5rem;">
+                    <div style="font-size: 1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.8rem;">
+                        ${themeObj.originalTheme.theme_ptbr || themeObj.originalTheme.theme}
+                    </div>
+                    ${renderTitlesList(themeObj.titles, volObj.originalVolume, themeObj.originalTheme)}
+                </div>
+            `).join('')}
+        </div>
+    `).join('');
+}
+
+function renderTitlesList(titles, volume, theme) {
+    return titles.map(title => {
+        const displayTitle = title.title_ptbr || title.title;
+
+        // Find indices for opening content
+        // This is a bit inefficient to do repeatedly, but data size is manageable.
+        const volIndex = data.indexOf(volume);
+        const themeIndex = volume.themes.indexOf(theme);
+        const titleIndex = theme.titles.indexOf(title);
+
+        return `
+        <div class="title-item" onclick="openContentFromPath(${volIndex}, ${themeIndex}, ${titleIndex})" style="border-left: 3px solid var(--primary-light);">
+            <div class="title-item-header">
+                <div class="title-item-name">${displayTitle}</div>
+                <div class="title-item-badge">${title.publications.length} Documentos</div>
+            </div>
+        </div>
+        `;
+    }).join('');
+}
+
+function openContentFromPath(volIdx, themeIdx, titleIdx) {
+    if (volIdx >= 0 && themeIdx >= 0 && titleIdx >= 0) {
+        const volume = data[volIdx];
+        const theme = volume.themes[themeIdx];
+        const title = theme.titles[titleIdx];
+
+        const titleWithContext = {
+            ...title,
+            pathInfo: {
+                volume: volume.volume_ptbr || formatVolumeName(volume.volume),
+                theme: theme.theme_ptbr || theme.theme,
+                volumeIndex: volIdx,
+                themeIndex: themeIdx
+            }
+        };
+        showContent(titleWithContext);
+    }
+}
+
+// Strict check: Title is considered translated ONLY if ALL publications have translated content
+function isFullyTranslated(title) {
+    if (!title.publications || title.publications.length === 0) return false;
+    return title.publications.every(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+}
+
+// Loose check: Returns true if AT LEAST ONE publication has translated content
+function hasAnyTranslation(title) {
+    if (!title.publications || title.publications.length === 0) return false;
+    return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+}
+
+// Helper to get the best display title (PT fallback to JP)
+function getDisplayTitle(title) {
+    if (hasAnyTranslation(title)) {
+        if (title.title_ptbr) return title.title_ptbr;
+        // Fallback: try to find first publication with a PT title
+        const pubWithTitle = title.publications.find(p => p.publication_title_ptbr);
+        if (pubWithTitle) return pubWithTitle.publication_title_ptbr;
+    }
+    return title.title;
 }
 
 function exitTranslatedFilter() {
@@ -631,8 +729,7 @@ function renderTitlesInTheme(container, titles) {
             if (title.title === '---') return false;
 
             // Check for translation
-            if (title.title_ptbr && title.title_ptbr !== title.title) return true;
-            return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+            return isFullyTranslated(title);
         });
     }
 
@@ -648,10 +745,12 @@ function renderTitlesInTheme(container, titles) {
             return `<div class="separator-item"></div>`;
         }
 
+        const displayTitle = getDisplayTitle(title);
+
         return `
         <div class="title-item" onclick="event.stopPropagation(); showContentFromAccordion('${title.title.replace(/'/g, "\\'")}')">
             <div class="title-item-header">
-                <div class="title-item-name">${title.title_ptbr || title.title}</div>
+                <div class="title-item-name">${displayTitle}</div>
                 <div class="title-item-badge">${title.publications.length} Documentos</div>
             </div>
         </div>
@@ -660,11 +759,9 @@ function renderTitlesInTheme(container, titles) {
 
 function showContentFromAccordion(titleString) {
     if (currentVolume === null) {
-        console.error("Current volume is null");
         return;
     }
     const volume = data[currentVolume];
-    console.log(`Attempting to find title: "${titleString}" in volume: ${volume.volume}`);
 
     for (let t = 0; t < volume.themes.length; t++) {
         const theme = volume.themes[t];
@@ -672,8 +769,6 @@ function showContentFromAccordion(titleString) {
         const found = grouped.find(g => g.title === titleString);
 
         if (found) {
-            console.log(`Title found in theme: ${theme.theme}`);
-
             // Fix for navigation arrows: Set the current context
             window.currentGroupedTitles = grouped;
 
@@ -690,7 +785,6 @@ function showContentFromAccordion(titleString) {
             return;
         }
     }
-    console.warn(`Title "${titleString}" not found in any theme of volume ${volume.volume}`);
 }
 
 
@@ -715,8 +809,7 @@ function showTitles(volumeIndex, themeIndex) {
     if (filterTranslatedOnly) {
         titlesWithContent = titlesWithContent.filter(title => {
             if (title.title === '---') return false;
-            if (title.title_ptbr && title.title_ptbr !== title.title) return true;
-            return title.publications.some(pub => pub.content_ptbr && pub.content_ptbr.trim().length > 0);
+            return isFullyTranslated(title);
         });
     }
 
@@ -731,10 +824,11 @@ function showTitles(volumeIndex, themeIndex) {
         if (title.title === '---') {
             return `<div class="separator-item"></div>`;
         }
+        const displayTitle = getDisplayTitle(title);
         return `
         <div class="title-item" onclick="openContentByIndex(${index})">
             <div class="title-item-header">
-                <div class="title-item-name">${title.title_ptbr || title.title}</div>
+                <div class="title-item-name">${displayTitle}</div>
                 <div class="title-item-badge">${title.publications.length} Documentos</div>
             </div>
         </div>
@@ -790,7 +884,7 @@ function showContent(title, isInitialLoad = true) {
     }
 
     // Update Modal Title
-    document.getElementById('modalTitle').textContent = (showTranslation && title.title_ptbr) ? title.title_ptbr : title.title;
+    document.getElementById('modalTitle').textContent = showTranslation ? getDisplayTitle(title) : title.title;
 
     // Processa os dados para navegação e conteúdo
     const processedPubs = basePubs.map((pub, index) => ({
@@ -991,28 +1085,19 @@ function groupNumberedTitles(titles) {
     const grouped = new Map();
 
     titles.forEach((title, index) => {
-        // Skip empty titles (without publications), except separators
-        if (title.title !== '---' && (!title.publications || title.publications.length === 0)) {
+        // Skip empty titles (without publications) and separators
+        if (title.title === '---' || !title.publications || title.publications.length === 0) {
             return;
         }
 
-        // Special handling for separators to prevent merging
-        if (title.title === '---') {
-            grouped.set(`___SEPARATOR___${index}`, {
-                title: '---',
-                publications: []
-            });
-            return;
-        }
-
-        // Remove números do final do título (suporta 1, 2, ３, ４, etc.)
-        const baseTitle = title.title.replace(/[　\s]*[0-9０-９１-９]+\s*$/, '').trim();
+        // Remove números do final do título (suporta 1, 2, ３, ４, (1), （１）, - 1, etc.)
+        const baseTitle = title.title.replace(/[　\s]*([-\u2010-\u2015]|\(|（)?[　\s]*[0-9０-９１-９]+[　\s]*(\)|）)?[　\s]*$/, '').trim();
 
         // Handle Portuguese title if present
         let baseTitlePt = null;
         if (title.title_ptbr) {
-            // Strip western numbers from end of PT string
-            baseTitlePt = title.title_ptbr.replace(/\s*[0-9]+\s*$/, '').trim();
+            // Strip western numbers from end of PT string, handling (1), - 1 etc
+            baseTitlePt = title.title_ptbr.replace(/[　\s]*([-]|\()?[　\s]*[0-9]+[　\s]*(\))?[　\s]*$/, '').trim();
         }
 
         if (grouped.has(baseTitle)) {
