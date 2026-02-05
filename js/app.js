@@ -72,11 +72,6 @@ function setupEventListeners() {
     // Translation button
     document.getElementById('translationButton').addEventListener('click', toggleTranslation);
 
-    // Filter button
-    const filterBtn = document.getElementById('filterTranslatedBtn');
-    if (filterBtn) {
-        filterBtn.addEventListener('click', toggleTranslatedFilter);
-    }
 }
 
 // ============================================
@@ -332,72 +327,101 @@ function showVolumes() {
     const container = document.getElementById('volumesList');
     updateStatistics(); // Reset to global stats
 
-    // Filter data if needed
-    let displayData = data;
+    // ------------------------------------------
+    // MODE 1: SHOW TRANSLATED ONLY (FILTER ACTIVE)
+    // ------------------------------------------
     if (filterTranslatedOnly) {
-        displayData = data.filter(volume => hasVolumeTranslation(volume));
-    }
+        // Filter data if needed
+        const displayData = data.filter(volume => hasVolumeTranslation(volume));
 
-    if (displayData.length === 0 && filterTranslatedOnly) {
-        container.innerHTML = `
-            <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
-                <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
-                <p>Nenhum volume com tradução encontrada</p>
-            </div>
-        `;
-        return;
-    }
+        if (displayData.length === 0) {
+            container.innerHTML = `
+                <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
+                    <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
+                    <p>Nenhum volume com tradução encontrada</p>
+                </div>
+            `;
+            updateBreadcrumb([
+                { text: 'Volumes', action: exitTranslatedFilter },
+                { text: 'Conteúdo Traduzido', active: true }
+            ]);
+            return;
+        }
 
-    container.innerHTML = displayData.map((volume, index) => {
-        // We need to map back to original index if we are filtering, 
-        // BUT showThemes uses index to access 'data'. 
-        // So we need to find the real index of this volume in the main 'data' array.
-        const originalIndex = data.indexOf(volume);
+        container.innerHTML = displayData.map((volume, index) => {
+            // Find real index
+            const originalIndex = data.indexOf(volume);
 
-        const themeCount = volume.themes.length;
-        let titleCount = 0;
-        volume.themes.forEach(theme => titleCount += theme.titles.length);
+            const themeCount = volume.themes.length;
+            let titleCount = 0;
+            volume.themes.forEach(theme => titleCount += theme.titles.length);
 
-        // Count translated items for badge if filter is on
-        let translatedCountStr = "";
-        if (filterTranslatedOnly) {
+            // Count translated items for badge
             let translatedThemes = 0;
             volume.themes.forEach(t => {
                 if (hasThemeTranslation(t)) translatedThemes++;
             });
-            translatedCountStr = `<span style="margin-left:8px; font-size:0.8em; color:var(--primary);">(${translatedThemes} temas traduzidos)</span>`;
-        }
+            const translatedCountStr = `<span style="margin-left:8px; font-size:0.8em; color:var(--primary);">(${translatedThemes} temas traduzidos)</span>`;
+
+            return `
+                <div class="card" onclick="showThemes(${originalIndex})">
+                    <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
+                    <div class="card-subtitle">
+                        ${themeCount} Temas · ${titleCount} Tópicos ${translatedCountStr}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        updateBreadcrumb([
+            { text: 'Volumes', action: exitTranslatedFilter },
+            { text: 'Conteúdo Traduzido', active: true }
+        ]);
+        return;
+    }
+
+    // ------------------------------------------
+    // MODE 2: NORMAL VIEW (SHOW ALL VOLUMES + VIRTUAL CARD)
+    // ------------------------------------------
+    let html = data.map((volume, index) => {
+        const themeCount = volume.themes.length;
+        let titleCount = 0;
+        volume.themes.forEach(theme => titleCount += theme.titles.length);
 
         return `
-            <div class="card" onclick="showThemes(${originalIndex})">
+            <div class="card" onclick="showThemes(${index})">
                 <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
                 <div class="card-subtitle">
-                    ${themeCount} Temas · ${titleCount} Tópicos ${translatedCountStr}
+                    ${themeCount} Temas · ${titleCount} Tópicos
                 </div>
             </div>
         `;
     }).join('');
 
+    // Append Virtual Volume Card for Translations
+    html += `
+        <div class="card" onclick="enterTranslatedFilter()" style="border-style: dashed; border-color: var(--primary);">
+            <div class="card-title">🌐 Ensinamentos Traduzidos</div>
+            <div class="card-subtitle">
+                Acesse todo o conteúdo já traduzido para Português
+            </div>
+        </div>
+    `;
+
+    container.innerHTML = html;
     updateBreadcrumb([{ text: 'Volumes', active: true }]);
 }
 
-function toggleTranslatedFilter() {
-    filterTranslatedOnly = !filterTranslatedOnly;
-    const btn = document.getElementById('filterTranslatedBtn');
-    if (filterTranslatedOnly) {
-        btn.classList.add('active');
-    } else {
-        btn.classList.remove('active');
-    }
+function enterTranslatedFilter() {
+    filterTranslatedOnly = true;
+    showVolumes();
+}
 
-    // If we are in volumes view, refresh it
-    if (!document.getElementById('volumesView').classList.contains('hidden')) {
-        showVolumes();
-    } else {
-        // If we are deeper, maybe go back to volumes or trying to filter current view?
-        // For now, let's go back to volumes to avoid confusion/complex filtration deep down
-        showVolumes();
-    }
+function exitTranslatedFilter() {
+    filterTranslatedOnly = false;
+    // Clear search if it was active, though this function is for breadcrumb
+    document.getElementById('searchInput').value = '';
+    showVolumes();
 }
 
 function hasVolumeTranslation(volume) {
