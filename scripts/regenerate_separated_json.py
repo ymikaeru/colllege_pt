@@ -4,7 +4,7 @@ import shutil
 import math
 
 # Configuration
-MAIN_JSON = "data/shin_college_data_translated.json"
+MAIN_JSON = "data/shin_college_data.json"
 OUT_DIR = "data/temasSeparados"
 PARTES_DIR = os.path.join(OUT_DIR, "partes")
 ITEMS_PER_PART = 20
