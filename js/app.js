@@ -15,7 +15,7 @@ let searchTimeout = null;
 // ============================================
 async function loadData() {
     try {
-        const response = await fetch('data/shin_college_data.json');
+        const response = await fetch('data/shin_college_data_translated.json');
         data = await response.json();
 
 
@@ -27,7 +27,7 @@ async function loadData() {
         document.getElementById('loading').innerHTML = `
             <div style="text-align: center; color: var(--text-secondary);">
                 <p style="font-size: 3rem; margin-bottom: 1rem;">⚠️</p>
-                <p>データの読み込みエラー</p>
+                <p>Erro ao carregar dados</p>
                 <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-tertiary);">${error.message}</p>
             </div>
         `;
@@ -189,9 +189,10 @@ function searchContent(term) {
     data.forEach(volume => {
         volume.themes.forEach(theme => {
             theme.titles.forEach(title => {
-                const matchVolume = volume.volume.toLowerCase().includes(term);
-                const matchTheme = theme.theme.toLowerCase().includes(term);
-                const matchTitle = title.title.toLowerCase().includes(term);
+                const term = searchTerm; // Already lowercased
+                const matchVolume = (volume.volume || '').toLowerCase().includes(term) || (volume.volume_ptbr || '').toLowerCase().includes(term);
+                const matchTheme = (theme.theme || '').toLowerCase().includes(term) || (theme.theme_ptbr || '').toLowerCase().includes(term);
+                const matchTitle = (title.title || '').toLowerCase().includes(term) || (title.title_ptbr || '').toLowerCase().includes(term);
 
                 if (matchVolume || matchTheme || matchTitle) {
                     results.push({
@@ -217,7 +218,7 @@ function displayNoResults() {
     overlay.innerHTML = `
         <div class="search-no-results-content">
             <p style="font-size: 3rem; margin-bottom: 1rem;">🔍</p>
-            <p>見つかりませんでした</p>
+            <p>Nenhum resultado encontrado</p>
             <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-top: 0.5rem;">"${searchTerm}"</p>
         </div>
     `;
@@ -242,7 +243,7 @@ function displaySearchResults(results) {
     const view = document.getElementById('titlesView');
     view.classList.remove('hidden');
 
-    document.getElementById('themeTitle').textContent = `検索結果: "${searchTerm}"`;
+    document.getElementById('themeTitle').textContent = `Resultados da pesquisa: "${searchTerm}"`;
     document.getElementById('backToThemes').style.display = 'none';
 
     const container = document.getElementById('titlesList');
@@ -252,7 +253,7 @@ function displaySearchResults(results) {
         container.innerHTML = `
             <div style="text-align: center; padding: 3rem; color: var(--text-tertiary);">
                 <p style="font-size: 3rem; margin-bottom: 1rem;">🔍</p>
-                <p>見つかりませんでした</p>
+                <p>Nenhum resultado encontrado</p>
             </div>
         `;
         return;
@@ -261,15 +262,15 @@ function displaySearchResults(results) {
     container.innerHTML = results.map((result, index) => `
         <div class="title-item" onclick="openSearchResultByIndex(${index})">
             <div class="title-item-header">
-                <div class="title-item-name">${result.title.title}</div>
-                <div class="title-item-badge">${result.title.publications.length} 文献</div>
+                <div class="title-item-name">${result.title.title_ptbr || result.title.title}</div>
+                <div class="title-item-badge">${result.title.publications.length} Documentos</div>
             </div>
         </div>
     `).join('');
 
     updateBreadcrumb([
-        { text: '巻一覧', action: () => { document.getElementById('searchInput').value = ''; showVolumes(); } },
-        { text: `検索: "${searchTerm}"`, active: true }
+        { text: 'Volumes', action: () => { document.getElementById('searchInput').value = ''; showVolumes(); } },
+        { text: `Pesquisa: "${searchTerm}"`, active: true }
     ]);
 }
 
@@ -279,14 +280,24 @@ function openSearchResultByIndex(index) {
 
         // Find volume and theme indices
         const volumeIndex = data.findIndex(v => v.volume === result.volume);
-        const themeIndex = volumeIndex >= 0 ? data[volumeIndex].themes.findIndex(t => t.theme === result.theme) : -1;
+        const volumeObj = volumeIndex >= 0 ? data[volumeIndex] : null;
+
+        let themeIndex = -1;
+        let themeName = result.theme;
+
+        if (volumeObj) {
+            themeIndex = volumeObj.themes.findIndex(t => t.theme === result.theme);
+            if (themeIndex >= 0) {
+                themeName = volumeObj.themes[themeIndex].theme_ptbr || volumeObj.themes[themeIndex].theme;
+            }
+        }
 
         // Inject path info into the title object for the modal
         const titleWithContext = {
             ...result.title,
             pathInfo: {
-                volume: formatVolumeName(result.volume),
-                theme: result.theme,
+                volume: volumeObj ? (volumeObj.volume_ptbr || formatVolumeName(volumeObj.volume)) : formatVolumeName(result.volume),
+                theme: themeName,
                 volumeIndex: volumeIndex,
                 themeIndex: themeIndex
             }
@@ -320,15 +331,15 @@ function showVolumes() {
 
         return `
             <div class="card" onclick="showThemes(${index})">
-                <div class="card-title">${formatVolumeName(volume.volume)}</div>
+                <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
                 <div class="card-subtitle">
-                    ${themeCount} カテゴリ · ${titleCount} トピック
+                    ${themeCount} Temas · ${titleCount} Tópicos
                 </div>
             </div>
         `;
     }).join('');
 
-    updateBreadcrumb([{ text: '巻一覧', active: true }]);
+    updateBreadcrumb([{ text: 'Volumes', active: true }]);
 }
 
 function showThemes(volumeIndex) {
@@ -342,7 +353,7 @@ function showThemes(volumeIndex) {
     // Hide statistics on themes view
     document.getElementById('statsFooter').style.display = 'none';
 
-    document.getElementById('volumeTitle').textContent = formatVolumeName(volume.volume);
+    document.getElementById('volumeTitle').textContent = volume.volume_ptbr || formatVolumeName(volume.volume);
     document.getElementById('backToThemes').style.display = 'none';
     document.getElementById('backToVolumes').style.display = 'inline-flex';
 
@@ -364,8 +375,8 @@ function showThemes(volumeIndex) {
             return `
             <div class="title-item" onclick="event.stopPropagation(); showContentFromAccordion('${title.title.replace(/'/g, "\\'")}')">
                 <div class="title-item-header">
-                    <div class="title-item-name">${title.title}</div>
-                    <div class="title-item-badge">${title.publications.length} 文献</div>
+                    <div class="title-item-name">${title.title_ptbr || title.title}</div>
+                    <div class="title-item-badge">${title.publications.length} Documentos</div>
                 </div>
             </div>
             `;
@@ -375,9 +386,9 @@ function showThemes(volumeIndex) {
             <div id="theme-card-${themeIndex}" class="card">
                 <div class="card-header-content">
                     <div class="card-info">
-                        <div class="card-title">${theme.theme}</div>
+                        <div class="card-title">${theme.theme_ptbr || theme.theme}</div>
                         <div class="card-subtitle">
-                            ${groupedTitles.filter(t => t.title !== '---').length} トピック
+                            ${groupedTitles.filter(t => t.title !== '---').length} Tópicos
                         </div>
                     </div>
                 </div>
@@ -387,8 +398,8 @@ function showThemes(volumeIndex) {
     }).join('');
 
     updateBreadcrumb([
-        { text: '巻一覧', action: showVolumes },
-        { text: formatVolumeName(volume.volume), active: true }
+        { text: 'Volumes', action: showVolumes },
+        { text: volume.volume_ptbr || formatVolumeName(volume.volume), active: true }
     ]);
 }
 
@@ -428,7 +439,7 @@ function toggleAllThemes() {
     if (anyExpanded) {
         // Close all
         cards.forEach(card => card.classList.remove('expanded'));
-        btn.textContent = '全て開く';
+        btn.textContent = 'Abrir Todos';
     } else {
         // Open all
         const volume = data[data.findIndex(v => v.volume === document.getElementById('volumeTitle').textContent)] || data[currentVolume];
@@ -448,7 +459,7 @@ function toggleAllThemes() {
                 card.classList.add('expanded');
             }
         });
-        btn.textContent = '全て閉じる';
+        btn.textContent = 'Fechar Todos';
     }
 }
 
@@ -461,9 +472,9 @@ function updateToggleAllButtonState() {
     const anyExpanded = Array.from(cards).some(card => card.classList.contains('expanded'));
 
     if (anyExpanded) {
-        btn.textContent = '全て閉じる';
+        btn.textContent = 'Fechar Todos';
     } else {
-        btn.textContent = '全て開く';
+        btn.textContent = 'Abrir Todos';
     }
 }
 
@@ -499,8 +510,8 @@ function renderTitlesInTheme(container, titles) {
         return `
         <div class="title-item" onclick="event.stopPropagation(); showContentFromAccordion('${title.title.replace(/'/g, "\\'")}')">
             <div class="title-item-header">
-                <div class="title-item-name">${title.title}</div>
-                <div class="title-item-badge">${title.publications.length} 文献</div>
+                <div class="title-item-name">${title.title_ptbr || title.title}</div>
+                <div class="title-item-badge">${title.publications.length} Documentos</div>
             </div>
         </div>
     `}).join('');
@@ -528,8 +539,8 @@ function showContentFromAccordion(titleString) {
             const titleWithContext = {
                 ...found,
                 pathInfo: {
-                    volume: formatVolumeName(volume.volume),
-                    theme: theme.theme,
+                    volume: volume.volume_ptbr || formatVolumeName(volume.volume),
+                    theme: theme.theme_ptbr || theme.theme,
                     volumeIndex: currentVolume,
                     themeIndex: t
                 }
@@ -561,7 +572,7 @@ function showTitles(volumeIndex, themeIndex) {
     const groupedTitles = groupNumberedTitles(titlesWithContent);
     window.currentGroupedTitles = groupedTitles;
 
-    document.getElementById('themeTitle').textContent = theme.theme;
+    document.getElementById('themeTitle').textContent = theme.theme_ptbr || theme.theme;
     document.getElementById('backToThemes').style.display = 'inline-flex';
 
     const container = document.getElementById('titlesList');
@@ -572,16 +583,16 @@ function showTitles(volumeIndex, themeIndex) {
         return `
         <div class="title-item" onclick="openContentByIndex(${index})">
             <div class="title-item-header">
-                <div class="title-item-name">${title.title}</div>
-                <div class="title-item-badge">${title.publications.length} 文献</div>
+                <div class="title-item-name">${title.title_ptbr || title.title}</div>
+                <div class="title-item-badge">${title.publications.length} Documentos</div>
             </div>
         </div>
     `}).join('');
 
     updateBreadcrumb([
-        { text: '巻一覧', action: showVolumes },
-        { text: formatVolumeName(volume.volume), action: () => showThemes(volumeIndex) },
-        { text: theme.theme, active: true }
+        { text: 'Volumes', action: showVolumes },
+        { text: volume.volume_ptbr || formatVolumeName(volume.volume), action: () => showThemes(volumeIndex) },
+        { text: theme.theme_ptbr || theme.theme, active: true }
     ]);
 }
 
@@ -595,8 +606,8 @@ function openContentByIndex(index) {
             const thm = vol ? vol.themes[currentTheme] : null;
             if (vol && thm) {
                 titleData.pathInfo = {
-                    volume: formatVolumeName(vol.volume),
-                    theme: thm.theme,
+                    volume: vol.volume_ptbr || formatVolumeName(vol.volume),
+                    theme: thm.theme_ptbr || thm.theme,
                     volumeIndex: currentVolume,
                     themeIndex: currentTheme
                 };
@@ -610,29 +621,43 @@ function openContentByIndex(index) {
 // ============================================
 // MODAL CONTENT
 // ============================================
-function showContent(title) {
+function showContent(title, isInitialLoad = true) {
     const modal = document.getElementById('contentModal');
-    document.getElementById('modalTitle').textContent = title.title;
+    // First, filter out empty content
+    const basePubs = title.publications
+        .filter(pub => pub.content && pub.content.trim());
+
+    // Check if any publication has translation
+    const hasTranslation = basePubs.some(pub => pub.content_ptbr && pub.content_ptbr.trim());
 
     // Store current title data for translation toggle
     currentTitleData = title;
-    showTranslation = false;
+
+    // Default to translation if available, ONLY on initial load
+    if (isInitialLoad) {
+        showTranslation = hasTranslation;
+    }
+
+    // Update Modal Title
+    document.getElementById('modalTitle').textContent = (showTranslation && title.title_ptbr) ? title.title_ptbr : title.title;
 
     // Processa os dados para navegação e conteúdo
-    const processedPubs = title.publications
-        .filter(pub => pub.content && pub.content.trim()) // Filter out empty content
-        .map((pub, index) => ({
-            ...pub,
-            id: `pub-${index}`,
-            displayTitle: pub.header || (pub.type === 'intro' ? 'はじめに' : '無題')
-        }));
+    const processedPubs = basePubs.map((pub, index) => ({
+        ...pub,
+        id: `pub-${index}`,
+        displayTitle: (showTranslation && pub.publication_title_ptbr) ? pub.publication_title_ptbr : (pub.publication_title || pub.header || (pub.type === 'intro' ? 'Introdução' : 'Sem Título'))
+    }));
 
-    // Check if any publication has translation
-    const hasTranslation = processedPubs.some(pub => pub.translation && pub.translation.trim());
     const translationButton = document.getElementById('translationButton');
     if (hasTranslation) {
         translationButton.classList.remove('hidden');
-        translationButton.classList.remove('active');
+        // If showing translation, button allows going back to Original
+        translationButton.textContent = showTranslation ? "Original" : "PT";
+        if (showTranslation) {
+            translationButton.classList.add('active');
+        } else {
+            translationButton.classList.remove('active');
+        }
     } else {
         translationButton.classList.add('hidden');
     }
@@ -657,10 +682,11 @@ function showContent(title) {
     // Only show if there is more than 1 item
     let navHTML = '';
     if (navigationItems.length > 1) {
+        const tocLabel = 'Tópicos';
         navHTML = `
             <div class="modal-nav-container">
                 <button class="modal-nav-toggle" onclick="toggleModalNav(this)">
-                    <span>目次 (${navigationItems.length})</span>
+                    <span>${tocLabel} (${navigationItems.length})</span>
                     <span class="chevron">▼</span>
                 </button>
                 <div class="modal-nav-content" id="modalNavContent">
@@ -696,11 +722,11 @@ function showContent(title) {
 
     // Gera o HTML do conteúdo
     const publicationsHTML = navigationItems.map(pub => {
-        const contentToShow = showTranslation && pub.translation ? pub.translation : pub.content;
+        const contentToShow = showTranslation && pub.content_ptbr ? pub.content_ptbr : pub.content;
         return `
         <div id="${pub.id}" class="publication">
             <div class="publication-header">${parseMarkdown(pub.displayTitle)}</div>
-            <div class="publication-content">${parseMarkdown(contentToShow || '内容がありません')}</div>
+            <div class="publication-content">${parseMarkdown(contentToShow || 'Conteúdo não disponível')}</div>
         </div>
     `}).join('');
 
@@ -831,6 +857,13 @@ function groupNumberedTitles(titles) {
         // Remove números do final do título (suporta 1, 2, ３, ４, etc.)
         const baseTitle = title.title.replace(/[　\s]*[0-9０-９１-９]+\s*$/, '').trim();
 
+        // Handle Portuguese title if present
+        let baseTitlePt = null;
+        if (title.title_ptbr) {
+            // Strip western numbers from end of PT string
+            baseTitlePt = title.title_ptbr.replace(/\s*[0-9]+\s*$/, '').trim();
+        }
+
         if (grouped.has(baseTitle)) {
             // Adiciona publicações ao título existente
             grouped.get(baseTitle).publications.push(...title.publications);
@@ -838,6 +871,7 @@ function groupNumberedTitles(titles) {
             // Cria nova entrada com o título base
             grouped.set(baseTitle, {
                 title: baseTitle,
+                title_ptbr: baseTitlePt,
                 publications: [...title.publications]
             });
         }
@@ -961,6 +995,9 @@ function toggleTranslation() {
     showTranslation = !showTranslation;
     const translationButton = document.getElementById('translationButton');
 
+    // Update text and style
+    translationButton.textContent = showTranslation ? "Original" : "PT";
+
     if (showTranslation) {
         translationButton.classList.add('active');
     } else {
@@ -969,7 +1006,7 @@ function toggleTranslation() {
 
     // Reload content with translation toggle
     if (currentTitleData) {
-        showContent(currentTitleData);
+        showContent(currentTitleData, false);
     }
 }
 
@@ -1259,7 +1296,7 @@ function openHistoryItem(index) {
 }
 
 function clearHistory() {
-    if (confirm('閲覧履歴を消去してもよろしいですか？')) {
+    if (confirm('Tem certeza que deseja limpar o histórico?')) {
         localStorage.removeItem(HISTORY_KEY);
         renderHistory();
     }
