@@ -15,7 +15,7 @@ let searchTimeout = null;
 // ============================================
 async function loadData() {
     try {
-        const response = await fetch('data/shin_college_data_translated.json');
+        const response = await fetch('data/shin_college_data.json');
         data = await response.json();
 
 
