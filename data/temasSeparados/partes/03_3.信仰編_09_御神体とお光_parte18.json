@@ -4,166 +4,227 @@
   "total_parts": 35,
   "volume": "3.信仰編",
   "theme_name": "御神体とお光",
+  "theme_name_ptbr": "Imagem Divina e Ohikari",
   "publications": [
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 17,
       "publication_title": "御神体が風でゆれる場合",
+      "publication_title_ptbr": "Quando o Goshintai balança com o vento (御神体が風でゆれる場合)",
       "content": "**信者の質問**  \n「夏になりますと戸を開けますが、風が強い場合には御神体が動きますので、下を白い糸でつけてよろしいでしょうか」\n\n**明主様御垂示**  \n「よいです。その場合は糸を横に張ったほうが確かです。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"No verão, abrimos as portas, mas quando o vento é forte, o Goshintai se move. Posso prendê-lo na parte inferior com um fio branco?\"\n\n**Orientação de Meishu-Sama** \n\"Pode. Nesse caso, é mais seguro esticar o fio horizontalmente.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 18,
       "publication_title": "御神体にススがついた場合の処置",
+      "publication_title_ptbr": "Procedimento quando o Goshintai fica com fuligem (御神体にススがついた場合の処置)",
       "content": "**信者の質問**  \n「薪を燃すため御軸（註　御神体のこと）が汚れた場合は・・・」\n\n**明主様御垂示**  \n「そのままでよろしい。たいしたことはありません。\n\n煤（すす）が下ったらハタキではたいたらいい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Devido à queima de lenha, o pergaminho Sagrado (nota: refere-se ao Goshintai) ficou sujo...\"\n\n**Orientação de Meishu-Sama** \n\"Pode deixar como está. Não é nada grave.\n\nSe cair fuligem, basta limpar com um espanador.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 19,
       "publication_title": "御神体と薪のスス",
+      "publication_title_ptbr": "O Goshintai e a fuligem da lenha (御神体と薪のスス)",
       "content": "**信者の質問**  \n「田舎で薪をたくために煤けて黒くなり困っておりますので、ひどく汚れるときだけ、なにかおかけしてもよろしうございましょうか」\n\n**明主様御垂示**  \n「白羽二重（はぶたえ）でも良いから、まいておいて、そういうときだけ、\n\nさもなければ両方に釘を打って、釘も本当は竹釘が良いです。\n\nそうして、羽二重の縁を縫って輪を作って、ふだんまいておき、そういうときだけかける。それが良いでしょう。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Na zona rural, por queimarmos lenha, ficamos preocupados pois fica tudo preto de fuligem. Seria permitido cobrir com algo apenas quando houver muita sujeira?\"\n\n**Orientação de Meishu-Sama** \n\"Pode usar seda branca (Habutae); mantenha-a enrolada e cubra apenas nessas ocasiões.\n\nCaso contrário, pregue pregos em ambos os lados; na verdade, pregos de bambu são melhores.\n\nEntão, costure a borda da seda Habutae fazendo uma argola, deixe-a enrolada habitualmente e cubra apenas nesses momentos. Isso será bom.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 20,
       "publication_title": "蜘蛛の巣があると御神体からは光が出ない",
+      "publication_title_ptbr": "A Luz não emana do Goshintai se houver teias de aranha (蜘蛛の巣があると御神体からは光が出ない)",
       "content": "「神様の光は蜘蛛の巣がかかったりしていると出ないんです。」\n\n---",
+      "content_ptbr": "\"A Luz de Deus não emana se houver teias de aranha ou coisas do tipo sobre Ele.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 21,
       "publication_title": "病気の子供であれば二階の御神前で寝てよい",
+      "publication_title_ptbr": "Se for uma criança doente, pode dormir no Altar Divino no andar superior (病気の子供であれば二階の御神前で寝てよい)",
       "content": "**信者の質問**  \n「御教えに精神病、癲癇、その他霊憑りの者は御神前に休ませるとよいとのことでございましたが、\n\n主人夫婦が階下に寝て、病人である子弟が二階の御神前に休ませていただいてもよろしいのでございましょうか。右謹んでお伺い申し上げます。」\n\n**明主様御垂示**  \n「ふつうの場合はいけないが、病人の場合は差し支えない。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Nos Ensinamentos consta que é bom deixar pessoas com doenças mentais, epilepsia e outras obsessões espirituais descansarem em frente ao Altar Divino. \n\nSeria permitido que o casal proprietário durma no andar de baixo, e os filhos doentes descansem em frente ao Altar Divino no andar de cima? Pergunto com todo o respeito.\"\n\n**Orientação de Meishu-Sama** \n\"Em situações normais não se deve, mas no caso de doentes não há problema.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 22,
       "publication_title": "御神体奉斎の階下に寝る事",
+      "publication_title_ptbr": "Dormir no andar abaixo de onde o Goshintai está consagrado (御神体奉斎の階下に寝る事)",
       "content": "**信者の質問**  \n「二階に光明如来様を御祭りし、階下に寝起きしているのは宜しいでしょうか。」\n\n**明主様御垂示**  \n「よろしい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Consagramos a Imagem de Komyo Nyorai no segundo andar. É permitido dormir e viver no andar de baixo?\"\n\n**Orientação de Meishu-Sama** \n\"É permitido.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 23,
       "publication_title": "御神体の移動の禁止",
+      "publication_title_ptbr": "Proibição de mover o Goshintai (御神体の移動の禁止)",
       "content": "旅館での教修会に御神体をお祀りしてはならない\n\n**信者の質問**  \n「教修会のとき、教導所がせまいため旅館などを借ります場合、一時、大光明如来様を旅館の床の間にお祀りして教修会を開いておりますが、これはよろしゅうございましょうか。」\n\n**明主様御垂示**  \n「これはいけませんね。間違ってますよ、これは。・・・\n\nそうですね、もし御軸をなにするんだったら、光明如来様じゃなくて、「光明」とか「真善美」とかいうのをかけたらいいでしょう。」\n\n**信者の質問**  \n「それは旅館のときだけでしょうか。」\n\n**明主様御垂示**  \n「いや、旅館に限らず御神体を動かすときにはいけませんよ。\n\n御神体は一つの定めた場所へおかけしたらやたらに動かさないことですね。」\n\n**信者の質問**  \n「御姿の場合はいかがでしょうか。」\n\n**明主様御垂示**  \n「御姿もいけませんね。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "Não se deve consagrar o Goshintai em hotéis para reuniões de aprimoramento\n\n**Pergunta de um Fiel** \n\"Nas reuniões de aprimoramento, quando alugamos hotéis ou locais similares por falta de espaço na Igreja, consagramos temporariamente a Grande Imagem de Komyo Nyorai no *Tokonoma* (alcova) do hotel para realizar a reunião. Isso é permitido?\"\n\n**Orientação de Meishu-Sama** \n\"Isso não se deve fazer. Está errado, isso... \n\nBem, se for para colocar algum pergaminho, em vez da Imagem de Komyo Nyorai, seria melhor colocar caligrafias como 'Komyo' (Luz Divina) ou 'Shin-Zen-Bi' (Verdade, Bem e Belo).\"\n\n**Pergunta de um Fiel** \n\"Isso se aplica apenas ao caso de hotéis?\"\n\n**Orientação de Meishu-Sama** \n\"Não, não se limita a hotéis; não se deve mover o Goshintai.\n\nUma vez consagrado em um local determinado, o Goshintai não deve ser movido aleatoriamente.\"\n\n**Pergunta de um Fiel** \n\"E no caso da Imagem da Divina Figura (O-Sugata)?\"\n\n**Orientação de Meishu-Sama** \n\"A Imagem da Divina Figura também não deve ser movida.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 24,
       "publication_title": "御神体の移動の禁止",
+      "publication_title_ptbr": "Proibição de mover o Goshintai (御神体の移動の禁止)",
       "content": "**信者の質問**  \n「初めての土地へ出張の教修の場合、御書体あるいは御姿の光明如来様の御軸の御供をして行って、教修が終りまた外して御供して帰って来ることは、御無礼にならないでしょうか。」\n\n**明主様御垂示**  \n「持っていくのは嘘である。\n\n大抵はその土地の信者が（教修生をよぶので）お軸の掛けてある所へ集まる。\n\n御神体は持運びするのはいけない。\n\nお掛けしてある所へ集まるのが本当だ。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"No caso de aprimoramento em uma nova região, levar o pergaminho da caligrafia ou da Divina Figura da Imagem de Komyo Nyorai, realizar o aprimoramento e depois retirá-lo e trazê-lo de volta seria uma falta de respeito?\"\n\n**Orientação de Meishu-Sama** \n\"Levar o Goshintai é um erro.\n\nGeralmente, os fiéis daquela região (já que chamam os aprimorandos) é que devem se reunir onde o pergaminho está consagrado.\n\nNão se deve transportar o Goshintai.\n\nO correto é reunir-se onde Ele está consagrado.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 25,
       "publication_title": "遠隔布教の際には御神体はなくても差し支えない",
+      "publication_title_ptbr": "Na dedicação missionária em locais distantes, não há problema em não haver Goshintai (遠隔布教の際には御神体はなくても差し支えない)",
       "content": "**信者の質問**  \n「教導師が布教に出る際、他人の光明如来様をある期間お借りして差支えありませんでしょうか。御伺い申し上げます。」\n\n**明主様御垂示**  \n「大変な間違いである。\n\nお掛けしたままにすべきである。\n\n布教の際は、お軸がなくとも構わぬ。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Quando um Ministro sai para difusão, haveria problema em pegar emprestada a Imagem de Komyo Nyorai de outra pessoa por um certo período? Pergunto respeitosamente.\"\n\n**Orientação de Meishu-Sama** \n\"É um grande erro.\n\nDeve-se deixá-la consagrada onde está.\n\nNa difusão, não importa se não houver o pergaminho.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 26,
       "publication_title": "御神体奉斎の部屋に額等をかけることは不可",
+      "publication_title_ptbr": "Não é permitido pendurar quadros e afins na sala de consagração do Goshintai (御神体奉斎の部屋に額等をかけることは不可)",
       "content": "**信者の質問**  \n「中国の大同の石の観音さんを写真にして持っておりますが・・・」\n\n**明主様御垂示**  \n「石仏にもたくさんありますがね。良い悪いがいろいろあります。\n\nそれは、額にしても、何にしても良いが、神様の部屋はいけませんよ。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Tenho uma foto da Kannon de pedra de Datong, na China...\"\n\n**Orientação de Meishu-Sama** \n\"Existem muitas imagens de pedra de Buda. Há várias qualidades, boas e ruins.\n\nPode colocá-la em um quadro ou o que for, mas não na sala de Deus.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 27,
       "publication_title": "御神体奉斎の部屋に明主様の写ってない写真をかけることは不可",
+      "publication_title_ptbr": "Não é permitido pendurar fotos onde Meishu-Sama não apareça na sala de consagração do Goshintai (御神体奉斎の部屋に明主様の写ってない写真をかけることは不可)",
       "content": "**信者の質問**  \n「（前半省略）　同じ室内に掲げてある渋井総斎先生の写られた御写真（昨年五六七大祭のときのもの）の中味だけが二十度くらい傾きました。\n\nなにかのお知らせでございましょうか。」\n\n**明主様御垂示**  \n「（前半省略）　また写真については、私の写っていない写真は、絶対掲げてはいけないことになっているから、これも祖霊の戒告である。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"(Parte inicial omitida) ... A foto do Reverendo Shibui (tirada no Grande Festival 567 do ano passado) que estava pendurada na mesma sala inclinou-se cerca de vinte graus, apenas o conteúdo interno.\n\nSeria isso algum aviso?\"\n\n**Orientação de Meishu-Sama** \n\"(Parte inicial omitida) ... Quanto a fotos, está estabelecido que fotos onde eu não apareço não devem, de forma alguma, ser penduradas [na sala do altar]; portanto, isso também é um aviso dos ancestrais.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 28,
       "publication_title": "御神前でそのままお通夜をしてよい",
+      "publication_title_ptbr": "Pode-se realizar o velório diretamente em frente ao Altar Divino (御神前でそのままお通夜をしてよい)",
       "content": "**信者の質問**  \n「お通夜の場合に、祭壇は御神前でよろしいのでございましょうか」\n\n**明主様御垂示**  \n「結構です。」\n\n**信者の質問**  \n「その場合、御写真、御神体には何かおかけすべきものでしょうか」\n\n**明主様御垂示**  \n「かけないで、そのままのほうがよいのです。やっぱり霊が救われます。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"No caso de um velório, o altar pode ser em frente ao Altar Divino?\"\n\n**Orientação de Meishu-Sama** \n\"Pode, perfeitamente.\"\n\n**Pergunta de um Fiel** \n\"Nesse caso, deve-se cobrir a Foto ou o Goshintai com algo?\"\n\n**Orientação de Meishu-Sama** \n\"Não cubra; é melhor deixar como está. Assim o espírito também é salvo.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 29,
       "publication_title": "近所との交際でも御神体を外すべきではない",
+      "publication_title_ptbr": "Não se deve remover o Goshintai nem mesmo por convívio social com a vizinhança (近所との交際でも御神体を外すべきではない)",
       "content": "**信者の質問**  \n「今度、私の家で近所との交際上、総供養の儀式をやってくれと頼まれております。\n\nその式には、阿弥陀如来の掛軸をかけることになっておりますが、\n\n光明如来様の御軸を一時外させていただいて式をしてもよろしいでしょうか。」\n\n**明主様御垂示**  \n「光明如来様の前でやったほうが、供養されるほうも喜ぶんですがねえ。\n\n光明如来様は日、阿弥陀如来様は月、日と月ほど違うんですからね、そこをよく説明して上げたらいい。\n\nそれでも判らなければ断ればいいですね。\n\n掛け換えるのはおもしろくない。\n\n断るよりほかにしかたがないですよ、道に外れますからね。\n\nちょうど、電灯を消して、蝋燭（ろうそく）をとぼすようなもんですよ。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Pediram-me para realizar uma cerimônia de culto conjunto em minha casa por questões de convívio com a vizinhança.\n\nNessa cerimônia, deve-se pendurar o pergaminho de Amida Nyorai. Seria permitido remover temporariamente o pergaminho da Imagem de Komyo Nyorai para realizar a cerimônia?\"\n\n**Orientação de Meishu-Sama** \n\"Seria melhor fazer diante da Imagem de Komyo Nyorai; quem recebe o culto também ficaria feliz.\n\nA Imagem de Komyo Nyorai é o Sol, e Amida Nyorai é a Lua; a diferença é como entre o Sol e a Lua. Você deveria explicar bem isso a eles.\n\nSe mesmo assim não entenderem, recuse. \n\nTrocar os pergaminhos não é bom.\n\nNão há outra opção a não ser recusar, pois isso sai do Caminho.\n\nÉ exatamente como apagar a luz elétrica para acender uma vela.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 30,
       "publication_title": "地元住民の反感を回避するため御神体を一時外して良いとした事例",
+      "publication_title_ptbr": "Caso em que foi permitido remover temporariamente o Goshintai para evitar antipatia dos moradores locais (地元住民の反感を回避するため御神体を一時外して良いとした事例)",
       "content": "**信者の質問**  \n「新潟から佐渡の方面では、亡くなった人がある場合に、床の間に仏教のお軸を掛けてお弔いたしますが、こちらではそれを許さなかったので、うるさくなっておりますが・・・」。\n\n**明主様御垂示**  \n「そうしたら良いでしょう。やはり時期ですよ。\n\nやはり、今はそこまでの時節に行ってないから、今までのしきたりのやり方で良いですよ。\n\nそうして坊さんにも満足させてやったら良いでしょう。\n\nそんなことは問題じゃないからね。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Na região de Niigata a Sado, quando alguém falece, costuma-se pendurar um pergaminho budista no *Tokonoma* para o funeral. Como não permitimos isso aqui, a situação está ficando complicada...\"\n\n**Orientação de Meishu-Sama** \n\"Então faça isso. É uma questão de tempo (época).\n\nComo a época ainda não chegou a esse ponto, pode seguir os costumes tradicionais.\n\nAssim, deixe os monges satisfeitos também.\n\nIsso não é um problema.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 31,
       "publication_title": "床の間に御神体と他宗教の御本尊の一時的並存を許された事例　葬式の阿弥陀様",
+      "publication_title_ptbr": "Caso em que foi permitida a coexistência temporária do Goshintai e a imagem principal de outra religião no Tokonoma - Amida em funeral (床の間に御神体と他宗教の御本尊の一時的並存を許された事例　葬式の阿弥陀様)",
       "content": "**信者の質問**  \n「富山県地方は、葬式の場合床の間に阿弥陀様のお軸をおかけして式をいたします。\n\n習慣になっておりますが、この場合御神体はいかようにいたしましたらよろしゅうございましょうか。」\n\n**明主様御垂示**  \n「御神体を外してはいけません。\n\nその隣りに掛ければよろしい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Na região da província de Toyama, no caso de funerais, realiza-se a cerimônia pendurando a imagem de Amida no *Tokonoma*.\n\nIsso é um costume, mas nesse caso, como devo proceder com o Goshintai?\"\n\n**Orientação de Meishu-Sama** \n\"Não deve remover o Goshintai.\n\nPode pendurar ao lado Dele.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 32,
       "publication_title": "床の間に御神体と他宗教の御本尊の一時的並存を許された事例　婚礼の産土神",
+      "publication_title_ptbr": "Caso em que foi permitida a coexistência temporária do Goshintai e a imagem principal de outra religião no Tokonoma - Divindade local em casamento (床の間に御神体と他宗教の御本尊の一時的並存を許された事例　婚礼の産土神)",
       "content": "**信者の質問**  \n「田舎の習慣で、婚礼のときは土地の産土神をお祀りすることになっていますが、\n\nそのときだけ光明如来様をおはずしして、お祀りしてよろしゅうございましょうか」\n\n**明主様御垂示**  \n「どういうように言っても、それはいけないですよ・・・絶対にいけないですよ。そんな習慣は破っちまえばいい。」\n\n**信者の質問**  \n「横にでは・・・」\n\n**明主様御垂示**  \n「それならいいです。一日なら一日とお願いしてやるといい。\n\n信仰が徹底しなければ、なかなかできないものです。\n\n神様というのは、理由がたてばお許しがあります。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Pelo costume rural, nos casamentos deve-se consagrar a divindade local (Ubusuna).\n\nSeria permitido remover a Imagem de Komyo Nyorai apenas nessa ocasião para consagrar a outra?\"\n\n**Orientação de Meishu-Sama** \n\"Não importa o argumento, isso não pode... Absolutamente não pode. É melhor acabar com esse costume.\"\n\n**Pergunta de um Fiel** \n\"E se for ao lado...\"\n\n**Orientação de Meishu-Sama** \n\"Nesse caso, tudo bem. Peça permissão dizendo que é por um dia, ou o tempo que for.\n\nSe a fé não for profunda, é difícil conseguir fazer isso.\n\nPara Deus, se houver uma razão justificável, Ele concede permissão.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 33,
       "publication_title": "一週に一度しか帰宅出来ぬ人の御神体",
+      "publication_title_ptbr": "O Goshintai de quem só pode voltar para casa uma vez por semana (一週に一度しか帰宅出来ぬ人の御神体)",
       "content": "**信者の質問**  \n「大光明如来様をお祀りしている家ですが、弟が亡くなり、お婆さん一人なので看護に行っているうちに、そこの商売をするようになり、\n\n一週間に一回しか家に帰りませんので、大光明如来様に恐れ多いので、どうしたらというのでございますが・・・」\n\n**明主様御垂示**  \n「現在ですがね。問題は・・・行ったり来たりですか。」\n\n信者の説明  \n「一週間に一回帰って来ます」\n\n**明主様御垂示**  \n「留守番は。」\n\n信者の説明  \n「だれもおりません」\n\n**明主様御垂示**  \n「しかたがないです。だってできないんだからね。神様はそんなことはない。\n\nつまりそういう場合に・・・できる場合はやらないと、人間のほうが疎（おろそ）かになるが、できないのはしかたがない。\n\nですから、こういうわけで毎日はできないから、お許しを願いたいということを言って・・・そうすれば良いです。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Em uma casa onde a Grande Imagem de Komyo Nyorai está consagrada, o irmão mais novo faleceu e, restando apenas a avó, a pessoa foi cuidar dela e acabou assumindo o comércio local.\n\nComo ela só volta para casa uma vez por semana, sente que é um desrespeito com a Grande Imagem de Komyo Nyorai e pergunta o que deve fazer...\"\n\n**Orientação de Meishu-Sama** \n\"É a situação atual, não é? O problema é... ela vai e volta?\"\n\n**Explicação do Fiel** \n\"Ela volta uma vez por semana.\"\n\n**Orientação de Meishu-Sama** \n\"E quem cuida da casa?\"\n\n**Explicação do Fiel** \n\"Não há ninguém.\"\n\n**Orientação de Meishu-Sama** \n\"Não tem jeito. Afinal, não é possível fazer diferente. Deus não é rígido a esse ponto.\n\nOu seja, nesses casos... se for possível fazer e não fizer, o ser humano se torna negligente, mas quando não é possível, não tem jeito.\n\nPortanto, deve-se dizer que, por esse motivo, não é possível prestar culto diariamente e pedir perdão... fazendo isso, está bem.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 34,
       "publication_title": "旅行先で相当期間家を留守にする場合の心得",
+      "publication_title_ptbr": "Conhecimento necessário ao deixar a casa vazia por um longo período em viagem (旅行先で相当期間家を留守にする場合の心得)",
       "content": "**信者の質問**  \n「光明如来様と御屏風観音様を家にお祀りしてあって旅行などで長く家を空ける場合、\n\n家族が信仰しておりませんと礼拝はおろか掃除もいたしませんが、\n\nこんなときには御軸をお巻きして、しまっておいたほうがよろしいでしょうか。\n\nまた仏壇の位牌を旅行先に持って行って拝んでもよろしいでしょうか。」\n\n**明主様御垂示**  \n「そんなことをしなくてもいいですよ、掛けたままでいいんです。\n\n留守の者に信仰がなくてやらないんだから、これはやむを得ませんよ。\n\nこの人が旅行先で祝詞なり御讃歌なりあげればそれでいいですよ。\n\nまた位牌を持って行くなんてのもいけません。\n\nそのままにしておいて家のほうへ向かって遠くから・・・これが遥拝ですね、遥拝をすればいいんです。\n\n向こうは霊ですから、どんなに遠くともやって来ますよ。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Tenho a Imagem de Komyo Nyorai e a Kannon do Biombo consagradas em casa. Quando me ausento por muito tempo, como em viagens, a família, que não segue a fé, não faz as orações e nem sequer limpa.\n\nNessas ocasiões, seria melhor enrolar o pergaminho e guardá-lo?\n\nAlém disso, posso levar as tabuletas memoriais (Ihai) do oratório budista para o local da viagem e orar lá?\"\n\n**Orientação de Meishu-Sama** \n\"Não precisa fazer isso; pode deixar pendurado.\n\nSe quem fica não tem fé e não faz, isso é inevitável.\n\nBasta que a pessoa, no local da viagem, entoe a Oração ou os Salmos.\n\nTambém não se deve levar as tabuletas memoriais.\n\nDeixe-as como estão e, de longe, volte-se para a direção da casa... isso é oração à distância (Yohai); basta fazer a oração à distância.\n\nComo lá são espíritos, não importa a distância, eles vêm.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 35,
       "publication_title": "開拓布教のため御祭出来ぬ",
+      "publication_title_ptbr": "Impossibilidade de realizar cultos devido à dedicação missionária pioneira (開拓布教のため御祭出来ぬ)",
       "content": "**信者の質問**  \n「現在京都市に居住し光明如来様を御祭させて戴いておりますが、家族三名にて母と私は他府県に開発のため出張、妹は教導所の方に泊り込みで御奉仕させて戴いております。\n\nそのため家族皆留守の事とて光明如来様の日々の御祭もさせて戴けません（月一回程帰ります）が、このような場合どうさせて頂いたら宜しゅう御座居ますか。御教示下さいませ。」\n\n**明主様御垂示**  \n「開拓のために留守になるなら反ってお喜びになる。お断わりしておくとよい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Atualmente moro na cidade de Kyoto e tenho a permissão de consagrar a Imagem de Komyo Nyorai. Porém, somos uma família de três pessoas; minha mãe e eu estamos viajando para outra província para desenvolvimento de difusão, e minha irmã está servindo como interna na Igreja.\n\nPor isso, como a família toda está ausente, não conseguimos realizar os cultos diários à Imagem de Komyo Nyorai (voltamos cerca de uma vez por mês). Nesse caso, como devemos proceder? Por favor, oriente-me.\"\n\n**Orientação de Meishu-Sama** \n\"Se a ausência é por causa da difusão pioneira, pelo contrário, Ele fica feliz. Basta comunicar o fato (pedir licença).\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 22,
       "title": "御神体の作法",
+      "title_ptbr": "",
       "pub_idx": 36,
       "publication_title": "未信者が奉斎していた御神体の処置",
+      "publication_title_ptbr": "Procedimento com Goshintai que estava consagrado por um não fiel (未信者が奉斎していた御神体の処置)",
       "content": "**信者の質問**  \n「六月に入信の信者でございますが、十月頃懇意にしている近所の酒屋に行きますと、\n\n奥の部屋に“光明如来様”の御神体を祀ってあるので入信しているのですかと聞くと、入信はしてないというのでした。\n\nしかし光明如来様を奉斎してあるではないかと言うと、あれは私が別に祀っているのでも何でもない。\n\nどこかその近くの人らしいが、持って来て買ってくれないかというので譲り受けて掛けているということなので、\n\n実はこれはこういうもったいない御神体だと話したところ、\n\nそれは家ではもったいないから持って行ってくれというわけで持ってまいりましたが、いかようにいたしたらよろしゅうございましょうか」\n\n**明主様御垂示**  \n「それは浄めればよいです。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel** \n\"Ingressei na fé em junho. Por volta de outubro, fui a uma loja de bebidas próxima com a qual tenho amizade.\n\nVi que no quarto dos fundos estava consagrado o Goshintai da 'Imagem de Komyo Nyorai'. Perguntei se ele havia ingressado na fé, e ele disse que não.\n\nQuestionei, pois a Imagem de Komyo Nyorai estava consagrada, e ele disse: 'Não é que eu esteja consagrando nem nada. Alguém aqui perto trouxe e perguntou se eu queria comprar, então aceitei e pendurei'.\n\nExpliquei que, na verdade, aquele era um Goshintai muito precioso. Então ele disse: 'Se é algo tão precioso, não serve para minha casa, então leve-o'. Assim, trouxe o Goshintai. Como devo proceder?\"\n\n**Orientação de Meishu-Sama** \n\"Basta purificá-lo.\"\n\n---",
+      "has_translation": true
     }
   ]
 }

@@ -4,166 +4,227 @@
   "total_parts": 35,
   "volume": "3.信仰編",
   "theme_name": "御神体とお光",
+  "theme_name_ptbr": "Imagem Divina e Ohikari",
   "publications": [
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 5,
       "publication_title": "一号観音様を譲り受けた場合の作法",
+      "publication_title_ptbr": "Etiqueta ao Receber a Transferência de uma Imagem de Kannon Número Um (一号観音様を譲り受けた場合の作法)",
       "content": "**信者の質問**  \n「一号観音様を譲り受けましたのでございますが、どのようにいたしましたらよろしいでしょうか、\n\nまたお浄めさせていただくのでございましょうか」\n\n**明主様御垂示**  \n「一号というのは。」\n\n**信者の質問**  \n「お姿の一番大きいのでございます」\n\n**明主様御垂示**  \n「これは御神体ではないのです。\n\n字の光明如来様が御神体だからね。\n\nお掛けしても差し支えありませんが、お浄めとか、そういうことはいらない。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Recebi a transferência de uma Imagem de Kannon 'Número Um'; como devo proceder?\n\nAlém disso, devo purificá-la?\"\n\n**Meishu-Sama**\n\"O que seria 'Número Um'?\"\n\n**Pergunta de um Fiel**\n\"É a maior das imagens em forma de estátua.\"\n\n**Meishu-Sama**\n\"Isso não é uma Imagem Divina (Goshintai).\n\nA Imagem Divina é a caligrafia de Komyo Nyorai.\n\nNão há problema em pendurá-la, mas purificação ou coisas do tipo não são necessárias.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 6,
       "publication_title": "観音画像は私に寄付してください",
+      "publication_title_ptbr": "Por Favor, Doem Imagens Pintadas de Kannon para Mim (観音画像は私に寄付してください)",
       "content": "**信者の質問**  \n「お姿の観音様をいただかれていた人で、私にお預りしてくれと言って他界いたしました。\n\n少し染みが入っておりますが、いかがいたしましたらよろしいでしょうか」\n\n**明主様御垂示**  \n「それは私の方に寄付して下さい。私がもらっておきます。\n\n私が欲しいんですよ。\n\nで、絵のはーあれはもう拝んではいけないんです。\n\nやっぱり今の文字でなければね。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Uma pessoa que possuía uma imagem pintada de Kannon faleceu dizendo para deixá-la sob minha guarda.\n\nEla apresenta algumas manchas; como devo proceder?\"\n\n**Meishu-Sama**\n\"Por favor, doe-a para mim. Eu a receberei.\n\nEu é que a desejo.\n\nBem, quanto às pinturas... aquelas já não devem mais ser veneradas.\n\nRealmente, tem que ser a caligrafia atual.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 7,
       "publication_title": "御神体の貸与の可否",
+      "publication_title_ptbr": "A Possibilidade de Emprestar a Imagem Divina (御神体の貸与の可否)",
       "content": "**信者の質問**  \n「私の教導所で熱心な信徒が一家全員浄化致し、その家庭の奥さんが霊的現象にて（先祖が憑依して）光明如来様をお祭りしてくれと要求しましたが、\n\nしかしその家庭は豊かではありませんが、私のところの光明如来様がありますので、一時お貸ししてお祭りしてあげればその一家、または先祖は真から救われますでしょうか。」\n\n**明主様御垂示**  \n「貸してもよい。なるべく貸した方がよい。それだけ救いになる。\n\n蔵っておいては光明如来様のお働きが出来ぬ。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Em meu Centro de Difusão, toda a família de um fiel fervoroso passou por purificação. A esposa, manifestando fenômenos espirituais (obsessão de antepassados), exigiu que fosse entronizada a Imagem de Komyo Nyorai.\n\nNo entanto, essa família não possui recursos. Eu tenho uma Imagem de Komyo Nyorai disponível; se eu a emprestar temporariamente para que a entronizem, essa família ou os antepassados serão verdadeiramente salvos?\"\n\n**Meishu-Sama**\n\"Pode emprestar. É preferível que empreste. Isso trará salvação na mesma medida.\n\nManter a Imagem de Komyo Nyorai guardada impede a Sua atuação.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 8,
       "publication_title": "御神体の一時的貸与が許される場合",
+      "publication_title_ptbr": "Casos em que o Empréstimo Temporário da Imagem Divina é Permitido (御神体の一時的貸与が許される場合)",
       "content": "**信者の質問**  \n「教導所の出張所に私のいただいた御神体を一時お貸ししてお祀りいたすことはいかがでしょうか。」\n\n**明主様御垂示**  \n「それはかまいませんね、おかけしたっきりでそこでお祀りするんなら。\n\nそれから、人に貸してあげるのも、その人が自分でいただくまで一時仮に貸すんならいいですよ。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Haveria algum problema em emprestar temporariamente a minha Imagem Divina para ser entronizada no posto de difusão do Centro?\"\n\n**Meishu-Sama**\n\"Não há problema, contanto que seja apenas para deixá-la entronizada lá.\n\nAlém disso, emprestar para uma pessoa temporariamente, até que ela receba a sua própria, também está bem.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 9,
       "publication_title": "御神体の一時的貸与が許される場合",
+      "publication_title_ptbr": "Casos em que o Empréstimo Temporário da Imagem Divina é Permitido (御神体の一時的貸与が許される場合)",
       "content": "浄霊研究会の最中に女子が発狂した事例\n\n**信者の質問**  \n「本月二十二日光明如来の御神体を先生より御借りして、浄霊の研究会を行いました。\n\nその夜二時頃私の六才になる女の子が急に発熱し、上方をみつめおどおどした様子をした後起上り、\n\n窓の方を眺めて「子供が来た来た」また「子供がかくれたかくれた」と言って恐がりますので、早速浄霊致しましたが嫌がりました。\n\nそのような事が二ケ月程以前にもあり、その時は「ゲラゲラ」笑い、水を沢山飲み\n\n「二人子供が来た来た、水をかけるかける」と恐れ、おどり廻り\n\n善言讃詞を奏上すると「行った行った」と言い、\n\n暫くして前に述べましたように子供が来た等と申し、約二時間程で平常になりました。\n\nこの外時々発熱した事があります。右は霊的原因で御座いましょうか。またいかに致したら宜敷いでしょうか。御教示下さい。\n\n（因に前に住んでいた方の子供が付近の川へ落ちて死んだ事があるそうです。）」\n\n**明主様御垂示**  \n「御神体を借りてお掛けするのはいけないし、外すのもいけない。\n\n会の時に掛け、外して帰るのはいけない。\n\n早くお祭りしたい場合御神体を貸す事は構わぬ。\n\nそしてまた代りが出来たらお返しするというのは構わぬ。\n\n特殊の場合以外は移動してはいけない。\n\n霊界で迷っている子供の霊が助けてもらいたいのである。\n\nやはり地縛の霊でその辺でウロウロしているのである。\n\n来た時は祝詞を奏げてやるといい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "Caso de uma menina que enlouqueceu durante uma reunião de estudo de Johrei\n\n**Pergunta de um Fiel**\n\"No dia 22 deste mês, peguei emprestada a Imagem de Komyo Nyorai com o professor e realizei uma reunião de estudo de Johrei.\n\nPor volta das duas da manhã daquela noite, minha filha de seis anos teve febre repentina, olhava fixamente para cima com ar assustado, levantou-se,\n\nolhou para a janela e disse 'As crianças vieram, vieram' e 'As crianças se esconderam, se esconderam', mostrando medo. Ministrei Johrei imediatamente, mas ela recusou.\n\nAlgo semelhante ocorreu há cerca de dois meses; na ocasião, ela ria alto, bebia muita água,\n\ndançava apavorada dizendo 'Duas crianças vieram, vieram, vão jogar água, jogar água'.\n\nAo entoar a Zengensanshi, ela disse 'Foram embora, foram embora'.\n\nPouco depois, conforme relatei, ela disse que as crianças vieram, e após cerca de duas horas, voltou ao normal.\n\nAlém disso, ela tem febre ocasionalmente. Isso seria uma causa espiritual? E como devo proceder? Peço orientação.\n\n(A propósito, dizem que o filho de quem morava lá antes caiu no rio próximo e morreu.)\"\n\n**Meishu-Sama**\n\"Pegar a Imagem Divina emprestada para pendurar e depois tirar não é bom.\n\nPendurar na hora da reunião e retirar para devolver não pode.\n\nSe for para emprestar a Imagem Divina porque se deseja entronizá-la o quanto antes, não há problema.\n\nE devolver quando receber uma substituta também não tem problema.\n\nExceto em casos especiais, não se deve movê-la.\n\nÉ o espírito de uma criança perdido no Mundo Espiritual que quer ser salvo.\n\nTrata-se de um espírito preso à terra (obsessor) que está vagando por ali.\n\nQuando vier, é bom entoar a Oração (Amatsu Norito/Zengensanshi).\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 10,
       "publication_title": "出張所の御神体を家庭用に転用してはならない",
+      "publication_title_ptbr": "Não se Deve Desviar a Imagem Divina de um Posto de Difusão para Uso Doméstico (出張所の御神体を家庭用に転用してはならない)",
       "content": "**信者の質問**  \n「御神体を戴いた兄が表装がまだで御奉斎できず、弟が出張所をさせていただきましたが、\n\n事情により出張所の責任者が代りました場合には御神体はそのままでよろしいのでございましょうか」\n\n**明主様御垂示**  \n「兄さんのほうはどうしてますか。」\n\n信者の説明  \n「家の都合で御奉斎ができません」\n\n**明主様御垂示**  \n「それで出張所のほうにまわしたわけですか。兄さんは支部長ですか。」\n\n信者の説明  \n「一般信者でございます」\n\n**明主様御垂示**  \n「信仰は続けていますか。」\n\n信者の説明  \n「続けております」\n\n**明主様御垂示**  \n「兄さんが信仰していればよいでしょう。」\n\n**信者の質問**  \n「兄が御奉斎のお許しをいただきました場合には」\n\n**明主様御垂示**  \n「新しくしなければいけません。出張所のは動かすことはできません。」\n\n**信者の質問**  \n「現在の出張所のはそのままでよろしいのでございましょうか」\n\n**明主様御垂示**  \n「よいです。\n\nそれから私の写真と御神体との扱い方は違います。\n\nどう違うかと言うと写真のほうが上だから、写真は少しも融通ということはできません。\n\nそれでこの間のことはやかましく言ったのです。\n\nそれはそうでしょう、御神体は私が書くのですから、書くほうが上です。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Meu irmão mais velho recebeu a Imagem Divina, mas como ainda não foi emoldurada, não pôde entronizá-la; então, o irmão mais novo abriu um posto de difusão utilizando-a.\n\nCaso o responsável pelo posto de difusão mude devido às circunstâncias, a Imagem Divina pode permanecer como está?\"\n\n**Meishu-Sama**\n\"Como está a situação do irmão mais velho?\"\n\nExplicação do Fiel\n\"Por conveniência familiar, ele não pode entronizá-la.\"\n\n**Meishu-Sama**\n\"Então ela foi repassada para o posto de difusão? O irmão mais velho é Chefe de Filial?\"\n\nExplicação do Fiel\n\"É um fiel comum.\"\n\n**Meishu-Sama**\n\"Ele continua a fé?\"\n\nExplicação do Fiel\n\"Continua.\"\n\n**Meishu-Sama**\n\"Se o irmão tem fé, está bem.\"\n\n**Pergunta de um Fiel**\n\"Caso o irmão receba a permissão para entronizar...\"\n\n**Meishu-Sama**\n\"Terá que ser uma nova. A do posto de difusão não pode ser movida.\"\n\n**Pergunta de um Fiel**\n\"A do atual posto de difusão pode ficar como está?\"\n\n**Meishu-Sama**\n\"Pode.\n\nAlém disso, a forma de tratar a minha Foto e a Imagem Divina é diferente.\n\nA diferença é que a Foto é superior, portanto, com a Foto não se pode ter flexibilidade alguma.\n\nPor isso fui rigoroso quanto a isso outro dia.\n\nÉ natural, pois a Imagem Divina sou eu quem escrevo; quem escreve é superior.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 26,
       "title": "御神体の譲渡等",
+      "title_ptbr": "",
       "pub_idx": 11,
       "publication_title": "御神体拝受は新品が本当",
+      "publication_title_ptbr": "O Correto é Receber uma Imagem Divina Nova (御神体拝受は新品が本当)",
       "content": "**信者の質問**  \n「現在御奉斎の光明如来様は人から譲り受けたものでございますが、最近精神的に気掛りになりますので、新しくお受けいたしたいと・・・」\n\n**明主様御垂示**  \n「本当はそのほうがよいです。\n\nこういうことを知っておかなければならないのです。\n\n以前はよかったが、これからはいけないことがあるのです。\n\nすなわち、神様のほうは厳しくなったのです。\n\nというのは、和光同塵と言って、以前は神様はたいていなことは許されたのです。\n\nそれが時期が進むに従ってすべてがはっきりしてくるのです。\n\nそうすると以前は許されたことも、これからは許されなくなるということがずいぶんあるのです。\n\nだからこれからはだんだん、物事を几帳面にはっきりしてゆくということが肝腎なのです。」",
+      "content_ptbr": "**Pergunta de um Fiel**\n\"A Imagem de Komyo Nyorai atualmente entronizada foi recebida de outra pessoa, mas ultimamente tenho me sentido inquieto espiritualmente, por isso gostaria de receber uma nova...\"\n\n**Meishu-Sama**\n\"A verdade é que isso é melhor.\n\nÉ preciso saber o seguinte:\n\nAntigamente estava bem, mas daqui para frente há coisas que não podem mais.\n\nOu seja, o lado de Deus tornou-se rigoroso.\n\nIsso porque, na época do 'Wako Dojin' (Harmonizar a luz com a poeira), Deus permitia a maioria das coisas.\n\nÀ medida que o tempo avança, tudo vai se tornando claro.\n\nAssim, há muitas coisas que antes eram permitidas e que, daqui para frente, deixarão de ser.\n\nPor isso, de agora em diante, é fundamental tornar as coisas metódicas e claras.\"",
       "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 0,
       "publication_title": "御神体の前に像を置く是非",
+      "publication_title_ptbr": "A Conveniência de Colocar Estátuas Diante da Imagem Divina (御神体の前に像を置く是非)",
       "content": "「掛軸の前へ像をおくのは大した意味はないが、彫刻がいくらか働く。\n\n彫刻にも大抵は霊が入っており、光明如来様の光を受けると力が出て非常に働きやすい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "\"Colocar uma estátua diante do Pergaminho (Imagem Divina) não tem grande significado, mas a escultura atua um pouco.\n\nNa maioria das esculturas há um espírito alojado, e ao receber a Luz de Komyo Nyorai, surge força e torna-se muito fácil atuar.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 1,
       "publication_title": "御開眼観音像の祀り方",
+      "publication_title_ptbr": "Como Entronizar uma Imagem de Kannon Consagrada (御開眼観音像の祀り方)",
       "content": "**信者の質問**  \n「光明如来様の前に大黒様と木像の観音様をお祀り致したいと思いますが、位置並に御祀りする方法について御教え下さい。」\n\n**明主様御垂示**  \n「台をして、観音様の方を高くする。」\n\n---\n\n**明主様御垂示　「観音像の礼拝」**\n\n**信者の質問**\n\n礼拝の仕方について\n\n（イ）御神体の直前に御開眼を頂いた木彫の観音様をお祀り致しておりますがこれは宜しいでしょうか。\n\n（ロ）もし宜しいのでしたら礼拝の際御神体を拝する事によりこの観音様にも一緒に敬意を表わしている、との考えから特に観音像には礼拝しておりませんが宜しいものでしょうか。\n\n（ハ）ただこの場合大黒様には礼拝して観音像には礼拝しない事がちょっと感じますがどうでしょうか。」\n\n**明主様御垂示**  \n「（イ）光明如来様おかけしてその前に安置して差支えない。\n\n（ロ）それでよい。一緒に礼拝する意味になる。\n\n（ハ）構わない。光明如来様も木彫の観音様も同じものであるが大黒様は別である。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Gostaria de entronizar Daikoku e uma estátua de madeira de Kannon diante da Imagem de Komyo Nyorai. Peço ensinamentos sobre a posição e o método de entronização.\"\n\n**Meishu-Sama**\n\"Coloque um suporte e deixe Kannon mais alto.\"\n\n---\n\n**Meishu-Sama — 'A Adoração à Estátua de Kannon'**\n\n**Pergunta de um Fiel**\n\nSobre a forma de adoração:\n\n(A) Entronizamos uma estátua de madeira de Kannon, que recebeu a consagração, logo à frente da Imagem Divina. Isso está correto?\n\n(B) Se estiver correto, ao reverenciar a Imagem Divina, consideramos que estamos expressando respeito também a esta Kannon, e por isso não fazemos uma reverência específica para a estátua. Está bem assim?\n\n(C) Apenas sentimos um pouco estranho reverenciar Daikoku e não reverenciar a estátua de Kannon. O que acha disso?\"\n\n**Meishu-Sama**\n\"(A) Não há problema em pendurar a Imagem de Komyo Nyorai e colocar a estátua diante dela.\n\n(B) Está bem assim. Significa reverenciar ambas juntas.\n\n(C) Não tem importância. A Imagem de Komyo Nyorai e a estátua de madeira de Kannon são a mesma coisa, mas Daikoku é diferente.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 2,
       "publication_title": "観音像の礼拝",
+      "publication_title_ptbr": "A Adoração à Estátua de Kannon (観音像の礼拝)",
       "content": "**信者の質問**\n\n礼拝の仕方について\n\n御神体の直前に御開眼をいただきました木彫の観音様をお祀り申しておりますが、これはよろしゅうございましょうか。」\n\n**明主様御垂示**  \n「これはこの観音様を、光明如来様の前に置くんなら差し支えないですよ。」\n\n**信者の質問**  \n「礼拝の際、御神体を拝することによりこの観音様にも一緒に敬意を表わしている・・・との考えから、特に観音様のお像に礼拝いたしておりませんがよろしいでしょうか。」\n\n**明主様御垂示**  \n「これはいいですよ、一緒に礼拝することになりますから。」\n\n**信者の質問**  \n「ただこの場合、大黒様に礼拝して観音様のお像には礼拝しないことがちょっと変に感じますがいかがでしょうか。」\n\n**明主様御垂示**  \n「それはかまわないですよ。なんとなれば、光明如来様と観音様とは一緒なんだから。別々と考えるほうが間違っているんです。」\n\n**信者の質問**  \n「礼拝の際、せっかく浄めた手を汚さぬようにと掌を上にする人もございますが上向きと下向きといずれがよろしいでしょうか。」\n\n**明主様御垂示**  \n「これはどっちでもいいんです。\n\n食物をお上げするときには、手が歩く所については汚いから上向きにしたほうが気持ちがいいですね。\n\nしかし、下にしたからって御無礼にはなりませんよ。\n\n神主なんかは、神様に物を上げる場合、掌を上向きにするようですね。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel**\n\nSobre a forma de adoração:\n\nEntronizamos uma estátua de madeira de Kannon, que recebeu a consagração, logo à frente da Imagem Divina. Isso está correto?\"\n\n**Meishu-Sama**\n\"Se for para colocar essa estátua de Kannon diante da Imagem de Komyo Nyorai, não há problema.\"\n\n**Pergunta de um Fiel**\n\"Na hora da reverência, partimos do pensamento de que, ao reverenciar a Imagem Divina, estamos expressando respeito também a esta Kannon... por isso, não reverenciamos especificamente a estátua de Kannon. Está correto?\"\n\n**Meishu-Sama**\n\"Isso está bem, pois acaba sendo uma reverência conjunta.\"\n\n**Pergunta de um Fiel**\n\"Apenas, neste caso, sentimos um pouco estranho reverenciar Daikoku e não reverenciar a estátua de Kannon. Como seria isso?\"\n\n**Meishu-Sama**\n\"Não tem problema. Afinal, a Imagem de Komyo Nyorai e Kannon estão juntas. Pensar que são separados é que está errado.\"\n\n**Pergunta de um Fiel**\n\"Na hora da reverência, há pessoas que viram as palmas das mãos para cima para não sujar as mãos que foram purificadas. O que é melhor: viradas para cima ou para baixo?\"\n\n**Meishu-Sama**\n\"Pode ser de qualquer jeito.\n\nAo oferecer alimentos, como as mãos tocam em lugares por onde se anda, virá-las para cima dá uma sensação de maior limpeza.\n\nPorém, virá-las para baixo não constitui desrespeito.\n\nOs sacerdotes xintoístas, ao oferecerem algo a Deus, parecem virar as palmas para cima.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 3,
       "publication_title": "観音像の祀り方",
+      "publication_title_ptbr": "Como Entronizar Estátuas de Kannon (観音像の祀り方)",
       "content": "**信者の質問**  \n「信者の方で、入信する機縁でしたが、不思議に観音さんが手に入り、青銅、陶器、珊瑚の三体でございます。\n\nどういう具合にお祀りいたしたらよろしいでしょうか」\n\n**明主様御垂示**  \n「大きいのを後にやって、順々にやったら良いでしょう。」\n\n**信者の質問**  \n「下の床の間にお祀りしてもよろしいでしょうか」\n\n**明主様御垂示**  \n「構いません。三つともね。」\n\n**信者の発言**  \n「二階は大光明如来様で、下は光明如来様です」\n\n**明主様御垂示**  \n「やっぱり、大光明如来様のほうですね。本当は大黒さんを床の間にはまずいんですがね。違い棚が良い。\n\n大黒さんと観音さんは、右、左ではちょっとまずい、位から言うと、大黒さんはずっと下ですからね。\n\n家来と同列ということは本当じゃないんですね。\n\n二階はどうなっている。」\n\n**信者の発言**  \n「押入れになっております」\n\n**明主様御垂示**  \n「次の間はあるんですか。」\n\n**信者の発言**  \n「ありますが、床の間がありません」\n\n**明主様御垂示**  \n「大黒さんの大きさは。」\n\n**信者の発言**  \n「一尺くらいでございます」\n\n**明主様御垂示**  \n「台はないんですか。」\n\n**信者の発言**  \n「薄い板があります」\n\n**明主様御垂示**  \n「観音さんの台は。」\n\n**信者の発言**  \n「ありません」\n\n**明主様御垂示**  \n「それでは、観音さんの台を作るんです。長方形のをね。」\n\n**信者の発言**  \n「三体ともでございますか」\n\n**明主様御垂示**  \n「そうです。そうすると、位が違うから良いです。\n\n同じでは同席ということになるからまずい。\n\n台は心掛ければ売ってますよ。\n\nそれで、大黒様はじかにする。座蒲団は敷いて良いです。」\n\n**信者の発言**  \n「御開眼戴いた観音さんを正面に、右に大黒さん、左に花を生けておりますが」\n\n**明主様御垂示**  \n「正面でも良いが、台を置かなければならない。」\n\n**信者の発言**  \n「先ほどの場合に、お花はどういう具合にいたしましたらよろしいでしょうか」\n\n**明主様御垂示**  \n「観音さんの前に低い花を生ける。それなら良いですね。並んではまずい・・・いけないですね。」\n\n**信者の発言**  \n「珊瑚のほうは一寸くらいですから隠れてしまいますが」\n\n**明主様御垂示**  \n「それでは、ちょっと除けると良い。見えるくらいにね。」\n\n**信者の質問**  \n「大きな花を生けます場合に、御神体が隠れますが、よろしいでしょうか」\n\n**明主様御垂示**  \n「それはかまいません。」\n\n**信者の質問**  \n「違い棚の上に木彫の観音さんを安置しておりますのはいかかでございましょうか」\n\n**明主様御垂示**  \n「いけないですね。」\n\n**信者の発言**  \n「中国から持ってきたらしい、良いものですが、前のほうにひびが入っております」\n\n**明主様御垂示**  \n「目立つのならいけないですね。道具屋に頼んで直したら良い。」\n\n**信者の質問**  \n「御開眼いただいて御神前にお祀りしてよろしいでしょうか」\n\n**明主様御垂示**  \n「そうです。古い観音さんなら私が見てやっても良い。そして直して上げます。専門の道具屋がいるからね。」　（中略）\n\n**信者の質問**  \n「大黒様を違い棚に置きました場合に、上が天袋になっていますが、上にはなにも入れないようにいたしますので・・・」\n\n**明主様御垂示**  \n「かまいません。大黒さんはまた違うんですからね。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Um fiel teve a oportunidade de ingressar na fé e, curiosamente, obteve imagens de Kannon: três estátuas, sendo de bronze, cerâmica e coral.\n\nDe que maneira deve entronizá-las?\"\n\n**Meishu-Sama**\n\"Coloque a maior atrás e vá dispondo na ordem.\"\n\n**Pergunta de um Fiel**\n\"Pode entronizar no Tokonoma (alcova) do andar de baixo?\"\n\n**Meishu-Sama**\n\"Não tem problema. As três.\"\n\n**Relato do Fiel**\n\"No segundo andar está a Imagem de Dai Komyo Nyorai, e no andar de baixo, a de Komyo Nyorai.\"\n\n**Meishu-Sama**\n\"Realmente, a principal é a de Dai Komyo Nyorai. Na verdade, colocar Daikoku no Tokonoma não é bom. O ideal é nas prateleiras laterais.\n\nDaikoku e Kannon, lado a lado (direita e esquerda), fica um pouco ruim. Em termos de hierarquia, Daikoku está muito abaixo.\n\nNão é correto colocá-lo no mesmo nível, como se fosse um súdito igual.\n\nComo é no segundo andar?\"\n\n**Relato do Fiel**\n\"É um armário embutido.\"\n\n**Meishu-Sama**\n\"Tem uma sala anexa?\"\n\n**Relato do Fiel**\n\"Tem, mas não tem Tokonoma.\"\n\n**Meishu-Sama**\n\"Qual o tamanho do Daikoku?\"\n\n**Relato do Fiel**\n\"Cerca de um shaku (aprox. 30 cm).\"\n\n**Meishu-Sama**\n\"Não tem um suporte?\"\n\n**Relato do Fiel**\n\"Tem uma tábua fina.\"\n\n**Meishu-Sama**\n\"E o suporte de Kannon?\"\n\n**Relato do Fiel**\n\"Não tem.\"\n\n**Meishu-Sama**\n\"Então, faça um suporte para Kannon. Um retangular.\"\n\n**Relato do Fiel**\n\"Para as três imagens?\"\n\n**Meishu-Sama**\n\"Isso. Assim, como a hierarquia é diferente, fica bom.\n\nSe ficarem iguais, significa que estão no mesmo assento, o que é ruim.\n\nSe procurar, vendem-se suportes.\n\nEntão, Daikoku fica direto. Pode colocar uma almofada.\"\n\n**Relato do Fiel**\n\"Colocamos a Kannon consagrada no centro, Daikoku à direita e flores à esquerda...\"\n\n**Meishu-Sama**\n\"Pode ser no centro, mas tem que colocar o suporte.\"\n\n**Relato do Fiel**\n\"No caso mencionado, como devemos fazer com as flores?\"\n\n**Meishu-Sama**\n\"Coloque flores baixas diante de Kannon. Assim fica bom. Lado a lado é ruim... não pode.\"\n\n**Relato do Fiel**\n\"A de coral tem cerca de um sun (aprox. 3 cm), então fica escondida.\"\n\n**Meishu-Sama**\n\"Então, é só afastar um pouco. De modo que fique visível.\"\n\n**Pergunta de um Fiel**\n\"Ao colocar flores grandes, a Imagem Divina fica oculta; tem algum problema?\"\n\n**Meishu-Sama**\n\"Não tem problema.\"\n\n**Pergunta de um Fiel**\n\"E quanto a colocar a estátua de madeira de Kannon nas prateleiras laterais?\"\n\n**Meishu-Sama**\n\"Não pode.\"\n\n**Relato do Fiel**\n\"Parece ser uma peça boa trazida da China, mas tem uma rachadura na frente.\"\n\n**Meishu-Sama**\n\"Se for visível, não pode. Peça a um restaurador para consertar.\"\n\n**Pergunta de um Fiel**\n\"Podemos pedir a consagração e entronizá-la no Altar Divino?\"\n\n**Meishu-Sama**\n\"Sim. Se for uma Kannon antiga, eu mesmo posso dar uma olhada. E eu conserto para você. Há restauradores especializados.\" (Trecho omitido)\n\n**Pergunta de um Fiel**\n\"Caso coloquemos Daikoku nas prateleiras laterais, a parte de cima é um armário suspenso (Tenbukuro), mas garantiremos que nada seja colocado lá dentro...\"\n\n**Meishu-Sama**\n\"Não tem problema. Daikoku é diferente.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 4,
       "publication_title": "御神体奉斎横の観音像の取替え",
+      "publication_title_ptbr": "Substituição da Estátua de Kannon ao Lado da Imagem Divina (御神体奉斎横の観音像の取替え)",
       "content": "**信者の質問**  \n「御軸の横に彫刻の観音様及大黒様等をお祀りしてありますが、あとから立派なものが入った場合、御取替しても差支えないでしょうか。\n\nまた床の間の上に紫の幕を張る事は・・・。」\n\n**明主様御垂示**  \n「いずれでも差支えはない。」\n\n---",
-      "has_translation": false
-    },
-    {
-      "title_idx": 27,
-      "title": "御神体と他の仏像等",
-      "pub_idx": 5,
-      "publication_title": "破損した観音像は修繕すべき",
-      "content": "**信者の質問**  \n「観音さんのお像の左手がもげているのは、いかがで・・・」\n\n**明主様御垂示**  \n「それはいけない。早く修繕しなさい。元通り修繕してあなたの所に祀っておかなければならない。」\n\n**信者の質問**  \n「どこにお祀りいたしましたらよろしいでしょうか」\n\n**明主様御垂示**  \n「光明如来様の・・・床の間に向って右のほうです。」\n\n**信者の質問**  \n「大黒様を祀っておりますが」\n\n**明主様御垂示**  \n「大黒さんは左のほうにする。」\n\n**信者の質問**  \n「お厨子も壊れておりますが」\n\n**明主様御垂示**  \n「それでは、お厨子も修繕しなさい。そのままでの修繕で良いです。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Tenho estátuas de Kannon e Daikoku entronizadas ao lado do Pergaminho Sagrado. Se posteriormente conseguir outras mais belas, há problema em substituí-las?\n\nE estender uma cortina roxa na parte superior do Tokonoma...\"\n\n**Meishu-Sama**\n\"Em nenhum dos casos há problema.\"\n\n---",
       "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
+      "pub_idx": 5,
+      "publication_title": "破損した観音像は修繕すべき",
+      "publication_title_ptbr": "Estátuas de Kannon Danificadas Devem ser Consertadas (破損した観音像は修繕すべき)",
+      "content": "**信者の質問**  \n「観音さんのお像の左手がもげているのは、いかがで・・・」\n\n**明主様御垂示**  \n「それはいけない。早く修繕しなさい。元通り修繕してあなたの所に祀っておかなければならない。」\n\n**信者の質問**  \n「どこにお祀りいたしましたらよろしいでしょうか」\n\n**明主様御垂示**  \n「光明如来様の・・・床の間に向って右のほうです。」\n\n**信者の質問**  \n「大黒様を祀っておりますが」\n\n**明主様御垂示**  \n「大黒さんは左のほうにする。」\n\n**信者の質問**  \n「お厨子も壊れておりますが」\n\n**明主様御垂示**  \n「それでは、お厨子も修繕しなさい。そのままでの修繕で良いです。」\n\n---",
+      "content_ptbr": "**Pergunta de um Fiel**\n\"A mão esquerda da estátua de Kannon está quebrada; como proceder...\"\n\n**Meishu-Sama**\n\"Isso não pode. Conserte depressa. Deve consertá-la para o estado original e mantê-la entronizada em sua casa.\"\n\n**Pergunta de um Fiel**\n\"Onde devo entronizá-la?\"\n\n**Meishu-Sama**\n\"Em relação à Imagem de Komyo Nyorai... no lado direito de quem olha para o Tokonoma.\"\n\n**Pergunta de um Fiel**\n\"Tenho Daikoku entronizado.\"\n\n**Meishu-Sama**\n\"Daikoku fica do lado esquerdo.\"\n\n**Pergunta de um Fiel**\n\"O oratório (Zushi) também está quebrado.\"\n\n**Meishu-Sama**\n\"Então, conserte também o oratório. O conserto pode ser feito mantendo-o como está.\"\n\n---",
+      "has_translation": true
+    },
+    {
+      "title_idx": 27,
+      "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 6,
       "publication_title": "他家から入手した観音様掛け軸の処置",
+      "publication_title_ptbr": "Destino de um Pergaminho de Kannon Recebido de Outra Família (他家から入手した観音様掛け軸の処置)",
       "content": "**信者の質問**  \n「光明如来様を最近におまつりさせていただきます事になっております私の信徒の家で、\n\n五日ばかり前に余所（よそ）から大変古い観音様と龍神様とその下に子供のおります御軸を戴いたので御座いますが、\n\n家の者は何も分らずに戴いたので御座いますが、それを掛けるのをいやだと申しておりますが、それは元の家に返した方が宜しいもので御座いましょうか。」\n\n**明主様御垂示**  \n「蔵っておけばよい。掛けたければ他の所、下の座敷などにかければよい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Na casa de um fiel meu, que em breve entronizará a Imagem de Komyo Nyorai, receberam de outro lugar, há uns cinco dias, pergaminhos muito antigos de Kannon, de Ryujin (Deus Dragão) e um que tem uma criança embaixo.\n\nOs familiares aceitaram sem entender nada, mas agora dizem que não querem pendurá-los. Seria melhor devolver para a casa de origem?\"\n\n**Meishu-Sama**\n\"Basta deixar guardado. Se quiser pendurar, que seja em outro lugar, como na sala de baixo.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 7,
       "publication_title": "大日如来の奉斎位置",
+      "publication_title_ptbr": "Posição de Entronização de Dainichi Nyorai (大日如来の奉斎位置)",
       "content": "**信者の質問**  \n「先祖代々伝来の大日如来の御像御祭りの位置。」\n\n**明主様御垂示**  \n「大日如来より観音様が上。上というより観音様の方が大きい。\n\n大日如来は日のお働き。観音は日月地故大きい。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Sobre a posição de entronização de uma estátua de Dainichi Nyorai transmitida de geração em geração pelos antepassados.\"\n\n**Meishu-Sama**\n\"Kannon está acima de Dainichi Nyorai. Mais do que estar acima, Kannon é maior.\n\nDainichi Nyorai é a atuação do Sol. Kannon é Sol, Lua e Terra, portanto, é maior.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 8,
       "publication_title": "御神体と他宗教主宰神の並祀の禁止",
+      "publication_title_ptbr": "Proibição de Entronizar a Imagem Divina ao Lado de Divindades de Outras Religiões (御神体と他宗教主宰神の並祀の禁止)",
       "content": "**信者の質問**  \n「私は神戸に居住致します信者で御座います。\n\n私と妻はお導き頂きまして毎日感謝の生活をさせて戴いておりますが、母と兄はどうしてもわかってくれません。\n\n母は以前金光教信者でただ今は「人の道」の熱心な信者で御座いますが、あの手この手と何とかして私達を引き込もうと致します。\n\n現在一軒の家に住みながら種々の事情が御座いまして部屋を分けて住い、別世帯になっております。\n\n御写真、御神体もお祀りさせて頂いておりますが、私達の部屋には床の間が無くお祀りする事が出来ませず、兄、母の部屋には床の間が御座います。\n\n現在そちらにお祀りさせて頂き、少しでも母、兄が浄まりお話がわかってくれればと考えておりますが、益々反対で困っております。\n\n他家にお祀り致しているような感じが致しますが、このままお祀りさせて戴きましても差支え御座いませんでしょうか。御教えをお願い申し上げます。」\n\n**明主様御垂示**  \n「外の神様の祭ってある部屋はいけない。争いは決していけない。\n\n自分の部屋へ祭ればいい。\n\n時期を待てば神様がうまくやってくれる。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Sou um fiel que reside em Kobe.\n\nEu e minha esposa fomos encaminhados e vivemos dias de gratidão, mas minha mãe e meu irmão não compreendem de jeito nenhum.\n\nMinha mãe já foi fiel da Konko-kyo e atualmente é fervorosa na 'Hito no Michi' (Caminho do Homem), tentando de todas as formas nos arrastar para lá.\n\nEmbora moremos na mesma casa, devido a várias circunstâncias, vivemos em quartos separados e temos orçamentos separados.\n\nTemos a Foto e a Imagem Divina entronizadas, mas nosso quarto não tem Tokonoma, então não podemos entronizar lá; já o quarto do meu irmão e da minha mãe tem Tokonoma.\n\nAtualmente, estamos entronizando lá, pensando que, se eles se purificarem um pouco, poderão entender a fé; mas a oposição só aumenta e estamos em apuros.\n\nSinto como se estivesse entronizando na casa de outra pessoa. Haveria problema em continuar entronizando assim? Peço vossos ensinamentos.\"\n\n**Meishu-Sama**\n\"Quarto onde há outros deuses entronizados não pode. Conflitos são absolutamente proibidos.\n\nEntronize no seu próprio quarto.\n\nSe aguardar o tempo certo, Deus arranjará tudo da melhor forma.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 9,
       "publication_title": "御神体とお不動様のお軸の並祀の禁止",
+      "publication_title_ptbr": "Proibição de Entronizar a Imagem Divina ao Lado de Pergaminho de Fudo Myoo (御神体とお不動様のお軸の並祀の禁止)",
       "content": "**信者の質問**  \n「ある会員、未だよくお道が判らず、不動様の先達の言葉を信じて不動のお軸を床の間の光明如来の御軸と並べてお祀りしておりますがいかがいたすべきでしょうか。」\n\n**明主様御垂示**  \n「これはいけません。光明如来様はかけないほうがいいです。\n\nもったいないから判ってくるまで祀らせないほうがいいです。\n\n決してほかのと一緒にしてはいけません。・・・\n\nそれから一家の人がみんな揃って光明如来様におすがりする気持ちならいいが、反対が一人、二人でもある場合は祀ってはいけません、光明如来様が汚れますから。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Um membro que ainda não compreende bem o Caminho, acreditando nas palavras de um guia de Fudo Myoo, entronizou o pergaminho de Fudo ao lado do pergaminho de Komyo Nyorai no Tokonoma. Como deve proceder?\"\n\n**Meishu-Sama**\n\"Isso não pode. É melhor não pendurar a Imagem de Komyo Nyorai.\n\nComo é um desperdício (desrespeito), é melhor não permitir que entronize até que compreenda.\n\nJamais se deve misturar com outros...\n\nAlém disso, se toda a família estiver unida no sentimento de se apoiar em Komyo Nyorai, tudo bem; mas se houver uma ou duas pessoas contrárias, não se deve entronizar, pois a Imagem de Komyo Nyorai ficará maculada.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 10,
       "publication_title": "大光明如来様と丸山教主宰神の並祀",
+      "publication_title_ptbr": "Entronização Conjunta de Dai Komyo Nyorai e Divindade da Maruyama-kyo (大光明如来様と丸山教主宰神の並祀)",
       "content": "**信者の質問**  \n「丸山教信徒で御座いましたが、本教入信後、大光明如来様を御奉斎させて戴いておりますが、\n\n未だ丸山教にて数代の御先祖は祀り、御神体と丸山教のお軸と同じ床の間にお祭りしております。\n\n戸主（信者）が馬にて時に怪我を致しますので、何か御無礼の事が御座いましての御示しで御座いましょうか。\n\nなお、床の間には祭壇を設け「心天宝」のヒモロギをお祀りして御座います。\n\nどう致しましたら宜しゅう御座いましょうか。御教えを御願い申し上げます。」\n\n**明主様御垂示**  \n「丸山教の神様が苦しむ。丸山教の神は外へやってもらいたい訳で、低い所へ下してもらいたいのである。一日も早くやめよ。\n\n丸山教の祖先で祭られ・・・右へ丸山・・・低くする。\n\n光明如来様は真中でなくてはいけない。\n\n並べるのがいけない。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Era fiel da Maruyama-kyo, mas após ingressar nesta Igreja, passei a entronizar a Imagem de Dai Komyo Nyorai.\n\nContudo, ainda cultuo várias gerações de antepassados na Maruyama-kyo, e o pergaminho da Maruyama-kyo está entronizado no mesmo Tokonoma da Imagem Divina.\n\nO chefe da família (fiel) às vezes se fere com o cavalo; seria isso um aviso de algum desrespeito?\n\nAlém disso, há um altar montado no Tokonoma onde está entronizado o Himorogi 'Shintenho'.\n\nComo devemos proceder? Peço vossos ensinamentos.\"\n\n**Meishu-Sama**\n\"O deus da Maruyama-kyo está sofrendo. O deus da Maruyama quer que o levem para fora, quer ser baixado para um lugar inferior. Pare com isso o quanto antes.\n\nOs antepassados da Maruyama são cultuados... Maruyama para a direita... deve abaixar.\n\nA Imagem de Komyo Nyorai deve ficar no centro.\n\nColocar lado a lado não pode.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 11,
       "publication_title": "金光教主宰神の撤去",
+      "publication_title_ptbr": "Remoção da Divindade da Konko-kyo (金光教主宰神の撤去)",
       "content": "**信者の質問**  \n「五、六歳の頃の怪我で二十有余年来の慢性骨膜炎にて、現在まで金光教を信仰し、無信心ながら縋っておりましたため金光様を祀っておりますが、差支えありませんか。」\n\n**明主様御垂示**  \n「光明如来様をお祭りしたら金光教は悪くはないが必要ない。\n\n金光さんは反って苦しむ。恐ろしくて引下りたいであろう。\n\nおかげを戴く場合も想念が別れる事となるから薄い。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Devido a uma periostite crônica de mais de vinte anos, causada por um ferimento aos cinco ou seis anos de idade, segui a fé da Konko-kyo até hoje e, mesmo sem muita devoção, apoiava-me nela, mantendo 'Konko-sama' entronizado. Há algum problema?\"\n\n**Meishu-Sama**\n\"Se entronizar a Imagem de Komyo Nyorai, a Konko-kyo não é ruim, mas torna-se desnecessária.\n\nPelo contrário, Konko sofre. Deve estar com medo e querendo se retirar.\n\nMesmo ao receber graças, como o pensamento fica dividido, a graça é pouca.\"\n\n---",
+      "has_translation": true
     },
     {
       "title_idx": 27,
       "title": "御神体と他の仏像等",
+      "title_ptbr": "",
       "pub_idx": 12,
       "publication_title": "御神体奉斎と弘法大師像",
+      "publication_title_ptbr": "Entronização da Imagem Divina e Estátua de Kobo Daishi (御神体奉斎と弘法大師像)",
       "content": "**信者の質問**  \n「私は今度新築の別宅に祭ってあった光明如来様を本宅へ移祭したいと思っております。\n\n別宅へは今度拝受した大光明如来様を祭らせて戴くつもりで御座います。\n\nつきましては本宅の方は床の間がありません。\n\n仏間は祖先が大変尊敬し霊験あらたかであると伝えられる弘法大師の等身大の木像と先祖の仏壇が安置されてあります。\n\nそのところへ光明如来様を御祭りしても差支えありませんか。\n\nまた仏間で御祭りする順位を御教示願います。」\n\n**明主様御垂示**  \n「弘法は釈迦の弟子である\n\n釈迦はまた観音の弟子である。」\n\n---",
-      "has_translation": false
+      "content_ptbr": "**Pergunta de um Fiel**\n\"Pretendo transferir a Imagem de Komyo Nyorai, que estava entronizada numa casa secundária recém-construída, para a casa principal.\n\nNa casa secundária, pretendo entronizar a Imagem de Dai Komyo Nyorai que recebi recentemente.\n\nOcorre que a casa principal não possui Tokonoma.\n\nNa sala do altar budista (Butsuma), há uma estátua de madeira em tamanho natural de Kobo Daishi, que os antepassados veneravam muito e diziam ser milagrosa, além do oratório dos antepassados.\n\nHaveria problema em entronizar a Imagem de Komyo Nyorai nesse local?\n\nTambém peço orientação sobre a ordem de entronização na sala budista.\"\n\n**Meishu-Sama**\n\"Kobo é discípulo de Shaka.\n\nE Shaka é discípulo de Kannon.\"\n\n---",
+      "has_translation": true
     }
   ]
 }
