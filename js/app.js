@@ -455,8 +455,8 @@ function displaySearchResults(results) {
         return `
         <div class="title-item" onclick="openSearchResultByIndex(${index})">
             <div class="title-item-header">
-                <div class="title-item-name" style="font-weight: 600;">${displayTitle}</div>
-                <div class="title-item-badge" style="background:none; color:var(--text-tertiary); font-weight:normal; font-size: 0.85rem; padding:0;">
+                <div class="title-item-name">${displayTitle}</div>
+                <div class="title-item-badge">
                     ${parentTitle}
                 </div>
             </div>
