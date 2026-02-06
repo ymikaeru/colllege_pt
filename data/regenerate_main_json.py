@@ -8,6 +8,7 @@ OUTPUT_FILE = os.path.join(DATA_DIR, "shin_college_data.json")
 
 # Volume Translation Map
 VOLUME_MAP = {
+    "1.経綸・霊主体従・夜昼転換・祖霊祭祀編": "1. Plano Divino, Precedência do Espírito sobre a Matéria, Transição da Noite para o Dia e Culto aos Antepassados",
     "3.信仰編": "3. Seção da Fé",
     "4.その他": "4. Outros",
     "4.その他_04_宗教断片集.json": "4. Outros"
@@ -32,12 +33,12 @@ def regenerate_main_json():
                 merged_data = json.load(f)
             
             raw_vol_name = merged_data.get("volume", "")
-            vol_name = VOLUME_MAP.get(raw_vol_name, raw_vol_name)
+            vol_ptbr = VOLUME_MAP.get(raw_vol_name, raw_vol_name)
             
             theme_name = merged_data.get("theme_name")
             theme_name_ptbr = merged_data.get("theme_name_ptbr", "")
             
-            if not vol_name or not theme_name:
+            if not raw_vol_name or not theme_name:
                 continue
 
             flattened_pubs = merged_data.get("publications", [])
@@ -78,13 +79,14 @@ def regenerate_main_json():
                 "titles": new_titles_list
             }
 
-            if vol_name not in volumes_map:
-                volumes_map[vol_name] = {
-                    "volume": vol_name,
+            if raw_vol_name not in volumes_map:
+                volumes_map[raw_vol_name] = {
+                    "volume": raw_vol_name,
+                    "volume_ptbr": vol_ptbr,
                     "themes": []
                 }
             
-            volumes_map[vol_name]["themes"].append(new_theme_obj)
+            volumes_map[raw_vol_name]["themes"].append(new_theme_obj)
 
         except Exception as e:
             print(f"Error processing {file_path}: {e}")

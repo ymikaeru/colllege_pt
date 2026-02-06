@@ -122,20 +122,29 @@ const uiTranslations = {
     }
 };
 
-// Volume Reversion Map (Since JSON has PT names in 'volume' field)
+// Volume Reversion Map (Legacy - kept for compatibility)
 const volumeReverseMap = {
     "1. Seção de Busca do Caminho": "1.求道編",
     "2. Seção de Pontos Essenciais": "2.要義編",
     "3. Seção da Fé": "3.信仰編",
     "4. Outros": "4.その他",
-    "5. Seção da Salvação": "5.救世編" // Assuming this exists or will exist
+    "5. Seção da Salvação": "5.救世編"
 };
 
-function getLocalizedVolume(ptName) {
-    if (currentLanguage === 'jp') {
-        return volumeReverseMap[ptName] || ptName;
+// Get localized volume name based on current language
+function getLocalizedVolume(volumeObj) {
+    if (typeof volumeObj === 'string') {
+        // Legacy compatibility: if a string is passed, try to map it
+        if (currentLanguage === 'jp') {
+            return volumeReverseMap[volumeObj] || volumeObj;
+        }
+        return volumeObj;
     }
-    return ptName;
+    // New format: volumeObj has both volume (JP) and volume_ptbr (PT)
+    if (currentLanguage === 'jp') {
+        return volumeObj.volume || volumeObj.volume_ptbr || '';
+    }
+    return volumeObj.volume_ptbr || volumeObj.volume || '';
 }
 
 function updateGlobalLanguageUI() {
@@ -537,8 +546,8 @@ function showVolumes() {
         let titleCount = 0;
         volume.themes.forEach(theme => titleCount += theme.titles.length);
 
-        // Use localized volume name (Reverting PT -> JP if needed)
-        const displayVol = getLocalizedVolume(volume.volume);
+        // Use localized volume name (based on current language)
+        const displayVol = getLocalizedVolume(volume);
 
         const t = uiTranslations[currentLanguage];
         const labelThemes = t.labelThemes;
