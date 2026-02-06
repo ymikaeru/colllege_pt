@@ -373,9 +373,12 @@ body {
 
 .title-item-name {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-primary);
     flex: 1;
+    line-height: 1.4;
+    padding-right: 1.5rem;
+    /* Added padding to separate from badge */
 }
 
 .title-item-badge {
