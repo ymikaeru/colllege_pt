@@ -80,7 +80,8 @@ def main():
                         "publication_title_ptbr": pub.get('publication_title_ptbr', ''),
                         "content": content_jp,
                         "content_ptbr": content_pt,
-                        "has_translation": has_trans
+                        "has_translation": has_trans,
+                        "date": pub.get('date', '')
                     }
                     flat_items.append(item)
             

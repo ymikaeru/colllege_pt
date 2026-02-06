@@ -4,227 +4,247 @@
   "total_parts": 6,
   "volume": "3.信仰編",
   "theme_name": "信仰と社会生活",
-  "theme_name_ptbr": "Fé e Vida Social",
+  "theme_name_ptbr": "",
   "publications": [
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 6,
-      "publication_title": "物価変動の法則",
-      "publication_title_ptbr": "79\\. Sobre o Tráfego pela Esquerda (Orig.: 左側通行について)",
-      "content": "**信者の質問**  \n「今後日本の経済界の変化及ストライキの動き等御垂示御願い申し上げます。」\n\n**明主様御垂示**  \n「経済界は段々よくなるが、物価暴落時代・・・いわゆるデフレが来るから下げは凄い。\n\n上げる時は十年掛るのが下げは一年である。気をつけるべきだ。\n\n法則として一旦半値になり少し上り、三段になって底をつく。\n\nそしてもう一段下って本当の底になる。これを二段底という。（最初一のリズムになっている）\n\nストライキはもっとひどく相当あると思う。\n\n今は進駐軍の命で中止しているが、今に聞かぬようになる。\n\n共産党（ソ連）の世界政策は、ヨーロッパか東洋かどっちを先にしようかというにある。\n\nドイツで喰止められたので東亜に来、中国、朝鮮も殆ど赤化状態である。\n\nヨーロッパを第二とし、東亜を第一としようとした。\n\n今残るは日本だけである。\n\nそれで全力を注いで攻撃しようとする。\n\n今度のストは一つの瀬踏みである。\n\n試験的になったものであるから前と異い悪質である。\n\n相当いろいろな工作をする。」\n\n---",
-      "content_ptbr": "**(Fonte: Meishu-Sama Go-Suiji, 19 de junho de 1949\\)**\n\n**Pergunta do Fiel:** \"O tráfego pela esquerda vai mudar para tráfego pela direita (Nota: refere-se à mudança de regra de pedestres/veículos no pós-guerra); qual é o correto?\"\n\n**Resposta de Meishu-Sama:** \"Está bom assim. O Ocidente é muito Direita (Corpo/Água), o Japão é Esquerda (Espírito); o Japão é um país Espiritual.\"\n\n# Sobre Vertical e Horizontal \\- 3 (Associação Tengoku e Associação Miroku) (Orig.: 経と緯について　３)",
-      "has_translation": true
+      "publication_title": "インフレ （昭和26年2月25日発行）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「いわゆるインフレは財界の浄化作用と思いますから、物価はたとえ天文学的数字に上り、社会は混乱しようとも一時のことであって、これを抑圧するデフレ政策を執ることは間違いではないかと思います。\n\nわが国はインフレを経済界の疾患として恐れ、デフレ政策という浄化停止策を執っているため、\n\nかの物価が天文学的数字に上った第一次大戦後のドイツにおいてさえ見られなかったような、言語に絶する家庭惨劇や、社会悲劇、あるいは道徳に対する昏迷、道徳法律の破壊というようないろいろの弊害が、ますますひどくなっているように思われますが、いかがでございましょうか。」\n\n**明主様御垂示**  \n「勿論、これは間接的一種の浄化作用ではある。\n\n人間が戦争などという間違ったことをするから、その報いである。\n\nただインフレにもいろいろある。\n\n日本などは先ごろの戦争のとき起ったインフレと、これから起るであろうインフレとは根本的に異う。\n\n前者は戦争の消費で物が不足したからであり、言わば不景気インフレであり、後者は世界的戦争準備のため、物の需要が増えるので、儲かるから景気のいいインフレである。\n\nこのことについてはいずれ栄光紙上で教えるつもりである。」\n\n---\n\nインフレ防止の経済立法\n「近頃の青年は天皇を拝むか、マルクスを拝むかであるが、天皇は既になくなった。\n\nそれで焼糞になっている。それに生活苦が襲いかかっている。\n\n今の政府は、規則の改正とか変更とかが多すぎる。これは役所が多過ぎるためで、役人が退屈するから規則を作る。\n\n政治は自然でなくてはならぬ。\n\nインフレ抑制の規則を作るとインフレは益々悪化する。\n\n規則を作ったらまず一年位そのままにしておくべきである。\n\nといって規則も一ぺんに廃止すると、労働争議など起るから、まず他に仕事を与える用意が必要である。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和26年2月25日発行"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 7,
-      "publication_title": "インフレについて",
+      "publication_title": "金融逼迫の動向 （昭和23年11月1日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「いわゆるインフレは財界の浄化作用と思いますから、物価はたとえ天文学的数字に上り、社会は混乱しようとも一時のことであって、これを抑圧するデフレ政策を執ることは間違いではないかと思います。\n\nわが国はインフレを経済界の疾患として恐れ、デフレ政策という浄化停止策を執っているため、\n\nかの物価が天文学的数字に上った第一次大戦後のドイツにおいてさえ見られなかったような、言語に絶する家庭惨劇や、社会悲劇、あるいは道徳に対する昏迷、道徳法律の破壊というようないろいろの弊害が、ますますひどくなっているように思われますが、いかがでございましょうか。」\n\n**明主様御垂示**  \n「勿論、これは間接的一種の浄化作用ではある。\n\n人間が戦争などという間違ったことをするから、その報いである。\n\nただインフレにもいろいろある。\n\n日本などは先ごろの戦争のとき起ったインフレと、これから起るであろうインフレとは根本的に異う。\n\n前者は戦争の消費で物が不足したからであり、言わば不景気インフレであり、後者は世界的戦争準備のため、物の需要が増えるので、儲かるから景気のいいインフレである。\n\nこのことについてはいずれ栄光紙上で教えるつもりである。」\n\n---",
+      "content": "**信者の質問**  \n「金融状態が最近逼迫して参っておるようで御座いますが、今後はどういう動向に進んで参りましょうか。御教えを御願い申し上げます。」\n\n**明主様御垂示**  \n「逼迫するのは当り前である。紙幣を発行する。物価が小さいが同じ大きさに上る。\n\n物と金とが同じになり、平均している。\n\nインフレは物の値段の方。\n\n最初金の方が殖える。物価の方が金一杯になると今迄千円で十買えたものが五つしか買えぬ。\n\n物と同じに金を発行すれば金詰りはないがどうしても金を越してゆく。\n\nであるから金詰りにならなくてはならぬ。\n\n物価が上ろうとすると制限する。すると物価は下らぬ訳にはゆかぬようになる。今安定恐慌で、物価を下げている。\n\n今後は物価が紙幣へ寄ってくる。生産過剰になり、物価を縮小し、下落してくる。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和23年11月1日"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 8,
-      "publication_title": "インフレ防止の経済立法について",
+      "publication_title": "平価切下はデマ （昭和24年1月21日）",
       "publication_title_ptbr": "",
-      "content": "「近頃の青年は天皇を拝むか、マルクスを拝むかであるが、天皇は既になくなった。\n\nそれで焼糞になっている。それに生活苦が襲いかかっている。\n\n今の政府は、規則の改正とか変更とかが多すぎる。これは役所が多過ぎるためで、役人が退屈するから規則を作る。\n\n政治は自然でなくてはならぬ。\n\nインフレ抑制の規則を作るとインフレは益々悪化する。\n\n規則を作ったらまず一年位そのままにしておくべきである。\n\nといって規則も一ぺんに廃止すると、労働争議など起るから、まず他に仕事を与える用意が必要である。」\n\n---",
+      "content": "**信者の質問**  \n「経済九原則実施後の日本の経済界の見通しについて御教えを頂きとう御座います。」\n\n**明主様御垂示**  \n「やってみないと判らぬ。\n\n経済界の見通しなどは着かぬのが本当である。\n\nこれをやる人がいろんな人がやる。\n\nただ流言蜚語に迷わされぬようにする。\n\n平価切下げなどは、株屋が風評を立てたものと思う。\n\nまた共産主義者が、経済界を錯乱のため、デマを飛ばす。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年1月21日"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 9,
-      "publication_title": "金融逼迫の動向",
-      "publication_title_ptbr": "**8\\. Cerimônia de Inauguração da Igreja 567 (Orig.: 五六七教会発会式)**",
-      "content": "**信者の質問**  \n「金融状態が最近逼迫して参っておるようで御座いますが、今後はどういう動向に進んで参りましょうか。御教えを御願い申し上げます。」\n\n**明主様御垂示**  \n「逼迫するのは当り前である。紙幣を発行する。物価が小さいが同じ大きさに上る。\n\n物と金とが同じになり、平均している。\n\nインフレは物の値段の方。\n\n最初金の方が殖える。物価の方が金一杯になると今迄千円で十買えたものが五つしか買えぬ。\n\n物と同じに金を発行すれば金詰りはないがどうしても金を越してゆく。\n\nであるから金詰りにならなくてはならぬ。\n\n物価が上ろうとすると制限する。すると物価は下らぬ訳にはゆかぬようになる。今安定恐慌で、物価を下げている。\n\n今後は物価が紙幣へ寄ってくる。生産過剰になり、物価を縮小し、下落してくる。」\n\n---",
-      "content_ptbr": "**(Fonte: Palavras de Meishu-Sama, 1 de novembro de 1948\\)**\n\n\"Desta vez, separando-se da Associação Kannon existente até agora, formou-se a Igreja 567 (*Miroku Kyokai*). Embora o nome seja diferente, o conteúdo é o mesmo.\n\nApenas que Kannon, à medida que avança, torna-se Komyo Nyorai e depois torna-se Miroku.\n\nQuando se diz Miroku...\n\nHavia o Bodhisattva Maitreya (Miroku Bosatsu) entre os discípulos de Shaka.\n\nQuando se torna o nome Miroku, torna-se Deus. *Jitsu-Getsu-Chi* (Sol-Lua-Terra) no Okami...\n\nChegou esse tempo, por isso a Associação 567 nasceu desta vez.\n\nHá vários mistérios, mas pretendo torná-los compreensíveis gradualmente.\n\nMiroku é 5-6-7, Sol-Lua-Terra, Fogo-Água-Solo... Trindade.\n\nNas religiões até agora e em outras coisas, era uma atuação de dois.\n\nA força do Fogo e da Água é a Luz; Luz, ou Komyo Nyorai, é a força da luz.\n\nSe a força da Terra não se juntar a isso, a força absoluta não surgirá verdadeiramente.\n\nPor exemplo, até agora, pedia-se a Kannon e havia graça, mas era tênue.\n\nDizia-se 'dói, sofro, cure-me', mas não curava imediatamente.\n\nEm comparação a isso, se fizer Johrei, cura logo. Isso porque a força da Terra se junta.\n\nA Terra é a força física humana. Fogo é Espírito, Água é o Corpo, mas líquido, não sólido; é soro. O corpo humano é composto setenta por cento de água.\n\nOs trinta por cento restantes são carne sólida. Portanto, o corpo humano é feito de Fogo, Água e Terra.\n\nAo morrer, o espírito vai para o Mundo Espiritual, a umidade evapora rapidamente como vapor d'água e se dispersa.\n\nO cadáver (*Nakigara*) retorna à terra. Portanto, o corpo carnal pode ser visto como Terra.\n\nA força só surge quando passa pelo Fogo, pela Água e pelo corpo carnal, por isso há benefícios (milagres).\n\nPortanto, quando se torna 567, a força em relação a todas as coisas torna-se forte.\n\nPor isso, todas as coisas tornam-se possíveis.\n\nAté hoje, entre o bem e o mal, a força do mal vencia; vencia por um certo período.\n\nPor isso os maus e as más ações não cessam. Eventualmente descobre-se, mas o período até lá é longo.\n\nPor isso, há pessoas que passam uma vida inteira fazendo o mal e terminam bem.\n\nEntre elas, há quem só seja descoberto trinta ou cinquenta anos depois, e desfruta de glória fazendo o mal.\n\nEntão, outros pensam 'eu também farei o mal para subir na vida'.\n\nIsso porque o espírito do Deus Maligno vence...\n\nNo mundo também se fala em ideologias (*\\-ismos*), mas a humanidade não se torna feliz por meio delas.\n\nUm lado sofre e o outro melhora. Sofreram por causa dessas ideologias.\n\nO mal se alastra e surge o ditado 'o honesto faz papel de bobo'.\n\nA causa é que a descoberta do mal é lenta.\n\nA força do mal era forte e a força do bem perdia.\n\nResumidamente, é isso.\n\nA força de 567 é uma força onde o bem correto torna-se extremamente forte.\n\nIsso significa que a descoberta do mal será rápida.\n\nSe for rápida, não haverá quem faça o mal.\n\nSe fizer o mal hoje e for descoberto amanhã, não se pode fazer o mal.\n\nAtingir a força do mal é o fundamental. O mal se alastra porque a exposição do mal é tardia.\n\nAgora, quando explico que existe esta Igreja e que é um bom ensinamento, mesmo dizendo que é ótimo, não entram imediatamente.\n\nAs pessoas ao redor dizem 'que absurdo é esse'.\n\nMesmo vendo os fatos e admirando-se, dizem que não pode ser verdade.\n\nCreio que é uma ação nervosa temporária causada pelo espírito que encosta nessa pessoa para sussurrar.\n\nPor isso, há muitas pessoas que entendem mas não entendem.\n\nÉ como se o espírito do Mundo dos Deuses Malignos ordenasse ao espírito secundário encostado naquela pessoa.\n\nSabem que é bom, mas hesitam porque há impedimentos.\n\nMuitas vezes pensava-se que seria melhor entrar de uma vez numa coisa tão boa, mas há impedimentos porque a nossa preparação não estava pronta e porque faltava o elemento Fogo no Mundo Espiritual até agora, havendo muita escuridão.\n\nA força de 567 é uma força extraordinária, e surge a ação de eliminar vigorosamente esses estorvos.\n\nSe não for uma força assim, a humanidade não pode ser feliz.\n\nDiz-se que a cultura progrediu e progrediu, mas o mundo todo está sofrendo.\n\nSe dizem que o sofrimento do Japão, país derrotado, apesar de existir, é muito melhor comparado à Europa, percebe-se o quanto a humanidade geme em agonia.\n\nO nosso objetivo não é a salvação de uma classe ou de uma nação.\n\nO mundo está sofrendo; para salvar isso também, devemos manifestar grandemente a força de 567 e construir um mundo bom.\n\nNa Oração (*Norito*) diz 'Sem fronteiras entre países'; é a profecia disso.\n\nNos Estados Unidos fala-se em Estado Mundial, e esse tempo aproximou-se.\n\nIsso significa que a descoberta do mal será rápida.\n\nQue tipo de mundo será? Levou-se dois mil anos para construir a cultura, mas frequentemente o mal venceu.\n\nLevou-se dois mil anos para desenvolver tudo isso, mas agora os obstáculos desaparecerão.\n\nAté agora, usava-se a maior parte da força nacional para preparação de guerra. Mais da metade do Estado fazia armamentos. Esse desperdício desaparecerá.\n\nO que se gastava da maior parte da força nacional em armamentos será usado para tudo o que é bom e pacífico, por isso o avanço será muito rápido.\n\nQuando se tornar o Mundo do Dia, o que levou mil anos até agora será feito em cem (Escrevi este ano sobre o estado do progresso de cem anos).\n\nPolítica, educação, economia, tudo mudará grandemente.\n\n(Até agora, existem profecias futuristas, muitas delas absurdas, mas descrevi um mundo ideal com previsões certas e progresso, usando a cultura atual como degrau).\n\nPor que se realizará? Porque o mal diminuirá drasticamente.\n\nComo se tornará o mundo diurno, a descoberta do mal será rápida.\n\nPorque o Mundo Espiritual ficará claro e os segredos diminuirão.\n\nNão sei se é por isso, mas coisas muito obscuras foram expostas.\n\nE até o Primeiro-Ministro está em perigo.\n\nSe o crime diminuir, os tribunais e delegacias diminuirão. As leis diminuirão. Agora, orgulham-se do aumento das leis e a Dieta atual é o Legislativo. Ela se tornará o 'Deslegislativo' (órgão que abole leis). As leis diminuirão muito.\n\nNuma certa época da China, dizia-se 'Lei de Três Capítulos'. Na época do Príncipe Shotoku havia apenas dezessete artigos, mas a ordem era mantida; portanto, não é algo impossível, é possível fazer.\n\nAgora estamos no fim do beco sem saída da escuridão. Nessa era, a punição não será prisão ou trabalhos forçados; os foguistas de trens e navios serão isso.\n\nA produção de alimentos aumentará muito. Agora trabalha-se oito horas, mas quatro horas são gastas para armamentos.\n\nOs alimentos também foram criados para que se colha um *koku* (aprox. 180 litros de arroz) por pessoa por ano.\n\nSe não se colhe, é porque estão fazendo algo errado.\n\nQuando o arroz foi criado, só dava cinco ou seis grãos.\n\nBasta que os grãos aumentem e a ramificação aumente.\n\nPorém, como o arroz sem fertilizante não quebra (o caule), não importa quantos grãos dê, é seguro.\n\n3-6-9 é o princípio de todas as coisas do universo.\n\nO lucro industrial também será dividido em três, por isso não haverá necessidade de cobrar impostos.\n\nCreio que o nascimento da Associação 567 é o primeiro passo para construir esse mundo ideal.\"\n\n---",
-      "has_translation": true
+      "publication_title": "平価切下はデマ （昭和24年7月29日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「平価の切下は何月に行われましょうか。」\n\n**明主様御垂示**  \n「切下げの要はない。\n\nインフレには、それにより喰止める事はあるが、デフレになろうとしているから逆になる。\n\n理屈に合わぬデマは、気にする必要はない。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年7月29日"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 10,
-      "publication_title": "平価切下はデマ",
+      "publication_title": "米ソ戦と物価 （昭和24年6月23日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「経済九原則実施後の日本の経済界の見通しについて御教えを頂きとう御座います。」\n\n**明主様御垂示**  \n「やってみないと判らぬ。\n\n経済界の見通しなどは着かぬのが本当である。\n\nこれをやる人がいろんな人がやる。\n\nただ流言蜚語に迷わされぬようにする。\n\n平価切下げなどは、株屋が風評を立てたものと思う。\n\nまた共産主義者が、経済界を錯乱のため、デマを飛ばす。」\n\n---",
+      "content": "**信者の質問**  \n「現在ある面におきましてはデフレの傾向があるようですが、もし米ソ戦が近き将来に起るとしますと、インフレの準備を今の中にしておくべきでしょうか。右御教示御願い申し上げます。」\n\n**明主様御垂示**  \n「米ソ戦争はなかなか起せぬ。ソ連に準備がなく、共産主義は戦争はしない。\n\n出来るだけ避ける。やり方がずるい。駆引しては、\n\n少しずつやる。（強硬に出たと思うとおとなしくなる。恰度猫の喧嘩である）\n\n大勢からいうと、デフレになる。インフレの峠は越した。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年6月23日"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 11,
-      "publication_title": "平価切下はデマ",
+      "publication_title": "米ソ関係と物価 （昭和24年4月8日発行）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「平価の切下は何月に行われましょうか。」\n\n**明主様御垂示**  \n「切下げの要はない。\n\nインフレには、それにより喰止める事はあるが、デフレになろうとしているから逆になる。\n\n理屈に合わぬデマは、気にする必要はない。」\n\n---",
+      "content": "**信者の質問**  \n「日本および世界の経済について今後の見透しならびに正しいあり方に閑し御説明願います。」\n\n**明主様御垂示**  \n「これは簡単には言えない。今日は質問が多いから次の機会に譲る。\n\nただ、今後、米ソの関係の動きによって、経済に影響するわけである。\n\nそれは米ソ関係が緩慢になれば、物価は下がり緊迫すれば下がらない。それが根本である。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年4月8日発行"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 12,
-      "publication_title": "米ソ戦と物価",
+      "publication_title": "日本の実業界の将来 （昭和24年2月12日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「現在ある面におきましてはデフレの傾向があるようですが、もし米ソ戦が近き将来に起るとしますと、インフレの準備を今の中にしておくべきでしょうか。右御教示御願い申し上げます。」\n\n**明主様御垂示**  \n「米ソ戦争はなかなか起せぬ。ソ連に準備がなく、共産主義は戦争はしない。\n\n出来るだけ避ける。やり方がずるい。駆引しては、\n\n少しずつやる。（強硬に出たと思うとおとなしくなる。恰度猫の喧嘩である）\n\n大勢からいうと、デフレになる。インフレの峠は越した。」\n\n---",
+      "content": "**信者の質問**  \n「今後の日本の実業界について・・・。」\n\n**明主様御垂示**  \n「今後、特徴としては貿易が盛んになる。\n\n順調に行くが、ただ問題は、インフレがデフレに転ずると暴落時代が来る。これが問題である。\n\n軍備がなくなり平和産業になるから、供給多端となり、食糧も輸入する。\n\nそうなると農作が豊作になり、農業恐慌が起り、それが大きな暴落となるが、インフレの惰力で、物によっては高めになるのもある。\n\n普通なら下るが、米ソ問題で支えてる訳で、米ソ戦が延びるなら相当物価低落はあるが、早くあればそう下らぬという事はいえる。むつかしい所である。\n\n戦争中のような事はないから、落ついてやる事である。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年2月12日"
     },
     {
       "title_idx": 3,
       "title": "経済観念　４　（株価・物価）",
       "title_ptbr": "",
       "pub_idx": 13,
-      "publication_title": "米ソ関係と物価",
-      "publication_title_ptbr": "96\\. Esta Religião e o Princípio do Grande Caminho (Orig.: 本教と大道主義)",
-      "content": "**信者の質問**  \n「日本および世界の経済について今後の見透しならびに正しいあり方に閑し御説明願います。」\n\n**明主様御垂示**  \n「これは簡単には言えない。今日は質問が多いから次の機会に譲る。\n\nただ、今後、米ソの関係の動きによって、経済に影響するわけである。\n\nそれは米ソ関係が緩慢になれば、物価は下がり緊迫すれば下がらない。それが根本である。」\n\n---",
-      "content_ptbr": "**(Fonte: Kōmyō Sekai, 8 de abril de 1949\\)**\n\n\"Olhando o mundo hoje, fazem barulho dizendo 'ah, é ala esquerda', 'ah, é ala direita', ou 'não, o meu lado não é esquerda nem direita, é centro';\n\nmas como persistem até o fim numa ideologia ou pensamento limitado e tentam impô-lo, o resultado é que inevitavelmente surgem atritos;\n\nclaro que não faltam aqueles que têm por objetivo o atrito ou o conflito, mas isso é outra história.\n\nApós o fim da guerra, o objetivo do povo é, sem dúvida, a Democracia; sendo a Democracia, obviamente, aquilo que visa a maior felicidade do maior número,\n\nse persistirem até o fim na própria ideologia ou pensamento, causarão conflitos e, longe de felicidade do maior número, atrairão, ao contrário, a maior infelicidade do maior número.\n\nNão sou só eu que digo; de fato, vendo a fisionomia do mundo hoje, isso é contado sem deixar dúvidas, e essa tendência aparece em todas as faces.\n\nVejamos, por exemplo, os partidos políticos.\n\nDentro de um partido, há atritos entre companheiros de ideologias diferentes, como 'facção tal', e o perigo de divisão e dissolução está sempre prestes a ocorrer;\n\ncomo veem imediatamente como inimigo tudo o que não condiz com a própria ideologia, é insuportável;\n\nplanejam derrubar um gabinete que acabou de ser formado, ou cobram a execução de políticas de quando estavam na oposição a um gabinete que tem apenas dois ou três meses, chamando de 'cheque sem fundo';\n\npensem bem: é claro que é totalmente impossível para qualquer grande político pagar todas as promessas em meio ano ou um ano.\n\nPor essa razão, os gabinetes do Japão mudam frequentemente, sem tempo nem para esquentar a cadeira; neste ponto, parece muito com a França.\n\nQuando o Gabinete Trabalhista da Inglaterra completou cerca de um ano no início, os resultados foram surpreendentemente ruins;\n\nse fosse no Japão, levantariam vozes de crítica barulhenta, mas a tolerância do povo inglês foi admirável: confiaram no Sr. Attlee e ficaram quietos, a ponto de nós acharmos estranho.\n\nComo esperado, depois disso apresentou sinais de melhora gradual e, recentemente, parece estar apresentando ótimos resultados também economicamente.\n\nOlhando para a América também é assim; é porque o mandato do Presidente é de quatro anos que podem executar políticas decisivas.\n\nA visão grandiosa de obter a vitória na Segunda Guerra Mundial e, mesmo no pós-guerra, tentar salvar a Europa e o Leste Asiático com folga abundante, deve-se também ao fato de o Sr. Roosevelt ter passado dezesseis anos através de quatro eleições, executado medidas decisivas e obtido sucesso.\n\nA situação atual do Japão descrita acima deve-se inteiramente ao fato de não conseguirem se livrar da mentalidade insular estreita; portanto, antes de tudo, todos os japoneses devem cultivar grandemente o espírito de tolerância neste momento; esta é a questão mais urgente.\n\nO objetivo desta religião é: se for para criar uma sociedade sem conflitos, antes de tudo deve-se corrigir a estreiteza de excluir os outros por auto-farisaísmo (achar-se o único certo);\n\nneste sentido, sem pender para a direita nem para a esquerda, sem se prender ao centro, englobando todas as ideologias e pensamentos, é avançar erguendo o alto e Grande Ideal que controlou tudo e que pode ser chamado de Pensamento Mundial; nós chamamos isso de Princípio do Grande Caminho (*Daido Shugi*).\"\n\n---",
-      "has_translation": true
-    },
-    {
-      "title_idx": 3,
-      "title": "経済観念　４　（株価・物価）",
-      "title_ptbr": "",
-      "pub_idx": 14,
-      "publication_title": "日本の実業界の将来",
+      "publication_title": "月の変化と物価 （昭和24年10月25日発行）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「今後の日本の実業界について・・・。」\n\n**明主様御垂示**  \n「今後、特徴としては貿易が盛んになる。\n\n順調に行くが、ただ問題は、インフレがデフレに転ずると暴落時代が来る。これが問題である。\n\n軍備がなくなり平和産業になるから、供給多端となり、食糧も輸入する。\n\nそうなると農作が豊作になり、農業恐慌が起り、それが大きな暴落となるが、インフレの惰力で、物によっては高めになるのもある。\n\n普通なら下るが、米ソ問題で支えてる訳で、米ソ戦が延びるなら相当物価低落はあるが、早くあればそう下らぬという事はいえる。むつかしい所である。\n\n戦争中のような事はないから、落ついてやる事である。」\n\n---",
-      "content_ptbr": "",
-      "has_translation": false
-    },
-    {
-      "title_idx": 3,
-      "title": "経済観念　４　（株価・物価）",
-      "title_ptbr": "",
-      "pub_idx": 15,
-      "publication_title": "月の変化と物価",
-      "publication_title_ptbr": "Todas as coisas devem avançar gradualmente",
       "content": "**信者の質問**  \n「三日月が下絃型になると、物価が下落するといわれていますが真実でしょうか。」\n\n**明主様御垂示**  \n「これは相場師がよく言うことで、物価にはあまり関係はない。\n\n物価の動き、ツマリ上がり下がりは十年に一遍くらいに変わる。\n\nしかし月の変化もいくらかは関係があるようだ。」\n\n---\n\n「神仙郷緑蔭縦横談」より　（昭和24年9月3日発行）\n\n**記者の発言**  \n「世間一般は非常な金詰まりに弱っていますが、なにか、これについての御見解を・・・」\n\n**明主様御発言**  \n「戦争中は軍隊でほとんど消化されたが、平和状態に還ったらそれだけに大きな消化力を持つものがなくなったから、\n\n生産が向上すれば、するほど物資が過剰となり、需要がそれに伴わないから、不景気になるのは当然である。\n\nしかし物が余れば、その物の値段が下がるのは経済の原則であるから、最近のように物資の過剰状態が起きてくれば物価は下がるいっぽうだ。\n\n物価が下がれば金の価値が出てくる。いまの金詰まりはよく世間で言っている安定恐慌の一現象である。\n\n近く見返り資金の放出もあろうし、貨幣の価値も以前よりは増大するから、そんなに金詰まりを心配することはない」\n\n**記者の発言**  \n「では少しは景気が恢復しましょうか」\n\n**明主様御発言**  \n「前にも指摘したように共産党がとっている産業、交通破壊の戦略もどうやら失敗に帰したから産業界の人気もよくなる。\n\nまた人心の安定も得ることになるから、私は今後の景気観測については非常に楽観している」\n\n---\n\n「新春熱海炉辺談」より　（昭和25年1月1日発行）\n\n記者の質問  \n「今年の景気はどうなりますか。」\n\n**明主様御発言**  \n「まだまだ、日本の財政はやりくり算段だから楽にはならない。\n\nだがこれまで物価が賃銀をリードしていたが、漸次その均衡が保たれてきそうだから、かつてのようなひどいインフレはもう来ないと思う。\n\n現在の生産力が、戦前の六、七割程度を挽回してきたようだから、軍需のない現在の日本はほとんど戦前同様の状態に還っているとも言える。\n\nだが、貿易が不振で滞貨が多いため、物が動かず、国内消化力も勿論増さないから一応不景気の様相を呈するであろう。\n\nこの際無駄を排し、貯金をしておけば、いかなる破局にも打ち勝つことができる。」\n\n---\n\n「自観放談」より　（昭和24年6月15日発行）\n\n**記者の発言**  \n「ご多忙中恐縮です。さっそくですが、なにか肩の凝らない雑談的なお話を一つ。・・・\n\nところで、だいぶわれわれの生活が窮屈になってきましたが、それについて、いったいこのインフレはどうなりましょうね。」\n\n**明主様御発言**  \n「早い話が、一度経済安定に達しないと解決しない。\n\n今日まで日本が安定しない、とうとう見かねてアメリカが九原則を提示した・・・\n\nこの九原則とは「借金をやめて一生懸命働く」これだ。\n\n最近、竹馬経済という言が出たが政府はさかんに外資導入を唱え、国民は政府の援助を求めている。\n\n資金がないから生産資材や原料が買えない、だから大いに資金を放出してもらいたいとこう言う。\n\n政府は政府で外資を仰いで必要原料を外国から得たい、\n\nうまく行かないとすぐアメリカの援助を求める・・・こういう生ぬるいことをしている。\n\nこれではなかなかインフレは納まらないし、一度荒治療しないと駄目だ。\n\n日本タイムスに「いっさいの援助を断念し、資金放出を中止せよ」といった説が載っていたが、\n\n実際のところ日本は他を頼り過ぎてきた、ちょっと行き詰まるとアメリカに泣きついてしまう。\n\nだいたいインフレとは、物価と発行高が平均を保っていれば起きないので、物価が騰貴し資金が膨張する・・・\n\nちょうど袋かなにかに空気がいっぱい詰まり、それが膨らむだけ膨らめば、それ以上は膨らまない。\n\nもしそれ以上に空気を詰め込んだら、必ず破裂してしまう。\n\nだから、今のインフレもちょうどこれと同じ理で、いっぺん破裂させる必要がある。\n\nその方法は、もっかさかんに金詰まりが言われているが、金詰まりをやらねば駄目だ。\n\n詰まるだけ詰まると打開が起る。\n\nだからいまの苦しい時期を切り抜けたならば、インフレはなくなる。\n\nこの理からして、外資導入はしないほうがいい。\n\n一時の差し水なので、恒久的な作用はしない。\n\n結果はかえって悪くなるいっぽうだな。\n\nまず時期が解決するよ。」",
-      "content_ptbr": "**Pergunta de um fiel:** \"Um bebê de seis meses, após receber Johrei, apresentou febre alta contínua e transpiração intensa. Surgiu uma erupção cutânea do tamanho de grãos de milho por todo o corpo, semelhante à sarna. Ele está bem disposto, tem apetite, e a evacuação e a transpiração normalizaram-se. Porém, à noite, a febre sobe para mais de 40 graus e ele transpira muito. A mãe deseja muito ingressar na Fé e quer ministrar Johrei ela mesma, mas devido a circunstâncias familiares, ainda não ingressou. Como eu (o ministrante) virei à Sede Geral e não poderei ministrar Johrei neste doente, a mãe está muito preocupada. No caso de familiares não membros, especialmente num caso como este, seria melhor recusar o Johrei?\"\n\n**Meishu-Sama:** Não é necessário recusar. Deve-se ministrar. O fato de transpirar é muito bom. P pelos sintomas, é uma purificação (Jōka) normal.\n\nO correto, na verdade, é ingressar na Fé após a cura da doença; o certo é ingressar movido por um sentimento de gratidão incontrolável após ter sido curado.\n\nPor exemplo, se a pessoa ingressar antes de se curar e vier a falecer, dirão que \"essa fé não presta\". E assim seremos alvo de ressentimento.\n\nIsso ocorre especialmente na tuberculose: ao ingressar, a purificação se intensifica.\n\nComo o tuberculoso chega à nossa religião depois de ter sido muito tratado por médicos e estar desenganado, ele tem muitas toxinas medicamentosas acumuladas.\n\nAo ocorrer a purificação dessas toxinas, se ministrarmos Johrei, pode acontecer de a pessoa morrer; por isso, especialmente nos casos de tuberculose, deve-se fazer com que ingressem somente após a cura.\n\nApenas em doenças que não envolvem risco de vida pode-se ingressar antes da cura, mas naquelas que envolvem risco de vida, deve-se ingressar após a recuperação.\n\nNo caso citado, a purificação é favorável, então certamente curará.\n\nAssim, os familiares também compreenderão.\n\nAdemais, não se deve fazer com que consagrem a Imagem da Luz Divina (Komyō Nyorai) logo após o ingresso; deve-se consagrá-la somente quando a pessoa compreender gradualmente, a fé progredir, surgir o desejo de orar e ela pedir insistentemente.\n\nÉ bom que todas as coisas avancem gradualmente; essa é a Ordem.\n\nMudanças repentinas não são verdadeiras.\n\nPor exemplo, ao abrir uma nova Igreja, deve-se começar o menor possível.\n\nAssim como o ser humano cresce de bebê até se tornar adulto, ou como a semente das plantas cresce pouco a pouco a partir dos cotilédones.\n\nDessa forma, a raiz se firma e não seca.\n\nEssa é a Imagem Real da Grande Natureza.\n\nEu mesmo comecei este trabalho num único quarto de seis tatames (aprox. 10m²).\n\nNo início, a fé é como semear, então limitem-se a conversar.\n\nConforme aquilo crescer e a outra parte começar a dar ouvidos, mostrem as revistas e jornais.\n\nCom o tempo, a pessoa desejará fazer o curso de iniciação; então, permitam que o faça.\n\nNesse ínterim, se a doença for curada, consagra-se a Imagem de Komyō Nyorai.\n\nAqueles que entraram por esse método não oscilam na fé.\n\nOs que ingressam às pressas não têm a \"raiz\" firme, por isso se abalam facilmente.\n\nIsso se aplica a qualquer coisa.\n\nÉ curioso que, recentemente, quando se fala em Novas Religiões, a nossa é a mais visada, embora eu nunca tenha pensado em ser o número um.\n\nIsso também ocorreu porque, no início, procurei não chamar a atenção e não parecer grande, na medida do possível.\n\nNesse ponto, agi ao contrário do mundo e, como resultado, parece que foi a que mais se expandiu.\n\n---",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年10月25日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 0,
-      "publication_title": "私の考え方",
+      "publication_title": "私の考え方 （昭和27年6月25日発行）",
       "publication_title_ptbr": "",
       "content": "「私は何事でも、非常に深く考える癖がある。\n\nたとえばある計画を立てたとする、それが大抵の人は、なるべく早く着手しようと思ってジットしてはいられないばかりか、やり始めたらどうにかなるだろうくらいに運命に対する依頼心が強いが、\n\nさて始めてみると仲々そんな訳にはゆかないで、大抵はイスカの嘴（はし）と喰違い失敗するのである。\n\nというように失敗の場合を考えないで、成功の場合のみを考えるから危険千万である。\n\nところが私は反対で最初から失敗を予想してかかる。\n\nもし失敗したらこういうように建直すという案をあらかじめ立てておくから、\n\nよしんば失敗しても余り痛痒を感じない、暫く時を待つ、そうすれば致命どころではなく、容易に再起が出来るのである。\n\nそうして金銭についてもそうである。\n\nこれを私は三段構えにしている。第一の金を遣って足りなければ、第二の金を遣い、それでも足りなければ第三の金を遣う。\n\nというようにすれば決してボロなど出す気遣はない。\n\nというようにすべて準備を充分調べておき、何事も念には念を入れてやるから、これを上面から見ると間怠いようだが、失敗がないから案外早く進捗する。\n\nそのため無駄な費用も、時間も、労力も省けるから、算盤（そろばん）上予想外な利益になる。\n\n私は皆も知る通り、随分大胆な計画を次々立て、実行するが、不安がなく、気楽な気持でスラスラゆくのである。\n\n右のように最初から、準備万端整っても私は直ぐに掛る事はしないで、おもむろに時を待っている。\n\nすると必ず好機会がやって来るからその時ここぞとばかり乗り出すのである。\n\nそうして出来るだけ焦らないようにする。人間は決して焦ってはいけない。焦ると必ず無理が出る。無理が出たらもうお仕舞だ。\n\n世間の失敗者をみると、例外なく焦りと無理が原因となっている。\n\nそれについていつも想い起すのは、彼の太平洋戦争の時である。\n\n初めの間はトントン拍子に旨く行ったので、いい気持になり慢心が出て来たので様子が大分変って形勢が悪くなって来ても、何糞とばかり頑張り、無理に無理を重ねたので、その結果ああいう惨めな結末になったのである。\n\nその頃私はこう焦りが出た以上もう駄目だと考えたが、その頃は人にも言えないから、我慢してしまったのである。\n\nという訳で最初から敗戦の場合を考慮していたなら今少し何とかなったに違いないと、実に残念に思ったものである。\n\n全く当事者の浅慮が原因であったのは言うまでもない。\n\n右のような訳であるから、私を見たらある時はすこぶる短兵急（たんぺいきゅう）であり、また反対に悠々閑としている事もあるので、まず端倪（たんげい）すべからずであろう。\n\nそれもこれも神様の御守護の厚いためはもちろんだが、私のする事、なす事、実に迅速にはこんでゆくので、吃驚しない者はない。\n\n本教の異例な発展の速度をみてもよく分るであろう。\n\n次に注意したい事は、人間は精神転換をする事である。\n\nそれは無暗に一つ仕事に噛（かじ）り付いている人がよくあるが、こういう人は割合能率は上らないものである。\n\nつまり飽きたり、嫌になったりしても我慢するからで、これがいけないのである。\n\nむしろそういう時は遊び事でもいいから転換するに限る。\n\nよく芸術家などで気の向かない時は、決して手を出さない話をよく聞くがなるほどと思うので、むしろある点はわがままなくらいが、反って能率が上るものである。\n\nそのような意味で私は仕事に固着する事を嫌い、それからそれへと転換して行く、そうすると気持もよく、面白く仕事が出来るから頭脳の働きもいいのである。\n\nとはいうもののその人の境遇によってはそうもゆかないから、右の理をよく弁えて、臨機応変に行ってゆけば、余程有利であるという事を教えたまでである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和27年6月25日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 1,
-      "publication_title": "商売と心中するな",
+      "publication_title": "商売と心中するな （昭和24年9・10月）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「消極的借金はいけないとの御教示をいただきましたが、借金しなければならず、またその仕事をやめるわけにもいきません場合、御教えをどのように考えるべきでしょうか。」\n\n**明主様御垂示**  \n「これはね、最初出発がよければいいんですよ。出発が悪いからこうなるんです。\n\nその仕事の出発がごく確実ならそんなことはないんです。\n\n不確実なのに手を出すからこうなるんですよ。\n\nだからたいていの場合は止めて出直せばいいんですよ。\n\nそれからね、人間はたいていだれでも自分の仕事が成功する場合だけしか考えないもんですが、\n\n成功だけじゃなくて失敗した場合のことも考えに入れるべきですよ。\n\nそういうふうにすればきっと大丈夫ですよ。\n\nところがふつうの人のやるのを見てると実に甘いんですよ。（笑声）・・・\n\nまったく、みんな成功だけしか考えないんですからね。（笑声）\n\nだから、私は三段構えってことを言うんです。\n\n例えば借金なんかでも、「返すころにはこっちから金が入るはずだからそれをまわして返済しよう」と思っていても、\n\nたいていは期日までに入らないもんで、そこでボロが出てしまうんですよ。\n\nだから、返済にまわすべき金が甲から入らないときには乙から、\n\n乙も駄目なときには丙を・・・というふうに三段構えにしておくことですよ。\n\nだから私はいつでもきちんと期日に金を払えるんですよ。\n\nけど、いつもあんまり金払いがいいもんだから、あすこにはいつでも金があるって思われてしまうんでねえ。（笑声）\n\n私はよく言うんですよ、商売と心中しちゃいけないってね。\n\n商売してても、それがいけないときにはいつでも別れられるようにしておくことですよ。\n\n駄目ならいつでもよせるようにしとくといいんですよ。\n\nそういうふうにしておくと、千変万化の行動がとれますからね。\n\n商売と心中するようになると致命的ですよ、再び立つ能わずって状態になりますからね。」\n\n---\n\n---\n\nお金は水のようなもの",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年9・10月"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 2,
-      "publication_title": "浄財と不浄財",
-      "publication_title_ptbr": "28\\. Verdadeiro Daijo, Shojo (Orig.: 真の大乗、小乗)",
+      "publication_title": "浄財と不浄財 （昭和10年7月25日発行）",
+      "publication_title_ptbr": "",
       "content": "支払うべきお金を支払わないとお金は入ってこない\n\n「（一部のみ引用）それは、名前など一切言えませんけれどもある宗教の非常な、熱心な信者がありました。\n\nその信者が、神様の事について、結構な御用をしたんでありますが、\n\nその人は、家賃を何年も払わずにいるんであります。\n\nツマリ、払うべきを払わないで御用をしたのであります。\n\nで、これは、どういう風に解釈するかと言いますと、\n\n払うべき物を払わぬという事は、例えば、物を買って品物を持って来ても、金を払わぬというのと違いはありません。\n\n家を借りる際には、最初、家賃を払う、家を貸すというので借りたんで、\n\n例えば品物にしても、これは一円だから一円払えば品物を上げるというのと同じであります。\n\n銭を払わないで品物を持ってくるとなると怪しからん事で犯罪になりますが、\n\n家を借りて家賃を払わないのも、桔局同じ事であります。\n\nどうしても、これは盗みであります。\n\n本当から言えば、家賃なんかは一日も、遅らせるべきものではないのでありまして、\n\n一日遅れれば一日、それだけの盗みの罪が構成される事になります。\n\nそんな金で、御用をしても真の神様なら、そんな不浄の金は御使いになるはずがないのであります。\n\nでありますから地代とか家賃とか約束した仕払は、絶対に遅らせるべきものではないのであります。\n\nそういう払うべきものを払わねば、矢張り入るべき金も入るものではありません。\n\n金は昔から、湯水のようだとか、湧くとか言われていますが、全く水のようなもので、\n\n払うべきものを払うとどしどし流れて来るものであります。\n\n金を払わねば入るべき物も滞ってしまうのであります。\n\n霊的に言うと、そうであります。\n\n霊的が体的になるのでありますから、金に困る人とか、豊でない人はどこかにそういう間違いがあるんであります。\n\nそういう間違った事がなければ、困るべきものではないので、それが天地の原則であります。\n\n---",
-      "content_ptbr": "**(Fonte: Kōmyō Sekai, 25 de julho de 1935\\)**\n\n\"Shojo é \\- Bem \\- no Budismo é para benefício próprio \\- o Verdadeiro Shojo é Visão Superficial (*Senken*).\n\nAquilo que aos olhos das pessoas parece Bem.\n\nOs Três Heróis da Bomba (Nota: Três soldados japoneses que morreram em ato suicida na guerra) \\- Bem do Shojo \\- Lealdade e Piedade Filial.\n\nPortão do Shojo \\= Aqueles que querem entrar quando se fala de Bem (o Bem pode tornar-se Mal).\n\nDaijo \\= No Budismo é para benefício alheio \\- o Verdadeiro Daijo é Visão Profunda (*Shinken*).\n\nPortão do Daijo \\= Entrar no grupo de ladrões e maus para salvar as pessoas; é incluir e salvar até quem tem segredos e pecados (o Mal pode tornar-se Bem).\n\nSeguindo essa forma de explicar o Daijo, a Rússia é o maior benfeitor do Japão.\n\nSe a Rússia não gostasse de guerra, o Japão não teria podido administrar a Manchúria.\n\nDevido à Guerra Russo-Japonesa, o Japão obteve a Manchúria, e isso serviu de base para avançar na Manchúria; portanto, pode-se agradecer muito à Rússia.\n\nNo entanto, como a Rússia tentou fazer o mal e acabou favorecendo o Japão, tornando-se bom para um lado, diz-se que Bem e Mal são Não-Dois (*Zenaku Funi*), Correto e incorreto são Um Só (*Seija Ichinyo*).\n\nZhang Xueliang também, neste ponto, causou o Incidente de Beidawei, permitindo o avanço na Manchúria. Para o Japão, foi um Bem.\n\nNós também, se não tivéssemos doenças, não teríamos conhecido Kannon.\n\nNesse ponto, fomos salvos pela doença; portanto, esta doença torna-se um grande benfeitor que nos salvou eternamente, por centenas e milhares de anos.\n\nO homem bom do tipo Shojo chega a um beco sem saída.\n\nAquele que vai pelo Daijo vence, mas ocorrem muitos erros.\n\nVai-se pelo Shojo e conduz-se, guiando gradualmente para o Daijo.\n\nA conduta deve ser feita necessariamente pelo Shojo.\n\nAo observar (*Miru*), deve-se observar com a cabeça de Daijo.\" (Extraído da \"Segunda Palestra do Curso sobre Kannon\")\n\n---\n\n# Sobre Daijo e Shojo \\- 2 (Orig.: 大乗と小乗について　２)",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和10年7月25日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 3,
-      "publication_title": "金は溜めると入りが悪い",
-      "publication_title_ptbr": "103\\. Se Tiver de Escolher, Escolha o Daijo (Orig.: どっちかと言うと大乗にする)",
+      "publication_title": "金は溜めると入りが悪い （昭和26年12月1日）",
+      "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「お側にまいりまして、一番最初に御教えいただきました家賃のことで、敷は敷だ。\n\n一月分は、十二月の末か、一月一日に払うべきだ、と。\n\nあれから、そういう気持ちでやってまいりましたが、まったくお蔭いただきました」\n\n**明主様御垂示**  \n「そうするとかえって、経済が豊かになるんです。\n\nだから、金に困るとか苦しいとかいうのは、そういった種を作ってやっているんです。\n\nそれが・・・種があべこべなんだからね。\n\n金は、溜めると入りが悪いんです。\n\n入りが悪くなったときに、災難とかがあると、ギュッと苦しくなる。\n\n特に神様のことはそうです。\n\n私は金のことはあまり言わないが、教団が金が苦しいというのは、御用をしないからです。\n\n御用をするのは決まっているんだからね。\n\nそれだけの額に満たないと、お蔭に対する借金をしているんだからね。だから駄目なんです。\n\n神様の金だから、そうすると楽になる。」\n\n**信者の質問**  \n「実際にぶつかったときに教えますと、良く分かりますが、実に楽に行けるものでございます」\n\n**明主様御垂示**  \n「そうですよ。」\n\n**信者の質問**  \n「神様くらい、本当に人間をただ使いされないのは、まったく・・・」\n\n**明主様御垂示**  \n「そうです。実に、神様は気が利いて、思いやりがあって、抜け目がない。」\n\n**信者の質問**  \n「深川の時分に、御教え通り家賃を払ってまいりましたが、どうしても金がない・・・\n\nすると家内がニヤニヤして貯金ガメを割ってみましょうと言い、割りましたところが・・・\n\n家賃は十八円でございましたが、キチンと十八円入っておりました。\n\n良かったですねと言うので、馬鹿言え、神様にお願いしないから、ホラ見ろキチンと十八円しかないじゃないか、と言いましたが、\n\nちゃんとすれば、ちゃんとなるということで、笑ったことがございました」\n\n**明主様御垂示**  \n「そうですよ。\n\nだから、逆理ですね。逆になるね。\n\n逆理を知ることが一番肝腎だね。\n\n人間の理屈と非常に違うことがあるのでね。\n\nだから、人間の考えでやったことは、必ず失敗する。」\n\n**信者の質問**  \n「そうして、苦しみます」\n\n**明主様御垂示**  \n「そうです。」\n\n**信者の質問**  \n「お任せするとは、口で言いながら、実際はお任せしてなく、自力を引いております」\n\n**明主様御垂示**  \n「そうなんです。だから、物事は楽にすることは結果は良い。\n\n苦しんですることにろくなことはない。\n\nそれから、私がちょっと言ったことが、何でもなく思っていることがある・・・あれがたいへんなものです。\n\n私がちょっと言ったことを、すると、楽にいくんです。\n\nちょっとでも自分の・・・我を出したりしたら、たいへんなことです。\n\nだから、何でも楽にやれることでなければ駄目ですね。\n\n私なんか、問題があったりしても・・・ちょっと割り切れないことがあるんですよ・・・こちらを立てればあちらが立たないということがね。\n\nそういうことがよくありますが、面倒臭い、神様に任せちゃえと言うと、するとうまくいくんです。\n\n信仰の妙味というのはそこにあるんでね。」\n\n---",
-      "content_ptbr": "**(Fonte: Meishu-Sama Go-Suiji, 1 de dezembro de 1951\\)**\n\n**Pergunta do Fiel:** \"Ao recebermos vossas palavras sobre Shojo e Daijo (*Dai-jo*), o senhor pronuncia *Tai-jo* (Grande Veículo).\n\nNormalmente, *Dai-jo* é o *Dai-jo* em oposição a Shojo, tornando-se Vertical e Horizontal;\n\neu pensava que *Tai-jo* seria Vertical e Horizontal, tornando-se algo ainda maior...\"\n\n**Resposta de Meishu-Sama:** \"Se for com a visão Daijo em tudo, mesmo que seja ruim temporariamente, no resultado vai ficando bom.\n\nO Shojo parece bom temporariamente, mas o resultado é ruim. A medicina e afins são todos Shojo... curar com remédios e máquinas.\n\nPorém, o Shojo parece bom imediatamente, por isso acham que é bom.\n\nO lado do Daijo demora no resultado. Por isso todos se enganam.\n\nAté agora, não existia o verdadeiro Daijo.\n\nEntão, dito isso, só com o Daijo não adianta.\n\nSe não tiver o Shojo também... se for só Daijo, há mal-entendidos.\n\nNão é Daijo, não é Shojo; é Daijo e é Shojo... comparando, se tiver de dizer qual, faça ser Daijo.\n\nO maior erro é esse: 'decidir' (*kimeru*) é o erro.\n\nPois foi feito para não poder ser decidido (fixado).\n\nA Verdade é feita para não ser decidida.\n\nPor isso, deve-se distinguir entre o que deve ser decidido e o que não se decide.\n\nDecidir também: decidir para a eternidade, decidir temporalmente, decidir momentaneamente... e assim por diante.\"\n\n**Pergunta do Fiel:** \"Daijo e Shojo, comparando com o corpo: pensei que o osso é Shojo e a carne é Daijo...\"\n\n**Resposta de Meishu-Sama:** \"Também tem esse ponto.\n\nPor isso, a Igreja, por exemplo; se for Shojo, nunca se desenvolve... porque é osso.\n\nTocar no osso, qualquer um detesta.\n\nAfinal, a carne é melhor.\n\nMas se fosse só osso... seria uma velha de mais de oitenta anos... Dito isso, se for só carne também não tem firmeza (*Pin-to shinai*).\n\nFica mole (*Gunya-gunya*).\n\nNo entanto, qualquer religião até agora era toda do tipo Shojo.\n\nPor isso, para falar a verdade, tem que chegar ao ponto de não haver nem preceitos (*Kairitsu*).\n\nMas se não houver preceitos, é perigoso.\n\nEntão, se o ser humano melhorar de verdade, os preceitos desaparecem.\n\nTem que se tornar um ser humano que não precise de preceitos.\n\nO Ministro da Educação atual, Sr. A... ele lançou um estranho 'Esboço da Prática Nacional', mas aquilo é o preceito que falei agora.\n\nNão faça assim, não faça assado.\n\nDizer 'deve fazer assim', 'deve fazer assado' e o ser humano tornar-se bom com isso... é o mesmo que dizer que é perigoso se não tiver jaula ou corda.\n\nMesmo se deixar solto, mesmo dizendo 'faça o que quiser',\n\nfazer corretamente é onde está o valor do ser humano.\n\nPorém, no mundo até agora, se não tivesse tais preceitos o ser humano não prestava, então foi bom que existissem.\n\nNão tinham se tornado verdadeiros humanos.\n\nEram meio-besta meio-humanos. A parte bestial torna-se (objeto d)os preceitos.\"\n\n---",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和26年12月1日"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 4,
-      "publication_title": "霊波と霊衣　付録霊科学",
+      "publication_title": "霊波と霊衣　付録霊科学 （昭和22年2月5日発行）",
       "publication_title_ptbr": "",
       "content": "「（一部のみ引用）　人間のあらゆる思想行為を分析する時、善悪いずれかに属する事は今更いうまでもないが、霊衣の厚薄も善悪の量に比例するのである。\n\nすなわち善を思い善を行なう場合、内面的には良心の満足感が起こるので、その想念は光となり、これが霊体に加わって光を増す事になり、その反対である場合、悪は曇りとなって霊体に曇りが増す。\n\nまた外面的には、人に善を行なう時は相手の人の感謝の想念が光となって、善行者に対し霊線を通じて伝達するから光が増す事になる。\n\nその反対である場合、怨み、憎み、嫉み等の想念は曇りとなって伝達して来るから、曇りが増すのである。\n\nこれによってみても、人は善を行ない他人を喜ばすべきで、決して他人から憎み、怨み、嫉み等の想念を受けてはならないのである。\n\n世間よく急激に出世したものや成金輩が、いつしか失敗没落するような事があるのは、右の理によるのである。\n\nすなわち、成功の原因は自己の力量手腕、努力によるとなし、増長慢に陥り、利己的、独善的となり、贅沢三昧にふける結果、多数者から憎み、怨み、嫉み等の曇りの想念が蝟集（いしゅう）する結果、霊衣は光を失い、薄くなり、ついに没落するのである。\n\nまた何代も続いた名家や富豪などが没落するのは、元来社会的上位にある者はそれだけ国家社会から恩恵を受けている以上、それに酬いなければならない。\n\nすなわち、大いに社会に向かって善事を行ないこれによって絶えず曇りを消すべきである。\n\nしかるに多くは己の利欲のみを考え、利他的行為に乏しい結果曇りの方が増量し、形態は立派であっても霊の方は下賤者同様になっている。\n\nそのため、霊主体従の法則によってついに没落する事になるのである。\n\n私は東京の大震災の少し前、ある霊眼の利く人の話を聞いたが、それによれば大廈高楼（たいかこうろう）の町も、霊的には小さな陋屋（ろうおく）が立ち並んでいるとの事であったが、果たしてその通りになり驚いたのであった。\n\nまたこういう例がある。\n\nそれは米国の話だが、彼の有名な大富豪初代ロックフェラー氏が未だ商店の小僧であった時、人は善事を行なわなければならないとしてキリスト教会へ献金したのである。\n\n最初は一週間に五銭であったが、収入の増すに従い十銭となり、五十銭となり、何千何万円となり、ついには彼の有名なロックフェラー研究所のごときものを創設したのである。\n\n右の献金の額を最初手帳の裏面に記入したので、その手帳は同家の家宝となっているそうである。\n\nまた米国最大のベツレヘム製鋼所を創設した、彼のアンドリュー・カーネギー氏は、死に際会し、氏が平素から唱えた持論を決行した。\n\nそれは全財産数億ドルを社会公共のため献金し、後継者たる子息には百万ドルの資産と大学教育とを与えたに過ぎなかったとの事である。\n\nまたミュンスターベルヒは大著「米国民」で美田を買わぬアメリカ富豪の気質を絶讃している。\n\n例えば一九○三年に大学、図書館、研究所などの寄付金だけで約一千万ドル、秘密の寄付はその数倍にのぼるという。\n\nまた前大戦の直後、カーネギー氏は「国際平和財団」に巨額を寄付した。\n\nその一部でドイツの学者や学界はよみがえった。\n\nリープマン教授等が完成した戦争と犯罪に関する世界最初の尨大な研究叢書の公刊も、彼の寄付金でやれた仕事だ。\n\nこの研究だけでも、世界の幸福にどれ程寄与しているか測りしれないという。\n\n私はこれらの事実を考える時、米国繁栄のよって来たるところを知るのである。\n\nそれに引換え、日本の財閥のあまりに利己的であったことが、今日の没落を招いたであろう事を想い、決して偶然ならざるを知るのである。」\n\n---\n\n---\n\nお金の使い方について",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和22年2月5日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 5,
-      "publication_title": "清貧に安んずるのは大間違い",
+      "publication_title": "清貧に安んずるのは大間違い （昭和24年11月14日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「貧を清貧と称して甘んじて霊界に行った者の霊界における苦悩はどのようになっているので御座いましょうか。」\n\n**明主様御垂示**  \n「貧乏でも金持でも第二義的のもので、善い事をしたためとか、怠けてとか、意気地がなくて、智慧が足りなかったりなどして貧乏になったのなどいろいろある。\n\nいずれも違う。いずれにしても世の中で善い事をした人が霊界でいい。\n\n金が不正な事をして入り、善い事をしたところが、差引き悪い事が多ければいけない。\n\n故に正当な手段で金を儲ける。今迄は不正手段でなくては儲からぬとしている。\n\nこれは欲があって智慧のない人である。\n\nいい手段で金を儲け、世の中のために金を使う。これが一番いい。\n\nよく清貧に安んずるのは大いなる間違いである。アメリカにはいない。\n\n日本にはこの精神があるから発展しない。\n\n悪い奴が栄えているが、こういうのは働きがある。\n\n少し悪い事があっても、他に社会を裨益してあると大いに得になる。\n\n（悪に強いのは善にも強いから、その徳が光る）\n\n大いに儲け、大いに善い事をする人間が殖えなくてはいけない。\n\nアメリカはそうである。ソ連流のやり方はいけない。不正の手段である。\n\n（日本人はソ連や英仏の真似をしてアメリカの真似をしない。これはやはり封建的の故である）\n\n清貧に安んずる者が多いか、または金儲け一方になるかで、いずれもいけない。どっちにしても国は亡びる。\n\n国際競争のない時代は清貧に安んずる事もあっていい。」\n\n---",
+      "content": "**信者の質問**  \n「貧を清貧と称して甘んじて霊界に行った者の霊界における苦悩はどのようになっているので御座いましょうか。」\n\n**明主様御垂示**  \n「貧乏でも金持でも第二義的のもので、善い事をしたためとか、怠けてとか、意気地がなくて、智慧が足りなかったりなどして貧乏になったのなどいろいろある。\n\nいずれも違う。いずれにしても世の中で善い事をした人が霊界でいい。\n\n金が不正な事をして入り、善い事をしたところが、差引き悪い事が多ければいけない。\n\n故に正当な手段で金を儲ける。今迄は不正手段でなくては儲からぬとしている。\n\nこれは欲があって智慧のない人である。\n\nいい手段で金を儲け、世の中のために金を使う。これが一番いい。\n\nよく清貧に安んずるのは大いなる間違いである。アメリカにはいない。\n\n日本にはこの精神があるから発展しない。\n\n悪い奴が栄えているが、こういうのは働きがある。\n\n少し悪い事があっても、他に社会を裨益してあると大いに得になる。\n\n（悪に強いのは善にも強いから、その徳が光る）\n\n大いに儲け、大いに善い事をする人間が殖えなくてはいけない。\n\nアメリカはそうである。ソ連流のやり方はいけない。不正の手段である。\n\n（日本人はソ連や英仏の真似をしてアメリカの真似をしない。これはやはり封建的の故である）\n\n清貧に安んずる者が多いか、または金儲け一方になるかで、いずれもいけない。どっちにしても国は亡びる。\n\n国際競争のない時代は清貧に安んずる事もあっていい。」\n\n---\n\n金銭は使い方によって尊くなる\n**信者の質問**  \n「金銭をウミと聞いていますが、これが即肉体のウミである訳・・・」\n\n**明主様御垂示**  \n「金銭は尊いもので、使いようによって貴い、いいものになる。\n\n良い方へ使えば大したもので、今迄は多く悪い方へ使われた事が多かった。\n\nそのため汚いもの、卑しいものにされたのである。\n\n前に信仰時代よく三味線を習っていいかを聞かれたが、私は大いに習いなさいといった。\n\nこれもよくない事につかわれるため、いけないものと錯覚している。\n\n世の中にあるものすべては人間のためにあるんで、どんな物でも大いに使うべきであるが、ただ使いようによって善にも悪にもなるのである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年11月14日"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 6,
-      "publication_title": "金銭は使い方によって尊くなる",
+      "publication_title": "井戸の汚水の改善法 （昭和25年4月23日発行）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「金銭をウミと聞いていますが、これが即肉体のウミである訳・・・」\n\n**明主様御垂示**  \n「金銭は尊いもので、使いようによって貴い、いいものになる。\n\n良い方へ使えば大したもので、今迄は多く悪い方へ使われた事が多かった。\n\nそのため汚いもの、卑しいものにされたのである。\n\n前に信仰時代よく三味線を習っていいかを聞かれたが、私は大いに習いなさいといった。\n\nこれもよくない事につかわれるため、いけないものと錯覚している。\n\n世の中にあるものすべては人間のためにあるんで、どんな物でも大いに使うべきであるが、ただ使いようによって善にも悪にもなるのである。」\n\n---",
+      "content": "儲けたお金をよいことに使うべき\n\n**信者の質問**  \n「私の家の井戸は村一番水質がよかったのですが、昭和一二年一二月の南海地震のため水が止まり、一昨年より水が溜まり始めましたが水質が硬水になりました。\n\n私は昨年三月入信以来御浄霊いたしましたところ、水は澄んできましたがまだ硬水です。\n\n早く御利益をいただくにはいかにいたしたらよろしいでしょうか。」\n\n**明主様御垂示**  \n「これは方法がないこともありませんが、信仰が浅いと具合が悪いですね。\n\n一番いい方法は信仰により人助けをすることです。\n\nそれから、これはちょっとなんですが、金を儲けたときにその金をできるだけいいほうへ使うんです。\n\nそうすると水がよくなりますよ。\n\nなぜかって言うと、水ってものは財物と共通したもんですからね。\n\nだから湯水のように金を使うって言いますが、実際うまく言ってますね。\n\n金を自分勝手のことに使っちゃなんにもなりませんね。\n\nそれとともに、光明如来様によくお願いして浄霊することですね。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和25年4月23日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 7,
-      "publication_title": "井戸の汚水の改善法",
+      "publication_title": "宗教的に観た商法 （昭和24年6月23日）",
       "publication_title_ptbr": "",
-      "content": "儲けたお金をよいことに使うべき\n\n**信者の質問**  \n「私の家の井戸は村一番水質がよかったのですが、昭和一二年一二月の南海地震のため水が止まり、一昨年より水が溜まり始めましたが水質が硬水になりました。\n\n私は昨年三月入信以来御浄霊いたしましたところ、水は澄んできましたがまだ硬水です。\n\n早く御利益をいただくにはいかにいたしたらよろしいでしょうか。」\n\n**明主様御垂示**  \n「これは方法がないこともありませんが、信仰が浅いと具合が悪いですね。\n\n一番いい方法は信仰により人助けをすることです。\n\nそれから、これはちょっとなんですが、金を儲けたときにその金をできるだけいいほうへ使うんです。\n\nそうすると水がよくなりますよ。\n\nなぜかって言うと、水ってものは財物と共通したもんですからね。\n\nだから湯水のように金を使うって言いますが、実際うまく言ってますね。\n\n金を自分勝手のことに使っちゃなんにもなりませんね。\n\nそれとともに、光明如来様によくお願いして浄霊することですね。」\n\n---",
+      "content": "**信者の質問**  \n「宗教的に観た商法について御教示をお願い申し上げます。\n\n商売をしておりますと、騒け引きをしたり商売敵ができたり、また現在の登録制では商戦のためどうしてもそうとうの怨みがくると存じますが、\n\nこの曇りを消すためには大いに社会的善事をすればよろしいでしょうか。」\n\n**明主様御垂示**  \n「これはこの通りですよ。無論、ある程度の駆け引きはしかたないですよ、儲けるんですからね。そこは程々にすればかまわないんですよ。\n\n敵ができるってことも競争だからしかたないですね。\n\nだから、積極的に同業者を倒そうとすると罪を作るから、そういうことはしないほうがいい。・・・\n\n例えば、私の教えが拡まって行くと他の宗教にも影響して、あるいは潰れてしまうのも出てくるかもしれない。\n\nしかし、それはやむを得ないことであって、そう言ってたらなんにもできない。\n\nだから私は「大善は小悪を伴う」って言うんですよ。\n\nこれはどうにもしかたのないことです。\n\nつまり、九十万人救われて、十万人はそのために救われないっていうことはしかたがない、いいんです。\n\nま、いいってこともないけど、差引してよければいいんです。\n\nそして、商売してて時間や金に余裕があったらいいことをするんですね。\n\n一番いいことはこの信仰のためにそれを使うんですよ、そうすればいいんです。」\n\n---\n\n---\n\nぼろ儲けは許されない",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年6月23日"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 8,
-      "publication_title": "宗教的に観た商法",
+      "publication_title": "霊界の構成 （昭和22年2月5日発行）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「宗教的に観た商法について御教示をお願い申し上げます。\n\n商売をしておりますと、騒け引きをしたり商売敵ができたり、また現在の登録制では商戦のためどうしてもそうとうの怨みがくると存じますが、\n\nこの曇りを消すためには大いに社会的善事をすればよろしいでしょうか。」\n\n**明主様御垂示**  \n「これはこの通りですよ。無論、ある程度の駆け引きはしかたないですよ、儲けるんですからね。そこは程々にすればかまわないんですよ。\n\n敵ができるってことも競争だからしかたないですね。\n\nだから、積極的に同業者を倒そうとすると罪を作るから、そういうことはしないほうがいい。・・・\n\n例えば、私の教えが拡まって行くと他の宗教にも影響して、あるいは潰れてしまうのも出てくるかもしれない。\n\nしかし、それはやむを得ないことであって、そう言ってたらなんにもできない。\n\nだから私は「大善は小悪を伴う」って言うんですよ。\n\nこれはどうにもしかたのないことです。\n\nつまり、九十万人救われて、十万人はそのために救われないっていうことはしかたがない、いいんです。\n\nま、いいってこともないけど、差引してよければいいんです。\n\nそして、商売してて時間や金に余裕があったらいいことをするんですね。\n\n一番いいことはこの信仰のためにそれを使うんですよ、そうすればいいんです。」\n\n---\n\n---\n\nぼろ儲けは許されない",
+      "content": "「（一部のみ引用）　こういう事も知っておかねばならない。それは現世において富者でありながら、非常に吝嗇（りんしょく）な人がある。\n\nこういう人は現体は金持であっても霊体は貧者であるから、死後霊界に行くや貧困者となり、窮乏な境遇に陥るので大いに後悔するのである。\n\nそれに引換え、現世において中流以下の生活者でありながら常に足るを知って満足し、日々感謝の生活を送り、余裕あれば社会や他人のため善徳を施すような人は、霊界に行くや富者となって幸福な境遇を送るのである。\n\nまた富豪などが没落する原因としてこういう事がある。\n\nそれは出すべき金を出さず、払うべきものを払わないという人がある。\n\nかくして溜めた金は盗みと同様の理になるから霊的には盗金を貯めている訳で、これに逆利子が溜まる結果、実際の財産は僅少な訳になる。\n\nそれがため霊主体従の法則によっていつしか没落する。大抵な富豪の二代目が不良か低能で財産を蕩尽（とうじん）するという例が多いが、右の理を知ればよく分かるのである。\n\nまた今度の戦争の結果、財閥解体という事になったが、その原因は右のごとくであって、従業員や労働者に当然与えるべき金額を与えないで、それを蓄積し漸次富が増えたのであるからである。\n\n本来資本に対する利潤は、たとえば郵便貯金や銀行預金は最も安全であるから三分内外が適当であり、\n\n安全性がやや欠除せる国債は三分五厘、信託は三分八厘、次いで幾分危険性を伴う株券は四、五分くらいが適当でありとしたら、\n\n資本家が出資する事業資金の利潤を、右を標準として合理的に考える時、まず七、八分ないし一割くらいが適正であろう。\n\nしかるにそれ以上の利潤をあげる場合、その余剰利潤は勤労者に分配すベきが至当であるに係わらず、多くの資本家はそのような意志はなく、自己の利欲を満足させる事のみ考え、出来るだけ多額の利潤を所得しようとするのが一般的である。\n\n労働運動などに脅えたり、ストライキ等に手をやいたりするのもそれがためである。\n\nしたがって妥当なる所得以外の、当然勤労者に配分すべき利潤を取得するという事は、勤労者の所持金を窃取する意味になる、すなわち盗金である。\n\n従って盗金を蓄積して財閥となり栄耀栄華に耽ったのであるから天はゆるさない。\n\nしかも霊界では逆利子がどしどし殖えるから、ついに今日に至って盗金と逆利子の分だけ剥奪返還されなくてはならない事になったのであって、全く身から出た錆で、誰を怨む事も出来ないのである。\n\n故に右と反対に適当な利潤を勤労者に分配し蓄積した富を社会や他人のために費し、善徳を積むとしたら社会から尊敬を受け、永久に栄える事になる訳である。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和22年2月5日発行"
     },
     {
       "title_idx": 4,
       "title": "経済観念　５　（金儲けの心得　１）",
       "title_ptbr": "",
       "pub_idx": 9,
-      "publication_title": "霊界の構成",
+      "publication_title": "資本に対する利潤の適正割合 （昭和28年12月1日）",
       "publication_title_ptbr": "",
-      "content": "「（一部のみ引用）　こういう事も知っておかねばならない。それは現世において富者でありながら、非常に吝嗇（りんしょく）な人がある。\n\nこういう人は現体は金持であっても霊体は貧者であるから、死後霊界に行くや貧困者となり、窮乏な境遇に陥るので大いに後悔するのである。\n\nそれに引換え、現世において中流以下の生活者でありながら常に足るを知って満足し、日々感謝の生活を送り、余裕あれば社会や他人のため善徳を施すような人は、霊界に行くや富者となって幸福な境遇を送るのである。\n\nまた富豪などが没落する原因としてこういう事がある。\n\nそれは出すべき金を出さず、払うべきものを払わないという人がある。\n\nかくして溜めた金は盗みと同様の理になるから霊的には盗金を貯めている訳で、これに逆利子が溜まる結果、実際の財産は僅少な訳になる。\n\nそれがため霊主体従の法則によっていつしか没落する。大抵な富豪の二代目が不良か低能で財産を蕩尽（とうじん）するという例が多いが、右の理を知ればよく分かるのである。\n\nまた今度の戦争の結果、財閥解体という事になったが、その原因は右のごとくであって、従業員や労働者に当然与えるべき金額を与えないで、それを蓄積し漸次富が増えたのであるからである。\n\n本来資本に対する利潤は、たとえば郵便貯金や銀行預金は最も安全であるから三分内外が適当であり、\n\n安全性がやや欠除せる国債は三分五厘、信託は三分八厘、次いで幾分危険性を伴う株券は四、五分くらいが適当でありとしたら、\n\n資本家が出資する事業資金の利潤を、右を標準として合理的に考える時、まず七、八分ないし一割くらいが適正であろう。\n\nしかるにそれ以上の利潤をあげる場合、その余剰利潤は勤労者に分配すベきが至当であるに係わらず、多くの資本家はそのような意志はなく、自己の利欲を満足させる事のみ考え、出来るだけ多額の利潤を所得しようとするのが一般的である。\n\n労働運動などに脅えたり、ストライキ等に手をやいたりするのもそれがためである。\n\nしたがって妥当なる所得以外の、当然勤労者に配分すべき利潤を取得するという事は、勤労者の所持金を窃取する意味になる、すなわち盗金である。\n\n従って盗金を蓄積して財閥となり栄耀栄華に耽ったのであるから天はゆるさない。\n\nしかも霊界では逆利子がどしどし殖えるから、ついに今日に至って盗金と逆利子の分だけ剥奪返還されなくてはならない事になったのであって、全く身から出た錆で、誰を怨む事も出来ないのである。\n\n故に右と反対に適当な利潤を勤労者に分配し蓄積した富を社会や他人のために費し、善徳を積むとしたら社会から尊敬を受け、永久に栄える事になる訳である。」\n\n---",
+      "content": "**信者の質問**  \n「天国の福音（註　御論文「霊界の構成」）で、財閥解体に言及してある中に、個人は資本の一割内外が至当であるということでありますが、\n\nそれはあのときの時勢に応じて説かれたものでしょうか」\n\n**明主様御垂示**  \n「忘れましたが、そうでしょう。今でもそう変りはないでしょう。あれは平均です。」　（中略）\n\n**信者の質問**  \n「社会の利潤ということは・・・」\n\n**明主様御垂示**  \n「公平にやればよいのです。\n\nこれだけ働けばこれだけやる。\n\nそれからこれだけ賃金をもらっておれば、それに対してこれだけは働く。\n\nというわけで、それは常識で考えても分かるから、それでよいのです。\n\nだから屁のようなことをわざわざ難しくして、わざわざ苦しみを作っているのですから、実に情けない、馬鹿な、困ったものです。\n\nその馬鹿さ加減といったらないです。ところがその馬鹿げたことが分からないでまでに、人間というものは頭が悪くなっているのです。\n\nというのは結局において、唯物教育によって、すべて物質で解釈をするというそのために間違っているのです。\n\n唯心の、目に見えないものがあるということを無視したからです。\n\nこれは私の本に書いてあるとおり、半分しか分かってないのです。\n\nけれどもそういう具合にしなければ物質文化は発達しないから、神様はそういう具合に分からないようにしたのです。」",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和28年12月1日"
+    },
+    {
+      "title_idx": 5,
+      "title": "経済観念　６　（金儲けの心得　２）",
+      "title_ptbr": "",
+      "pub_idx": 0,
+      "publication_title": "貧乏人は貧乏な霊層界 （昭和27年12月1日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の発言**  \n「病気は浄化作用だということは良く分からせていただいている人はありますが、\n\n他のことになりますと悪いことがあったという観念が抜けない人があるようでございます」\n\n**明主様御垂示**  \n「それも一切が浄化作用なのですが、ちょっとのみ込みにくいのです。\n\n心配事も浄化作用です。\n\nだから悪いことや心配事があるということも、やっぱりしかたがないので、その浄化によって境遇が良くなるのです。」\n\n**信者の発言**  \n「貧の御浄化という場合に、曇があるために抜けられないという状態でございますが、御用を励まさせていただきますと、そのために・・・」\n\n**明主様御垂示**  \n「それは霊界の地位によるのです。\n\n貧乏しているのは、貧乏をする地位にいるのです。ここの層は貧乏の人の霊界です。\n\nそこにいるということは、それだけのものがあるからです。\n\nそうして上に上がって、ここは貧乏がだいぶ楽な世界になるのです。\n\nここ（更に上層）に行くと、もう豊な人の世界です。\n\nそういうようなもので霊界の地位の問題です。\n\nだからどうしてもしようがないのです。\n\nそれで地位を上がらなければならないのです。\n\n地位を上げるには浄まらなければならないのです。\n\nそのためには自分が苦しむとか、人を助けるその手柄、その働きによって早く上にあがって行くということです。\n\nだからこの辺に行けば物質に恵まれ、良いことの世界なのです。\n\nまたここまでには時期が行ってないから、この辺（ちょっと下層）までは行けるのです。\n\n結局霊的状態、霊的地位が上がるということが一番です。」\n\n**信者の発言**  \n「よく明主様が頭が悪いということをおっしゃいますが」\n\n**明主様御垂示**  \n「それもそうです。ちょうど山と思えば良い。\n\nここよりもここ（少し上）に行けば良く見えます。\n\n頭が悪いということは、ここ（下層）にいればちょっとしか見えないからです。\n\nここ（最上部）に行けば何でも見えるから、頭が良いというわけです。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和27年12月1日"
+    },
+    {
+      "title_idx": 5,
+      "title": "経済観念　６　（金儲けの心得　２）",
+      "title_ptbr": "",
+      "pub_idx": 1,
+      "publication_title": "貧から解放されるには （二）",
+      "publication_title_ptbr": "",
+      "content": "**明主様御発言**  \n「その前にもういっそう根本的に言えば、人間は霊と体との両方で成り立っているのです。\n\nところがその霊を認めないのです。\n\n医学というのは体を根本にして研究しているのです。\n\nしかし私の方では霊主体従と言っているのです。\n\nつまり、人間一人ひとりの中心は魂ですが、魂というのは霊界に属していて、体は現界に属しているのです。\n\nこの霊界というのは現界と同じで層になっていて、その層は百八十段ありそのどれかに魂は属しているのです。\n\nたとえて言えば地獄にあれば、貧乏、争い、忌まわしい悪いことばかりがあり、\n\nだんだん上に行くに従ってだんだん良くなって、真ん中の中有界というのは、良いこともあるし悪いこともある中位の所です。\n\nそれを越すと天国になりますが、ここは良いことの方が多いのです。\n\n良いことばかりが流れているのです。\n\nそこで人間に曇りがあると、罪によって、下の地獄に行きますから、地獄のすべての影響を受けます。\n\nそこで貧乏で苦しむということも、そういった下段の方に影響されているわけです。\n\n籍が下にあるからです。そこでその籍を上にすれば、そういう忌まわしいことが少なくなるから、貧乏やいろんな苦しみはずっとなくなるわけです。\n\nだから籍を上にすれば、嫌でも良いことばかりが来て、悪いことは来ないというわけです。\n\nそこはそういうようなことになっているのですから、しかたがないのです。貧乏もそういうわけです。\n\n今の人間はみんな地獄にいますから、それをだんだん上に引き上げなければならないのです。\n\nですからメシヤ教の信者はみんな貧乏をしなくなります。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "二"
     }
   ]
 }
