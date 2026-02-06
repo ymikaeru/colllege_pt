@@ -117,15 +117,19 @@ body {
 
 .search-input {
     width: 100%;
-    padding: var(--spacing-sm) var(--spacing-lg);
+    padding: 12px var(--spacing-lg);
+    /* Increased padding for better height */
     padding-right: 3rem;
     background: var(--bg-tertiary);
     /* Muted background */
     border: 1px solid transparent;
     border-radius: var(--radius-md);
     color: var(--text-primary);
-    font-size: 0.95rem;
+    font-size: 1rem;
+    /* Larger font */
     transition: all var(--transition-base);
+    min-height: 44px;
+    /* Ensure consistent generous height */
 }
 
 .search-input:focus {
@@ -1462,7 +1466,10 @@ body {
 
 /* Update search container to respect flex layout */
 .search-container {
-    max-width: 500px;
+    max-width: 800px;
+    /* Increased max-width further */
+    min-width: 320px;
+    /* Ensure it doesn't get too small */
     width: 100%;
 }
 
