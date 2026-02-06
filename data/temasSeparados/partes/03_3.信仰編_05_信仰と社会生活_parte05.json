@@ -4,227 +4,247 @@
   "total_parts": 6,
   "volume": "3.信仰編",
   "theme_name": "信仰と社会生活",
-  "theme_name_ptbr": "Fé e Vida Social",
+  "theme_name_ptbr": "",
   "publications": [
     {
       "title_idx": 7,
       "title": "職業選択",
       "title_ptbr": "",
-      "pub_idx": 12,
-      "publication_title": "蚕をネズミが食う",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"O Monte Fuji é o umbigo do Japão",
-      "content": "**信者の質問**  \n「蚕をねずみが食べるのですが、どう致したらよろしいでしょうか。御伺い申し上げます。」\n\n**明主様御垂示**  \n「少し位ならいいが、たんと食べるなら神様がもうよせという事である。」\n\n---",
-      "content_ptbr": "**(Fonte: Publicação, 23 de agosto de 1949\\)**\n\n**Pergunta do Fiel:** \"O umbigo humano tem alguma função mesmo após o crescimento?\"\n\n**Meishu-Sama:** \"Tem sim; seria um problema se não houvesse centro no ser humano, e esse centro torna-se o umbigo.\n\nPor isso o umbigo exerce uma função imensa.\n\nExerce uma função invisível.\n\nO umbigo é o lugar de onde sai a força de vontade (tanryoku) e a coragem do ser humano; ou seja, o Aramitama do Shinto corresponde ao umbigo.\n\nChama-se o entre as sobrancelhas de Tentei (Imperador Celestial); o Tentei em cima e o umbigo embaixo formam Céu e Terra.\n\nO Tentei torna-se Kushimitama; do Tentei vem a Sabedoria, do umbigo vem a Coragem.\n\nPensa no Tentei e no umbigo diz 'Faça\\!'. Por isso torna-se o centro.\n\nO Japão tem a forma de Ryujin, e o Monte Fuji torna-se o umbigo do Japão.\n\nPor isso, o Monte Fuji não é apenas uma montanha alta de boa forma, tem um significado muito grave.\"",
-      "has_translation": true
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 13,
-      "publication_title": "ニワトリ等の盗難の原因",
-      "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「私の父が三年前失眼した時、両親が御光を戴き、二年前私が肺炎になり御光を戴き、御守護を受け感謝致しております。\n\n本年五月衣類を盗難に遭い、また、一ケ月前鶏を二羽動物らしきものにとられ、最近再度五羽とられました。\n\nこれは何か御難の知らせであり、また御難が続きましょうか。御伺い申し上げます。」\n\n**明主様御垂示**  \n「鶏は飼わぬ方がよい。やめよという事を知らされたのである。\n\nそういうものに手数を掛ける間に、神様の御用をした方がよい。\n\n祖霊は嫌がる。\n\n盗難位は人間・・・その家に汚れがあるので仕方ない。」\n\n---",
-      "content_ptbr": "",
-      "has_translation": false
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 14,
-      "publication_title": "失業不安に対する方針",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"A dualidade de Kunitokotachi no Mikoto",
-      "content": "**信者の質問**  \n「私は鉄道の方へ勤務しております。行政整理または降職で強く頭を悩まされますが、今後いかに心掛けましたら最後迄勤め得る事が出来るでしょうか。」\n\n**明主様御垂示**  \n「勤務してよければ勤務するようになる。\n\n替えた方がよければかえるように、神様が順序をつけて下さる。」\n\n---\n\n---\n\n辞めるべき職業について",
-      "content_ptbr": "**(Fonte: 27 de novembro de 1949\\)**\n\n**Pergunta do Fiel:** \"Relação entre o Grande Deus do Mundo Oculto (Kakuriyo no Okami) e Kannon-sama...\"\n\n**Meishu-Sama:** \"Disse anteriormente que era Enma Daio.\n\nKunitokotachi no Mikoto é a salvação no Mundo Espiritual, Enma Daio.\n\nA salvação no Mundo Material é Kanzeon.\n\nKunitokotachi no Mikoto está atuando agora no Mundo Material, e o Mundo Oculto é Okuninushi no Mikoto.\n\nKannon-sama é o Salvador dos Três Mundos, ou seja, Mundo Divino, Mundo Budista e Mundo Material.\n\nRecebendo a delegação de Kannon-sama, Okuninushi atua como Grande Deus do Mundo Oculto.\"",
-      "has_translation": true
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 15,
-      "publication_title": "医者の家系は不幸",
-      "publication_title_ptbr": "36\\. É Difícil Distinguir o Uso de Daijo e Shojo \\- 2 (Orig.: 大乗と小乗の使い分けは難しい)",
-      "content": "**信者の質問**  \n「輸血の場合には供出するほうと受けるほうとは、どちらが曇るわけでございましょうか」\n\n**明主様御垂示**  \n「しかしたいしたものではありません。\n\nもし受ければ医者が罪を受けます。\n\nだから名医ほどその系統というのは悪いです。とても不幸です。」\n\n---",
-      "content_ptbr": "**(Fonte: Meishu-Sama Go-Suiji, 1 de julho de 1953\\)**\n\n\"Numa igreja cristã de Tóquio, ouvi de um pastor de lá que 'a regra é não aceitar na igreja quem tenha o mínimo de erro, e escolher apenas pessoas puras para entrar na igreja'.\n\nEntão eu disse: 'Se são pessoas tão admiráveis, não há necessidade de colocá-las na igreja, não é?\n\nTornar pessoas más em pessoas admiráveis não é o trabalho da religião?'.\n\nEle disse: 'Essa é a lógica verdadeira, mas como o meu lado é assim, não tem jeito'; mas isso está muito errado.\n\nNeste mundo terrível onde os maus proliferam (*bakko*) até agora, os maus também existem como uma ferramenta.\n\nE também, pessoas como limpadores de fossas e lixeiros são necessárias na sociedade.\n\nPortanto, não adianta detestar isso.\n\nExiste o ditado 'controlar o mal com o mal'; a polícia e os juízes são bastante maus.\n\nHá alguns que parecem piores que os bandidos, mas acho que, afinal, se não for nesse nível, não conseguem derrotar os bandidos.\n\nPortanto, é o mal necessário.\n\nNa fé também há a fé Daijo, Shojo e Chujo (Veículo Médio).\n\nDistinguir o uso disso é muito difícil.\"\n\n---",
-      "has_translation": true
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
       "pub_idx": 16,
-      "publication_title": "看護婦は罪悪のお手伝い",
+      "publication_title": "看護婦は罪悪のお手伝い （昭和24年5月6日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は十五歳より五十歳迄看護婦に就業、十九歳の頃より肋膜、二十八歳にて腎臓周囲炎、三十八歳で眼病（医師は梅毒性と云う）及び神経痛再三起る等々病魔に苦しめられ、あらゆる医療を致しました。\n\nその後は水を沢山飲むようになり、一日四升位飲む程でした。\n\n昨年七月、腎臓病再発、それからは胃、胸、背中等が昼夜の別なく痛み、衰弱は増すばかりで御座いました。\n\n本年一月より御浄霊を受け、二月入信、御蔭様にて大変に楽にして戴き、水も一日五合位にて済むようになり、勿体ない御利益を戴きました。\n\n今迄の職業は光線療法でしたが、今後本教の御手伝いをしたいと思っておりますが、生活の不安もあり、いかにしたらよいかと考えております。\n\n私は今後どうしたらよいでしょうか。」\n\n**明主様御垂示**  \n「看護婦は勿論罪悪の手伝いであるからやめた方がよい。（結核と神霊療法）\n\n本教のお手伝いをして決して困る事はない。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年5月6日"
     },
     {
       "title_idx": 7,
       "title": "職業選択",
       "title_ptbr": "",
       "pub_idx": 17,
-      "publication_title": "病院の仕事して悪夢に悩む",
+      "publication_title": "病院の仕事して悪夢に悩む （昭和24年10月9日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は御観音様の御仕事の御手伝いをさせて戴きたいと思っておりますが、なかなか思うようになりません。\n\n現在も御観音様と正反対の病院の仕事をしておりますが、最近毎夜のごとくいやな夢を見て起きれば悩みは重なり、種々考えた末病院の手伝いをやめようと思っております。\n\n何卒御守護御願い申し上げます。」\n\n**明主様御垂示**  \n「一日も早くやめよ。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年10月9日"
     },
     {
       "title_idx": 7,
       "title": "職業選択",
       "title_ptbr": "",
       "pub_idx": 18,
-      "publication_title": "製薬業は大いなる罪",
+      "publication_title": "製薬業は大いなる罪 （昭和24年4月3日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「主人の里が家伝薬製造業でした。\n\n戦争中廃業致しましたが、最近生計のため製薬を始める事になり、私の方で資本をおろす事になりました。\n\n薬のため私としては誠に不本意に思いますが、親戚の義理合いから、やむを得ず送金致しました。\n\n当日電車の中で怪我をして、勤務先にて無理に傷の手当をされてしまいました。\n\n薬に投資致し、里にこの上製薬を続けさせます事が霊的に罪ではないでしょうか。」\n\n**明主様御垂示**  \n「大いなる罪である。盗賊、強盗よりも悪い。（売薬製薬している者は）\n\n神様にお任せして、暫くしてやめる。\n\n一たんやめたものをまたやるのは極くわるい。断然やめる。\n\n祖霊も止める。怪我は祖霊の戒告である。\n\n悪いと信じた事は絶対やめなくてはいけない。やめても先方は困らぬ。\n\n多くの人の身体を悪くする。それを知ってやるのは絶対いけない。\n\n（薬を飲ませたり売ったりする罪程大きいものはない。知らなければ許される）」\n\n---",
+      "content": "**信者の質問**  \n「主人の里が家伝薬製造業でした。\n\n戦争中廃業致しましたが、最近生計のため製薬を始める事になり、私の方で資本をおろす事になりました。\n\n薬のため私としては誠に不本意に思いますが、親戚の義理合いから、やむを得ず送金致しました。\n\n当日電車の中で怪我をして、勤務先にて無理に傷の手当をされてしまいました。\n\n薬に投資致し、里にこの上製薬を続けさせます事が霊的に罪ではないでしょうか。」\n\n**明主様御垂示**  \n「大いなる罪である。盗賊、強盗よりも悪い。（売薬製薬している者は）\n\n神様にお任せして、暫くしてやめる。\n\n一たんやめたものをまたやるのは極くわるい。断然やめる。\n\n祖霊も止める。怪我は祖霊の戒告である。\n\n悪いと信じた事は絶対やめなくてはいけない。やめても先方は困らぬ。\n\n多くの人の身体を悪くする。それを知ってやるのは絶対いけない。\n\n（薬を飲ませたり売ったりする罪程大きいものはない。知らなければ許される）」\n\n---\n\n猟人はやめた方がよい\n**信者の質問**  \n「五十一歳の男子、睡眠中時々ヒーヒー云います。\n\n本人の両親は喘息で、父親は死亡し、母親は床についています。\n\n本人は農業の傍ら狩人をし、時々猪を獲って来ます。\n\n妻は入信しており、家は本教の浄霊場になっています。\n\nこの病気は喘息の遺伝でしょうか、どうしたらお救い頂けましょうか。」\n\n**明主様御垂示**  \n「猟人はやめた方がよい。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年4月3日"
     },
     {
       "title_idx": 7,
       "title": "職業選択",
       "title_ptbr": "",
       "pub_idx": 19,
-      "publication_title": "猟人はやめた方がよい",
+      "publication_title": "明主様信仰者は狩猟をしてはならない （昭和26年12月11日）",
       "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「五十一歳の男子、睡眠中時々ヒーヒー云います。\n\n本人の両親は喘息で、父親は死亡し、母親は床についています。\n\n本人は農業の傍ら狩人をし、時々猪を獲って来ます。\n\n妻は入信しており、家は本教の浄霊場になっています。\n\nこの病気は喘息の遺伝でしょうか、どうしたらお救い頂けましょうか。」\n\n**明主様御垂示**  \n「猟人はやめた方がよい。」\n\n---",
+      "content": "**信者の質問**  \n「昨年一月入信の者でございます。\n\n銃猟が趣味で、毎年冬の山野を歩くのを楽しみといたしております。\n\n十二月一日、三連発の猟銃の回転が悪いので、実弾（散発三百発入り）をこめて、安全装置をして、「いろり」の側で調べておりましたが、\n\n銃口を上にして一、二回下に突いてみましたが、具合が悪いので、銃口に左の手をあて力を入れて下に突きました瞬間、\n\n弾が爆発して手の平をつらぬき、屋根裏をぶち抜き、飛び散りました。\n\n傷は手の平に一寸、手の甲は二寸ほど砕けて口を開けて、白い筋のようなものが飛び出し、勿論骨は砕けたものと思われます。\n\n御浄霊をいただきまして経過は良くさせていただいております。\n\n今後の御浄霊につき御垂示のほどお願い申し上げます。」\n\n**明主様御垂示**  \n「これは驚いたな。\n\n信仰に入っていて、そんな殺生するなんてとんでもない。\n\nだから、神様のお気づけですよ。\n\nまあ、なんですね・・・こういう狩猟するのは、信仰止（や）めてやるか、信仰に入っている以上は、絶対にやっちゃいけないですね。\n\nやっぱり、こういう殺生すると、必ず祟って、ろくなことはないですよ。\n\nこれは、止めろという神様がされたことだから、非常に結構ですよ。\n\n良くお礼を言って良い。\n\nそれで、これを止めないと、今度はもういっそうひどいのになります。\n\nこれでもか、これでもかとなりますよ。\n\nこれで止めて、良くお詫びして、これからできるだけ人を助けるんですね。\n\nそうして、その鳥を殺生した罪を、それによって償ってもらう。\n\nそうするのが一番良いです。\n\nそれから、御浄霊は自分でやっても良いですから、あとは良くお詫びするんだ。\n\nこれからはもうしない。そういうことは絶対にしないということをお誓いするんです。\n\nそれが根本ですよ、そうしないと、またなにかありますよ、だから非常に結構です。」\n\n---\n\n猟師の病気は治り難い\n猟で殺した動物の祟りによる神経痛\n\n**信者の質問**  \n「父の神経痛について・・・。\n\n前記のごとく父の神経痛は御浄霊により大分よくなりましたが、近頃は少々飽きたらしく、よく愚痴ばかりこぼします。\n\n一ノ宮付近の疝気を治す観音様に封じて貰いたいと申しますが、私は御浄霊を信じております。\n\n十年程前には猟が好きでした。\n\nそのため多くの生物を殺したため、何かの怨霊に憑かれ、病気も治らず眼も片方見えなくなったのかと思います。いかにしたらよいでしょうか。御教え下さい。」\n\n**明主様御垂示**  \n「猟する人は、殺したものの霊が祟り、始末が悪い。\n\nそのため普通の病気より治り難い。\n\n一生懸命人助けする。父が殺したものに対し自責する。\n\n始終祝詞を奏げると、憑いてるのが早く浄まり、改心する。」\n\n---\n\n材木商の永続性\n**信者の質問**  \n「材木屋、製材業者は何代も続かないと、火災と怪我の多いのはいかなる理由で御座いましょうか。」\n\n**明主様御垂示**  \n「大した意味はない。\n\nこんな品を取扱えば、倒れたり怪我が多い。\n\n人間力としては、防火設備をする。\n\n怪我は、御守護によれば殆どなくなる。」",
       "content_ptbr": "",
-      "has_translation": false
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 20,
-      "publication_title": "明主様信仰者は狩猟をしてはならない",
-      "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「昨年一月入信の者でございます。\n\n銃猟が趣味で、毎年冬の山野を歩くのを楽しみといたしております。\n\n十二月一日、三連発の猟銃の回転が悪いので、実弾（散発三百発入り）をこめて、安全装置をして、「いろり」の側で調べておりましたが、\n\n銃口を上にして一、二回下に突いてみましたが、具合が悪いので、銃口に左の手をあて力を入れて下に突きました瞬間、\n\n弾が爆発して手の平をつらぬき、屋根裏をぶち抜き、飛び散りました。\n\n傷は手の平に一寸、手の甲は二寸ほど砕けて口を開けて、白い筋のようなものが飛び出し、勿論骨は砕けたものと思われます。\n\n御浄霊をいただきまして経過は良くさせていただいております。\n\n今後の御浄霊につき御垂示のほどお願い申し上げます。」\n\n**明主様御垂示**  \n「これは驚いたな。\n\n信仰に入っていて、そんな殺生するなんてとんでもない。\n\nだから、神様のお気づけですよ。\n\nまあ、なんですね・・・こういう狩猟するのは、信仰止（や）めてやるか、信仰に入っている以上は、絶対にやっちゃいけないですね。\n\nやっぱり、こういう殺生すると、必ず祟って、ろくなことはないですよ。\n\nこれは、止めろという神様がされたことだから、非常に結構ですよ。\n\n良くお礼を言って良い。\n\nそれで、これを止めないと、今度はもういっそうひどいのになります。\n\nこれでもか、これでもかとなりますよ。\n\nこれで止めて、良くお詫びして、これからできるだけ人を助けるんですね。\n\nそうして、その鳥を殺生した罪を、それによって償ってもらう。\n\nそうするのが一番良いです。\n\nそれから、御浄霊は自分でやっても良いですから、あとは良くお詫びするんだ。\n\nこれからはもうしない。そういうことは絶対にしないということをお誓いするんです。\n\nそれが根本ですよ、そうしないと、またなにかありますよ、だから非常に結構です。」\n\n---",
-      "content_ptbr": "",
-      "has_translation": false
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 21,
-      "publication_title": "猟師の病気は治り難い",
-      "publication_title_ptbr": "",
-      "content": "猟で殺した動物の祟りによる神経痛\n\n**信者の質問**  \n「父の神経痛について・・・。\n\n前記のごとく父の神経痛は御浄霊により大分よくなりましたが、近頃は少々飽きたらしく、よく愚痴ばかりこぼします。\n\n一ノ宮付近の疝気を治す観音様に封じて貰いたいと申しますが、私は御浄霊を信じております。\n\n十年程前には猟が好きでした。\n\nそのため多くの生物を殺したため、何かの怨霊に憑かれ、病気も治らず眼も片方見えなくなったのかと思います。いかにしたらよいでしょうか。御教え下さい。」\n\n**明主様御垂示**  \n「猟する人は、殺したものの霊が祟り、始末が悪い。\n\nそのため普通の病気より治り難い。\n\n一生懸命人助けする。父が殺したものに対し自責する。\n\n始終祝詞を奏げると、憑いてるのが早く浄まり、改心する。」\n\n---",
-      "content_ptbr": "",
-      "has_translation": false
-    },
-    {
-      "title_idx": 7,
-      "title": "職業選択",
-      "title_ptbr": "",
-      "pub_idx": 22,
-      "publication_title": "材木商の永続性",
-      "publication_title_ptbr": "",
-      "content": "**信者の質問**  \n「材木屋、製材業者は何代も続かないと、火災と怪我の多いのはいかなる理由で御座いましょうか。」\n\n**明主様御垂示**  \n「大した意味はない。\n\nこんな品を取扱えば、倒れたり怪我が多い。\n\n人間力としては、防火設備をする。\n\n怪我は、御守護によれば殆どなくなる。」",
-      "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和26年12月11日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 0,
-      "publication_title": "船舶業の将来",
+      "publication_title": "船舶業の将来 （昭和25年1月23日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「本年三月に船舶運営が民間に委譲されるので御座いますが、この機会に船具販売業を始めたいと考えますが、時機と今後の見通しについて御教示を御願い致します。」\n\n**明主様御垂示**  \n「これから船は沢山出来るからいいに決っている。大いにやった方がよい。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和25年1月23日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 1,
-      "publication_title": "陶磁器製造の将来",
+      "publication_title": "陶磁器製造の将来 （昭和24年10月6日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は陶磁器の製造及び輸出を業とするものでございますが、陶磁器の輸出につきましては今後いかなる状態になりますでしょうか。\n\n現在工場を二ケ所有し、七十人の職工を使用致しております。」\n\n**明主様御垂示**  \n「アメリカの注文取消しが原因である。\n\nいずれまた要るから、縮小した方がよかろう。\n\n世界的不況が来るから、半分位に縮小した方がよい。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年10月6日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 2,
-      "publication_title": "織物業不振の方針",
+      "publication_title": "織物業不振の方針 （昭和25年5月6日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は現在絹織物業を経営しているもので御座居ます。\n\n私の娘、去る二十三年二月入信致し、光明如来様を御奉斎させて頂いて居ります。\n\n昭和二十三年、二十四年と指定生産を割当てられて、銘仙や布団縞を織りました結果、昨年六月絹織物の統制解除となったので、\n\n組合ではストック品が沢山出来、（マル公）で糸は買ってあり、反物は（マル公）よりずっと安くないと売れないため、その差額が赤字となり、私の家では二十万近くの借金が出来てしまいました。\n\n昨年春頃より小幅物は落ち行く状態なので、大幅織機を取り入れて織り始めましたが、これも赤字になるばかりです。\n\n今のところどうする事も出来ず機械もほとんど動かない状態でございます。\n\n何とか精算して商売を換えようか、またやめてしまってお道のため御用させて頂こうか、\n\nでも精算すれば殆ど何も残らない状態になり、妻子を養って行かねばならず、とつおいつ悩んでおります。どうさせて頂いたらよろしいでしょうか。」\n\n**明主様御垂示**  \n「早く整理しなくてはいけない。まだまだ安くなる。\n\n一生懸命信仰して人助けを決心すればそう困らずにゆく。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和25年5月6日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 3,
-      "publication_title": "材木の処理",
+      "publication_title": "材木の処理 （昭和24年7月6日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「息子は呉服反物の配給所を営み、私は無職ですが少し畑を耕して生活しております。\n\n今度都合により今明年の中に山林の立木を売りたいのですが、いかなる時機に売却したらよいでしょうか。」\n\n**明主様御垂示**  \n「一日も早い方がよい。だんだん安くなる。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年7月6日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 4,
-      "publication_title": "風俗業の営業権売却",
+      "publication_title": "風俗業の営業権売却 （昭和24年6月29日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は受講以来花柳界で商売を致しておりますが、この度教導師補の御資格を戴き、商売がいやになってしまいました。\n\n家屋、地上権、営業権等売ってしまいたく存じますが、宜しく御守護御願い申し上げます。」\n\n**明主様御垂示**  \n「早く売った方がよい。\n\nこういうものは安くなるから一日も早く売った方がよい。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年6月29日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 5,
-      "publication_title": "養蚕の将来、無肥料増産",
+      "publication_title": "養蚕の将来、無肥料増産 （昭和24年1月26日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「（イ）岐阜県の山間の高冷地（約標高八百米）における米、麦、蔬菜、養蚕、畜産、林業等の農家の経営の将来について御教示を御願い申し上げます。\n\n（ロ）無肥料栽培を試験程度にやっているもので御座いますが、今年の秋の農作物の収穫は例年作を保ち得るで御座いましょうか。」\n\n**明主様御垂示**  \n「皆よいが、土地に適、不適かが問題である。\n\n（イ）養蚕は日本ではいけないようだ。新しい繊維が出来つつある。\n\n養蚕はやめた方がよい。藍も・・・インデゴー（印度藍）が来て、日本の藍は駄目になった。\n\nその後独逸から藍が来て完全にいけなくなった。（四国で藍を作ったが）\n\n（ロ）かいてある通りやれば例年作以上になる訳である。\n\n肥毒があればそれだけ減る。\n\n植物は土の成分を吸う性能があり、それが肥料を吸うようになっている。\n\nそれを本来の性能に戻すのである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年1月26日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 6,
-      "publication_title": "養蚕業",
+      "publication_title": "養蚕業 （昭和24年9月28日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は蚕を飼っておりますが、現在まゆが値段安にて引合いません。今後養蚕を継続すべきか否か、御教え願います。」\n\n**明主様御垂示**  \n「養蚕はやめた方がよい。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年9月28日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 7,
-      "publication_title": "味噌醸造と経済の将来",
+      "publication_title": "味噌醸造と経済の将来 （昭和24年5月26日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「味噌、たまりの醸造を営んでおりますが、食糧公団より五、六倍の設備拡充を要求されております。\n\n将来の日本経済並対外事情を考える時不安に思います。どう致しましたら宜敷う御座いましょうか。」\n\n**明主様御垂示**  \n「別に不安はない。\n\n味噌、醤油はいつでも食べられる。\n\nどんな経済になろうと使わない事はない。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年5月26日"
     },
     {
       "title_idx": 8,
       "title": "経済動向と職業選択",
       "title_ptbr": "",
       "pub_idx": 8,
-      "publication_title": "牛乳の使用の将来",
+      "publication_title": "牛乳の使用の将来 （昭和24年7月5日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「私は副業として乳牛を飼育しておりますが、将来性がありましょうか。\n\nまた五六七の御代になっても牛乳は用いるものでしょうか、御教示下さい。」\n\n**明主様御垂示**  \n「五六七の御代になっても用いる。\n\n副業にしていていい。\n\n牛乳で赤ン坊を育てる事はなくなるが、味をつけたりするのは差支えない。」",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年7月5日"
+    },
+    {
+      "title_idx": 9,
+      "title": "営業不振",
+      "title_ptbr": "",
+      "pub_idx": 0,
+      "publication_title": "営業不振の解決 （昭和24年6月27日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「私が関係致している信徒の方で、従業員約三十名を使用、鉄工所を経営され、時節柄経営困難で悩んでおられます。\n\nこの際信仰者としていかなる態度で進まれたが宜敷いでしょうか。\n\nまたその方をお導きさせて頂くのにはどう致したら宜敷いでしょうか。御教示を御願い致します。」\n\n**明主様御垂示**  \n「まず、営業を縮小する。\n\n何でも手一杯やるからいけない。\n\n「貧乏の原因」（光十五号）を読め。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年6月27日"
+    },
+    {
+      "title_idx": 9,
+      "title": "営業不振",
+      "title_ptbr": "",
+      "pub_idx": 1,
+      "publication_title": "行詰りの事業生かす道 （昭和24年12月8日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「私の村は山林地帯が多く、耕地が少いため農業のみにては生活が困難なる土地にして、しかも工業は無く代々貧農の土地であります。\n\n私は昭和二十一年より土地の工業振興のため木材業を兼ね、\n\n木材加工業（木製玩具、寝具、建具、その他輸出向木竹加工）を始めましたが、\n\n周囲の有志の助力によりますます発展致し、昨二十四年私の事業を資本金壱百万円の株式会社とし、\n\n現在工員三十名、その他家庭の副業として下請三十名を使用しております。\n\nこの不況下にあっても経営の合理化を計り、従業員一丸となって事業に専心、経営を続けておりますが、\n\nこの経営の欠陥は高金利、日分二十銭の借入金が五十万円ありますので、\n\nその金利のために折角の好成績を修める事業も無になってしまいます。\n\nまた近頃は県の農政課から輸出品の製作依頼もありますが、現在の高利金を使用していてはその方に努力をうばわれ、輸出のような大きな仕事に努力する事も不可能な現状です。\n\nこの五十万円を返済すべく出資者を求めて努力致して来ましたが、今日の金づまりでは人を得る事が出来ません。\n\nしかしながら現在の工場企画を小にしその金を生み出す事も出来ません。\n\n私はいかなる方法にて進んだら宜しいでしょうか。\n\n私の事業に投資して精神的に片腕となって働いて下さる人はないでしょうか。\n\n今の世の中にそんな事を考えるのは不可能でしょうか。\n\n勿論前記しました欠陥を除けば経営も合理化され、利益も上り、また土地の工業振興にも大いにその成果は上ります。\n\n村当局は村民全員は最大の関心を持て私の業績を見守っております。\n\n当地の工業振興のため私は生命をかけて事業に当っております。\n\n私の生命は事業のために費す覚悟です。\n\n私の生命であるこの事業に、私の日夜崇拝している大先生のお教えをお願い致します。」\n\n**明主様御垂示**  \n「出発点が間違っている。\n\n出来るだけ事業を縮小する。小さくやる。\n\n大英断して、新規蒔直しのつもりで借金を清算する。\n\nそれによって生きてくる。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年12月8日"
+    },
+    {
+      "title_idx": 9,
+      "title": "営業不振",
+      "title_ptbr": "",
+      "pub_idx": 2,
+      "publication_title": "借金営業行詰り打開の道 （昭和25年1月26日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「私は二十一年七月二十一日入信致しました者です。\n\n昨年一月より多額の借金をして、古着商店を経営しております。\n\n十月頃までは殊の外順調に千客万来の盛況に益々気を良くし、今一層大奮発と更に借金を増額し、商品を多量に仕入れ意気込んでおりましたが、\n\n十一月以後世相一変し、元価を二、三割より五割を切る値にても仲々商品は捌けず、全く行詰りを生じ、\n\nこのままで推移したならば、元金の返済は疎か利子も支払不可能となり、家屋、宅地迄人手に渡る結果となり、自然消滅の外なく、前途甚だ暗澹たるものあり、\n\n毎日光明如来様に熱願しておりますけれども、何か起死回生の良策は無いものでしょうか。御教示御願い申し上げます。」\n\n**明主様御垂示**  \n「よくある事である。\n\nいくらでもいいから、一日も早く売る。\n\nそしてそれだけの金を確保し、一時整理する。\n\n僅かでも確保して新規蒔直しにする。\n\nそうでないと生きない。犬死一番である。それ以外にない。\n\n後再び借金しない事。\n\n出来るだけ浄霊して、商売をよしてもよい。徹底的にやらねばいけない。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和25年1月26日"
+    },
+    {
+      "title_idx": 9,
+      "title": "営業不振",
+      "title_ptbr": "",
+      "pub_idx": 3,
+      "publication_title": "仕事の継続と止むなき借金 （昭和24年12月3日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「消極的の借金はいけないと御教示を頂きましたが、借金しなければならない時でも、その仕事を止める訳にいきません場合、御教をどう考えるべきでしょうか。」\n\n**明主様御垂示**  \n「出発点さえよければこういう事態までゆかぬ。\n\n不確実なものに手を出すのは間違っている。」",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年12月3日"
+    },
+    {
+      "title_idx": 10,
+      "title": "訴訟",
+      "title_ptbr": "",
+      "pub_idx": 0,
+      "publication_title": "不法占拠者に対する訴訟提起の是非",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「私が疎開地に居住している中、私の方の戦災地を他人が勝手に占領し、家を建て、公然と暮しています。\n\n再三再四明渡しを要求致しますが「行き所がない」とか「暫く待て」とか同じような事を言って、以来三ケ年になりますが明渡そうとも致しません。\n\n毎日腹立しい思いをしています。\n\n裁判所へ訴えて取戻しの強行手段を踏んでやろうかと思いますが、\n\nこちらは観音様の御用をさせて頂いているのに、左様な事は「悪」「自我」の働きになるかと迷っています。\n\nいかがなもので御座居ましょうか。御尋ね申し上げます。」\n\n**明主様御垂示**  \n「臨機応変である。\n\n告訴しようと思えばそうする。\n\nその人に罪穢があって、思うようにゆかぬためである。\n\n告訴も悪い事でない。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": ""
+    },
+    {
+      "title_idx": 10,
+      "title": "訴訟",
+      "title_ptbr": "",
+      "pub_idx": 1,
+      "publication_title": "元夫に対する認知請求、養育費支払請求の是非 （昭和24年12月20日発行）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「私は昭和二十一年に両親の反対を押しきって結婚、夫は妊娠中他に女ができ、生まれた子供を虐待し、正式の届出もしてくれません。\n\n昨年暮れに別れることにいたしましたが、子供の認知をしてもらいたいと思いますが、本人にその意思がありません。\n\n子供の認知と養育費のことにつき家事裁判所へ願い出るよう親戚ですすめますが、いかがいたしたらよろしいでしょうか。」\n\n**明主様御垂示**  \n「これはどっちとも言えぬ。臨機応変である。\n\n人が苦しむということは、すべて自分に罪穢があるのでその浄化作用である。\n\n行者など難行苦行をするのはそれによって汚れをとる人為的浄化である。\n\n人事相談所へ願っても願わないでも結果は同様で、根本は自分の罪の浄化であるから、できるだけ善徳を積んで浄めることが一番よい。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年12月20日発行"
+    },
+    {
+      "title_idx": 10,
+      "title": "訴訟",
+      "title_ptbr": "",
+      "pub_idx": 2,
+      "publication_title": "不義理な男への慰謝料請求の是非 （昭和24年7月発行）",
+      "publication_title_ptbr": "",
+      "content": "邪魔になる悪を滅ぼす勇気が必要\n\n**信者の質問**  \n「子供が生まれてもその男親はその責任を取らず離れるばかりで困っています。\n\nこれを裁判にして慰謝料を請求してよいもので御座いましょうか。\n\n家事調停に申し込んでよいもので御座いましょうか、御伺い申上げます。」\n\n**明主様御垂示**  \n「相手の出方とその人柄とその原因によってその方法は決まるもので、いずれがよいと断定は出来ない。\n\nただ相手が悪質の場合は裁判して強引に取ることも必要である。\n\nそうでない場合は静観していれば自から道が開けるものである。\n\n邪神には善人が一番恐ろしく、また邪魔になる悪に対してはこれを制止しまたは滅すだけの勇気が必要である。\n\nこの勇気のないものは真の善人ではない。\n\n無抵抗主義は愚であり、小善である。\n\n印度を見よ、為すべき抵抗は為すべし。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年7月発行"
     }
   ]
 }

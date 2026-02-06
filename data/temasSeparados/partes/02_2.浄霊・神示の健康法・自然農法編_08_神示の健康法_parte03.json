@@ -1,230 +1,250 @@
 {
   "source_file": "02_2.浄霊・神示の健康法・自然農法編_08_神示の健康法.json",
   "part": 3,
-  "total_parts": 26,
+  "total_parts": 24,
   "volume": "2.浄霊・神示の健康法・自然農法編",
   "theme_name": "神示の健康法",
-  "theme_name_ptbr": "Método de Saúde Revelado por Deus",
+  "theme_name_ptbr": "",
   "publications": [
     {
       "title_idx": 3,
       "title": "神示の健康診断法",
       "title_ptbr": "",
       "pub_idx": 18,
-      "publication_title": "臨終を知る方法",
-      "publication_title_ptbr": "104\\. Deve-se Ser Daijo Consigo e com os Outros (Orig.: 自分に対しても他人に対しても大乗であるべき)",
-      "content": "**信者の質問**  \n「重病人で脈拍以外に臨終を知る方法を御教示ください。」\n\n**明主様御垂示**  \n「死期を知るのは霊感が一番よいが、体的にも種々な徴しがある。\n\nすなわち死相であるが、昔から眼の縁が黒くなり、小鼻が落ちることなど言うが、一番よく判るのは顔が死人のようにみえることである。\n\nまた足の甲に浮腫がくるとたいていは駄目である。\n\nしかし甲の上から上方へ平均して浮腫のあるのは一般的病気症状でこれは生命にはかかわらぬ。\n\nまた唾が出なくなったり、唇がギザギザに乾くのもいけない。\n\n目に力のないのもまず見込みはない。\n\n特に頭が変になってトンチンカンなことを言うようなのは、すでに本霊が抜けているのでこれは絶対駄目である。」\n\n---",
-      "content_ptbr": "**(Fonte: Meishu-Sama Go-Suiji, 1 de março de 1949\\)**\n\n**Pergunta do Fiel:** \"Seria o verdadeiro regrar-se exclusivamente de forma Shojo quanto à própria conduta, e agir de forma Daijo em relação aos outros?\"\n\n**Resposta de Meishu-Sama:** \"Isso é um grande equívoco.\n\nSe diz Daijo, deve-se ser Daijo em tudo, consigo mesmo e com os outros.\n\nSe regrar a si mesmo de forma Shojo, por causa disso a si mesmo ficará restringido, a atuação se estreitará e a força não sairá.\n\nPreceitos e afins são coisas Shojo e estreitas.\n\nSe criar limites como 'não se deve fazer assim', 'tem que fazer assado', não se pode progredir e desenvolver.\n\nEm suma, deve-se estar numa condição em que 'pode-se fazer qualquer coisa' e, no entanto, naturalmente, em tudo, não sair da Lei e condizer com o Caminho.\"\n\n---",
-      "has_translation": true
+      "publication_title": "死期の判断法 （昭和23年7月8日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「重病人が臨終に近づいて、しかも死相などが判らない場合、これを判断する基準は・・・」\n\n**明主様御垂示**  \n「いろいろなしるしがありますね。\n\n死相とは目のふちが黒くなり小鼻が落ちる。\n\n一番よく判るのは顔が死んだようになるのです。\n\n足の甲にむくみが来たらもうほとんど駄目です。十中八、九は駄目です。\n\n脚の上のほうからむくむのならいいが甲だけのはどうもいけない。\n\nその他、唾が出ないとか、唇が乾いたりまた目に力がなくなる。\n\nトンチンカンなことを言うようになったらまったく駄目です。\n\nもうああなれば霊が抜けてしまっているんです。\n\n副守護神だけが残っている。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和23年7月8日"
     },
     {
       "title_idx": 3,
       "title": "神示の健康診断法",
       "title_ptbr": "",
       "pub_idx": 19,
-      "publication_title": "死期の判断法",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"A Raça Yamato é a linhagem de Amaterasu Sume Omikami",
-      "content": "**信者の質問**  \n「重病人が臨終に近づいて、しかも死相などが判らない場合、これを判断する基準は・・・」\n\n**明主様御垂示**  \n「いろいろなしるしがありますね。\n\n死相とは目のふちが黒くなり小鼻が落ちる。\n\n一番よく判るのは顔が死んだようになるのです。\n\n足の甲にむくみが来たらもうほとんど駄目です。十中八、九は駄目です。\n\n脚の上のほうからむくむのならいいが甲だけのはどうもいけない。\n\nその他、唾が出ないとか、唇が乾いたりまた目に力がなくなる。\n\nトンチンカンなことを言うようになったらまったく駄目です。\n\nもうああなれば霊が抜けてしまっているんです。\n\n副守護神だけが残っている。」\n\n---",
-      "content_ptbr": "**(Fonte: 8 de julho de 1948\\)**\n\n**Pergunta do Fiel:** \"A etnia japonesa é a linhagem de Amaterasu Sume Omikami? E quanto a Ninigi no Mikoto?\"\n\n**Meishu-Sama:** \"A Raça Yamato é a linhagem de Amaterasu Sume Omikami.\n\nSobre Ninigi no Mikoto não posso dizer agora. Isso é o mistério dos mistérios.\n\nMesmo que a linhagem sanguínea seja diferente, a Linhagem Espiritual continua, é exatamente como destino (shukumei) e sorte (unmei).\n\nA Raça Yamato é uma raça que absolutamente não faz guerra,\n\nmas vieram raças belicosas de fora para este Japão, e sem perceber elas fizeram a história do Japão.\n\nNo fim das contas, a história até agora foi a disputa por poder.\n\nNo entanto, só com a Raça Japonesa não se formaria a cultura atual; como entraram coreanos, chineses, indianos, etc., a cultura se desenvolveu. Foi bom terem entrado.\n\nFalando em números, Japão é 5, Coreia é 6, China é 7; e com estes três forma-se 'Miroku'.\"",
-      "has_translation": true
+      "publication_title": "死の兆候 （昭和26年9月8日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「足の甲の浮腫んだときは死の直前と御教えいただいておりますが、この浮腫みはいかなる作用でしょうか」\n\n**明主様御垂示**  \n「死の前という意味ですね。\n\nたいした意味はないですね。\n\nやっぱり薬毒でー足の甲なんてのは、つまり浮腫むべきものじゃないんです。\n\nそういうものは浮腫まないうちに、他に排泄されるものですがね。\n\n腎臓で排泄されない人は体が弱っているから、ある汚物は下に下にと下がります。\n\nそれを途中で処分するだけの力がなくなっているんですね。\n\nそこで、生命を保持することができなくなる。\n\n足の甲ばかりじゃない。\n\nよく口が乾きますね。\n\n唾が出なくなる。あれがそうです。\n\n唾という粘液を出す力がなくなるんですね。」\n\n**信者の質問**  \n「結核患者で喉が痛むのは・・・」\n\n**明主様御垂示**  \n「そういうのは危ないですね。\n\n医者のほうでも、喉頭結核は絶対だめだと言いますがね。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和26年9月8日"
     },
     {
       "title_idx": 3,
       "title": "神示の健康診断法",
       "title_ptbr": "",
       "pub_idx": 20,
-      "publication_title": "死の兆候",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"A Imagem Principal do Zenkoji voltou para a Índia",
-      "content": "**信者の質問**  \n「足の甲の浮腫んだときは死の直前と御教えいただいておりますが、この浮腫みはいかなる作用でしょうか」\n\n**明主様御垂示**  \n「死の前という意味ですね。\n\nたいした意味はないですね。\n\nやっぱり薬毒でー足の甲なんてのは、つまり浮腫むべきものじゃないんです。\n\nそういうものは浮腫まないうちに、他に排泄されるものですがね。\n\n腎臓で排泄されない人は体が弱っているから、ある汚物は下に下にと下がります。\n\nそれを途中で処分するだけの力がなくなっているんですね。\n\nそこで、生命を保持することができなくなる。\n\n足の甲ばかりじゃない。\n\nよく口が乾きますね。\n\n唾が出なくなる。あれがそうです。\n\n唾という粘液を出す力がなくなるんですね。」\n\n**信者の質問**  \n「結核患者で喉が痛むのは・・・」\n\n**明主様御垂示**  \n「そういうのは危ないですね。\n\n医者のほうでも、喉頭結核は絶対だめだと言いますがね。」\n\n---",
-      "content_ptbr": "**(Fonte: 8 de setembro de 1951\\)**\n\n**Pergunta do Fiel:** \"A Imagem Principal (Honzon-sama) do Zenkoji de Nagano voltou para a Índia?\"\n\n**Meishu-Sama:** \"Voltou.\"\n\n*(Nota: A Imagem Principal do Zenkoji é a Tríade de Amida que originou o estilo Zenkoji de Tríade de Amida; é um Buda Secreto Absoluto, cuja figura nem mesmo o sumo sacerdote do templo pode ver.)*\n\n\n# 28\\. Sobre Momotaro 1 (Orig.: 桃太郎について　１)",
-      "has_translation": true
-    },
-    {
-      "title_idx": 3,
-      "title": "神示の健康診断法",
-      "title_ptbr": "",
-      "pub_idx": 21,
-      "publication_title": "手鏡を見たり小鼻がピクピクしても死ぬとは限らない",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"Sobre a diferença entre Komyo Nyorai e Miroku Okami",
+      "publication_title": "手鏡を見たり小鼻がピクピクしても死ぬとは限らない （昭和23年3月28日）",
+      "publication_title_ptbr": "",
       "content": "「手鏡を見たり小鼻がピクピクしたからって全部死ぬとは限らない。助かる人はいくらもいますよ。\n\n私が肺で死にそうだったとき、毎日手鏡を見てましたが現にこうして生きてますよ。」",
-      "content_ptbr": "**(Fonte: 28 de março de 1948\\)**\n\n**Pergunta do Fiel:** \"Gostaria de ser ensinado sobre a diferença entre Komyo Nyorai e Miroku \\[日月地\\] Okami.\"\n\n**Meishu-Sama:** \"No fim das contas, é a mesma coisa, sabe?\n\nOu seja, quando atinge a posição suprema, é 'Miroku' \\[日月地\\].\n\n'Miroku' é Okami (Grande Deus), é a posição de Kami.\n\nCom isso torna-se 5-6-7 e a atuação se torna completa.\n\nKomyo Nyorai é Fogo e Água.\n\nKannon-sama é Fogo, Água e Terra, mas a Terra é pouca.\n\nPor que a Terra é pouca? Porque ela foi acrescentada depois que eu surgi.\n\nKannon-sama é a atuação da Misericórdia, sem distinção de bem e mal, salvando todos os seres sencientes.\n\nDizer 'aquele é mau', 'este é assim ou assado', não é Kannon-sama.\n\nA Verdadeira Entidade de Kannon-sama é Kunitokotachi no Mikoto. Depois de ser confinado no Monte Ashibetsu em Hokkaido, tornou-se Enma Daio no Mundo Espiritual e realiza a atuação de julgamento.\n\nConsequentemente, é extremamente rigoroso.\n\nPorém, só com isso o ser humano não suportaria, então Ele apareceu como Kami da Misericórdia, que é Kannon-sama.\n\nComo na posição de Kami ou Nyorai era alto demais e não podia salvar as massas (Shujo-saido), Ele desceu para a posição de Bosatsu.\n\nQuem subiu um degrau disso é Komyo Nyorai. ...\n\nAo se tornar Komyo Nyorai, o Fogo e a Água — a Luz — tornam-se fortes (Luz é Fogo com um traço horizontal; o traço horizontal é Água).\n\nO fato de agora purificarmos com distância (sem tocar) é a atuação de Komyo Nyorai; fazer tocando era a atuação de Kannon-sama.\n\nE quando a força da Terra tornou-se completamente forte, é 'Miroku' \\[日月地\\]. ...\n\nAté o ano retrasado eu também tratava tocando, mas desde o ano passado não consigo mais.\n\nIsso é porque a posição se elevou e me afastei das massas.\"",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和23年3月28日"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 0,
-      "publication_title": "健康と寿命",
+      "publication_title": "健康と寿命 （昭和27年御執筆）",
       "publication_title_ptbr": "",
       "content": "「私はこれから医学を全面的に批判解剖してみるが、その前に健康と寿命についてかかねばならないが、\n\n現代医学が真の医術であるとすれば、病人は年々減ってゆかなければならないはずであり、\n\nそれと共に寿命も漸次伸びてゆかなければならない道理であるばかりか、\n\nそうなるまでに数百年で充分であるのはもちろん、\n\n現在最も難問題とされている結核も伝染病も全滅するし、\n\n病気の苦しみなどは昔の夢物語になってしまうであろう。\n\nところが事実は全然その反対ではないか。\n\nとしたら真の医学でない事は余りにも明らかである。\n\nそうして次の人間の寿命であるが、これも造物主が人間を造った時は、寿命もハッキリ決めた事である。\n\nもっともこれについても私は神様から示されているが、最低百二十歳から、最高は六百歳は可能という事である。\n\n従って人間が間違った事さえしなければ、百二十歳は普通であるから、\n\nそうなったとしたら実に希望多い人生ではないか。\n\nしかもただ長命だけではなく一生の間溌剌たる健康で、\n\n病気の不安などは消滅するのであるから、全くこの世の天国である。\n\nでは右のごとき間違った点は何かというとこれこそ驚くべし医学のためである。\n\nといったら何人も愕然（がくぜん）とするであろうが、\n\nこの百二十歳説について、最も分り易いたとえでかいてみるが、\n\nまず人間の寿命を春夏秋冬の四季に分けてみるのである。\n\nすると春は一、二、三月の三月（みつき）として、一月の元旦が誕生日となり、\n\n一月は幼児から児童までで、二月が少年期で、梅の咲く頃が青年期であって、\n\n今や桜が咲かんとする頃が青年期で、それが済んでいよいよ一人前となり、社会へ乗り出す。\n\nこれが花咲く頃であろう。\n\n次で四月桜の真盛りとなって、人々の浮き浮きする頃が、四十歳頃の活動の最盛期であろう。\n\nよく四十二の厄年というのは花に嵐のたとえ通り、花が散るのである。\n\n次で五、六、七月は新緑から青葉の茂る夏の季節で、木の実はたわわに枝に実るが、\n\nそれを過ぎて気候も下り坂になって、いよいよ稔りの秋となり、これから収穫が始まる。\n\n人間もそれと同じように、この頃は長い間の労苦が実を結び、仕事も一段落となり、社会的信用も出来ると共に、\n\n子や孫なども増え、人生最後の楽しい時期となる。\n\nそうして種々の経験や信用もあり、それを生かして世のため人のため出来るだけ徳を施す事になるのである。\n\nそれが十年として九十歳になるから、それ以後は冬の季節となるから、\n\n静かに風月などを楽しみ、余生を送ればいいのである。\n\nしかし人によっては活動を好み死ぬまで働くのも、これまた結構である。\n\n以上によってみても、四季と寿齢とはよく合っている。\n\nこの見方が最も百二十歳説の裏付けとしては好適であろう。\n\nこの理によって医療が無くなるとすれば、\n\n右のごとく百二十歳まで生きるのは何ら不思議はないのである。\n\nところが単に医療といっても種々の方法があるが、\n\n二十世紀以前まではほとんど薬剤が主となっていたので、\n\n長い間に薬剤で沢山の病気を作って来たのである。\n\n何しろ薬で病気を作り、薬で治そうとするのだから、病気の増えるのも当然であると共に、寿齢の低下も同様である。\n\nこの何よりの証左として、医学が進歩するとすれば病気の種類が少なくなりそうなものだが、\n\n反対に増えるのは、薬の種類が増えるのと正比例しているのである。\n\n今一つ人々の気の付かない重要事がある。\n\nそれは医学で病気が治るものなら、医師もその家族の健康も、一般人より優良でなければならないはずであるのに、事実はむしろ一般人より低下している。\n\n何よりも種々の博士中医学博士が一番短命だそうだし、\n\nまた医師の家族の弱い事と、結核の多い事も世間衆知の通りである。\n\nそうして現在の死亡の原因は突発事故を除いてことごとくは病気である。\n\nしかも病死の場合の苦しみは大変なもので、これは今更言う必要もないが、よく余り苦しいので、\n\n一思いに殺してくれなどの悲鳴の話をよく聞くが、ではこのような苦しみは何がためかというと、\n\n全く寿命が来ない内死ぬからで、中途から無理に枝を折るようなものであるからで、\n\nちょうど木の葉が枯れて落ち、青葉が枯れて萎れる。\n\n稲が稔って穫入れるのが自然であるのに青い内に葉をむしり、青い草を引抜き、稲の稔らないのに刈り込むと同様で、不自然極まるからである。\n\nというようにどうしても自然死でなくてはならない。\n\nしかし近代人は弱くなっているから、自然死といっても九十歳から百歳くらいが止まりであろう。\n\n以上説いたごとく、神は人間に百二十歳以上の寿命を与え、\n\n病気の苦しみなどはなく、無病息災で活動するように作ってあるのを、\n\n愚かなる人間はそれを間違え、反って病苦と短命を作ったのであるから、\n\nその無智なる、哀れと言っても云い足らないくらいである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和27年御執筆"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 1,
-      "publication_title": "健康協会会員の天寿は九拾歳を越えん",
+      "publication_title": "健康協会会員の天寿は九拾歳を越えん （昭和11年3月6日執筆）",
       "publication_title_ptbr": "",
       "content": "「そもそも日本人本来の天寿は幾つかと言えば、百弐拾歳である。\n\nこれはいかなる根拠から出たかと言う事を解り易く説いてみる。\n\n人間は天地の縮図であり、小宇宙である。\n\n又、日本国は地球の雛型になっているのであり、日本の気候は、四季がまことに好く調っていて、それが人生の経路によく当嵌まるのである。\n\n即ち、一年を十二ケ月に分ければ、春夏秋冬は三月宛である。\n\nそれを人間に当嵌めて試ると、一歳より三拾歳までが春分となり、三拾一歳より六拾歳までが夏分となり、六拾一歳より九拾歳までが秋分となり、九拾一歳より百弐拾歳までが冬分となるのである（すべて陰暦に依る）。\n\nこの四季の状態は、まことに人生行路の起伏をよく現わしているのである。\n\nまず、人間呱々の声を挙げて出生するや、芽出度いとして大いに祝うのである。\n\nこの時はちょうど正月元旦、新年の誕生を寿（ことほ）ぐのと同じである。\n\nそうして漸（ようや）くそれぞれの学校を卒（お）え、丁年（ていねん）ともなれば年頃になって春になると人生の花が咲く。\n\n男は世に出て花を咲かさんとし女も又、春風に遇って花の蕾が綻（ほころ）びようとする状（さま）である。\n\nそれで初経の事を花が開くという。\n\nそれが、三拾を越えて夏分に入るや、益々、花の盛りとなるのである。\n\n花によっては早く咲く花と、遅く咲く花とあるが、これも人間に好く当嵌まるのである。\n\n早く成功する男子もあり、遅く結婚する女子もあるようなものである。\n\nそうして、四拾を越え、五拾を越えて、男子はいよいよ信用も得、活動の旺盛期に入り、\n\n女は幾人かの子女を得て一家繁り栄ゆる状は、ちょうど四、五月頃から、花は散っても葉や枝がいよいよ茂るのと同じである。\n\nそうして、六十を越えるに及んで、実りの時期となり、刈込になるのである。\n\n若い頃から、苦心惨澹した事業が漸く実を結ばんとし、女は又、苦労して育てた子供等が漸く一人前となって、親の為役に立つ頃となるのである。\n\nそれがちょうど、植付の頃から、種々の手を竭（つく）して、稔らせた稲の収穫期の様なものである。\n\nその秋の収穫も過ぎて、いよいよ九拾を越ゆれば冬季に入るので、\n\nそれからは、功成り名遂げて静かに余生を送る。それが人生真の順序である。\n\n故に、百二拾歳まで生きるのが本当であって、神武紀元千年頃まではそれに近かったのである。\n\nしかるに、人間が罪穢を構成した事と、中国から漢方医学が渡来し、人間が薬剤を服用する様になってから、追々、寿齢が短縮したのである。\n\n故に、今日のごとく日本人の平均寿命が、六十歳などとは古人の夢想だもしなかったところで、近代人は真に不幸なものである。\n\nこれ全く右のごとき過誤による結果なのである。\n\n故に身体に毒がなければ百二十まで必ず生きられる。\n\nここに、天の時来って、観音力に依る無医薬療法が創始されたのであるから、\n\nこれからは漸次人間の罪穢は払拭され、体内に残存せる薬毒が減少してゆくので、復（ふたた）び寿齢は延びてゆくのである。\n\nそれについては、本会員といえども、祖先以来の不浄が体内に残っている関係上、理想の百二十歳は難しいであろうが、九拾歳以上は必ず生きられるのである。\n\nこの事に依てみても、いかに本会員が恵まれているかが判るのである。」　（「新日本医術書」より）\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和11年3月6日執筆"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 2,
-      "publication_title": "人間の寿命",
+      "publication_title": "人間の寿命 （昭和28年御執筆）",
       "publication_title_ptbr": "",
       "content": "「病気とは体内保有毒素の自然排除作用の苦痛であり、言わば体内の掃除であり、浄血作用である事は分ったであろうが、\n\nこの理を知ってその通りを守れば益々健康となり、百歳以上の長寿も敢えて不可能ではないのである。\n\nというのは言うまでもなく、百歳以下の死は病のためであり、不自然死である。\n\nそれが自然死なら、神から与えられた天寿を全うし得るのは当然であるから、人間これ以上の幸福はあるまい。\n\nその理を知らない今日までの人間は、誤謬医学によって多額の金を費い、病苦の種を購（あがな）い、生命を縮めているので、\n\nしかもこれを文化の進歩と思っているのであるから、その無智なるいうべき言葉を知らないのである。\n\n従ってこの医学だけにみても、今日の文明は真の文明ではない事が分るであろう。\n\nなるほど文化の進歩は一面人類の幸福に役立ってはいるが、他の半面医学によって不幸を作っているのであるから、公平に見て功罪相半ばしているというのが適当であろう。\n\nそうして今まで説いたごとく、現在までの人間は先天性毒素と後天性毒素とを、驚く程多量に保有しており、これがあらゆる病原となるのであるから、この理が分ってその通り実行するとしても、早急には間に合わない。\n\n何となればあるだけの毒素は何らかの形によって幾度となく、浄化作用によって排除されなければならないからである。\n\nしかしその都度放っておけば必ず治るから、何の心配も必要はないと共に、苦痛が強ければ強い程、急速に多量に毒素は減るから、むしろ喜んでいい。\n\nまた苦痛といえども峠があるから、それを越すまでの辛抱である。\n\n右は浄霊を抜きにしての事であるが、浄霊すれば驚く程促進されるから、そうする事を勧める。\n\nそうして昔は四百四病といったが、今日は千数百にも上っているといわれるが、医学が進歩すれば減るはずだが、反って増えるのはどうしたものか不思議である。\n\nこれに対し医学者はこういう。\n\n医学の進歩は今まで未発見であった病気が、発見されたので、それが増えたように見えるのである。\n\nだがこれは詭弁か、そうでなければ誤解である。\n\n本当をいえば薬の種類が増えたからだと、吾々の方ではみている。\n\nというのは薬毒が多いため、排除の個所が増えたからである。\n\nこれについて医学の解釈は、病気の種類はそれぞれ異っていると思うのは、療法がそれぞれ異っているにみてそう思われる。\n\nところが吾々の見解は、病原は一つだが、発病の個所が異うのを、医学は誤ったのである。\n\nその証拠には浄霊の場合、いかなる病気でも同一方法でよくなるにみて明らかである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和28年御執筆"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 3,
-      "publication_title": "生と死",
+      "publication_title": "生と死 （昭和11年7月）",
       "publication_title_ptbr": "",
       "content": "「そもそも、死とは何ぞやと言えば、肉体が病気等の為ある程度毀損され、又は大出血（全体量の三分の一・・・約七合以上）の結果、\n\n肉体が用をなさなくなるので、霊は肉体に留まる事が出来ず離脱するので、これを指して死というのであります。\n\n一概に病死といっても、それは直接病気そのものの為ではなく、ほとんど衰弱によるのであります。\n\nしかるに今日は衰弱によらないで死ぬ場合が非常に多くなって来ている。\n\nこれはいかなる訳であるか、大いに研究の必要があるのであります。\n\nただしかし、衰弱以外の死の原因としては心臓及び脳の故障であります。\n\n次に、死は大別して二種あります。それは自然死と不自然死であります。\n\n現在としては自然死はまことに稀であって、国勢調査によると八十歳以上の人は七百人に一人の割合であるという事で、実に驚くべきであります。\n\n他の動物即ち鳥獣等は自然死が多いに係わらず、ひとり人間のみにかくも不自然死が多いという事はいかなる訳でありましょうか。\n\nそこに何らかの重大原因がなくてはならないと思うのであります。\n\nそうして一方文化の進歩は何物をも解決せずには措かないという素晴しさに係わらず、ひとり人間の不自然死がいかに多くともどうする事も出来ないとして諦めている現在の文化は実に情ないと思うのであります。\n\nそうして今・・・不自然死を分けてみれば、病気及び変死であります。\n\nしかし変死は極僅かで、ほとんど病死である。\n\nしからば何故に病死が多いか、これについて我歴史を覧ますと・・・\n\n畏多くも神武大帝以後十二代景行天皇様までは百歳以上の天寿を全うせられ給いし天皇様の相当あらせられた事であります。\n\nそれ以後は御寿齢がずっと低くなり給うて居る。\n\nこれはいかなる訳でありましょうか、人文発達の為かとも想われますが、しかし人文発達が、雲井（くもい）の上までさほど影響する訳がないと拝察するのであります。\n\nここで、注目すべき事は、その頃から漢方医学の渡来であります。\n\nそれはどういう意味になるかというと、日本人が薬を服む様になった事であります。\n\n徳川時代の有名な某漢方大家の言葉に「元来薬なるものはない」、\n\n「薬という物は皆毒である。病気は毒素であるから、毒を以て毒を制するという意味で薬を用いるのである」と言ったそうであるが、\n\nこれは実に至言であって、吾々と同一意見であります。\n\nこれによってみれば、漢医方渡来によって薬という毒を服む事を覚え、それが人体を弱らせ日本人の寿齢が短縮されたのではないかと想われるのであります。\n\n又今一つの例として彼の秦の始皇帝が、東方に蓬莱島があり、そこに住む人間は非常な長寿者という事である、\n\n何か神薬でも服んでいるのではないか、それを査べて来い、と臣の徐福に命じたという話は余りに有名であります。\n\n按（あん）ずるにそれは、その頃の日本には薬というものが無かったので長寿者が多かったが、\n\n中国は勿論、その前から薬があったので長寿者が少なかった故と、吾々は想像するのであります。」　（「岡田先生療病術講義録　上巻　３」より）\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和11年7月"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 4,
-      "publication_title": "寿命について",
+      "publication_title": "寿命 （昭和24年5月9日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「人間の寿命につき文芸春秋（雑誌）で読みました事につき御伺い申し上げます。\n\n本田博士は最近、科学的に百二十五年説を、米国医学界のポーツは百五十年説を説いております。\n\n犬は二年で成熟し、平均寿命十二年、馬は四年で成熟して寿命は二十五年、\n\nこの比例で行くと二十五年で発育完了の人間は当然百五十年は生きられる性質のものであると説明されておりますが、\n\n心臓、腎臓、脳動脈に起る退行変性について、三十歳を越したばかりで心臓は四十歳位、腎臓は五十歳位に老衰してゆく場合が多く、\n\n動脈硬化と寿命との関係も大いに注目すべき点があると記され、医学界でも重要な問題とされているという点・・・。\n\n右はいかなる意味で御座いましょうか。\n\n俗に人生五十年といわれておりますが、日本人の平均寿命は男四六・九二歳、女四九・六三歳、米国人は男六四・四歳、女六九・五歳で、この差約二十年とありますが、右はいかなる意味で御座いましょうか。」\n\n**明主様御垂示**  \n「人間の寿命は短くなった。薬のためである。全部毒である。\n\n薬を服まねば百年位生きる。薬なら服む程いい訳だが、毒だから、当る程毒である。\n\n強いていえば米の飯は薬である。\n\n薬を服まなくなれば長生きする。\n\nブルガリヤの長命者は百五十幾歳、仙人は八百歳が最長年という。（今迄の記録である）\n\n仙人は年をとらず身体が軽くなる。\n\n老衰したりなどするのは栄養を摂りすぎるからで、未完成のもの程いい。\n\n竹内家の人の最年長者は三百四十九歳という。\n\n石楠花（しゃくなげ）の花を煎じて飲めという遺言がある。\n\nしかしだんだん短命となり、明治で百二十歳、九十歳から八十歳となった。\n\n石楠花のため長生きなのか、そのために短命になったのである。\n\nその代り菜食にすると無欲になるが、美食をすると闘争心が起る。\n\n年とるに従いウンと粗食すると若返る。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年5月9日"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 5,
-      "publication_title": "寿命について",
-      "publication_title_ptbr": "89\\. União Vertical-Horizontal e o Equilíbrio Mundial (Orig.: 経緯が結ばれ世界が平均化)",
+      "publication_title": "寿命 （昭和24年5月13日）",
+      "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「人が死ぬと「寿命だった」とか、あるいは「医者にかかって寿命が延びた」とか申しますが、寿命ということは決まっているのでしょうか。」\n\n**明主様御垂示**  \n「これは大いに違いますね。\n\n自殺や他殺や病気などで死ぬのは寿命じゃありませんよ。\n\n寿命が尽きて死ぬのはそんな苦しみがないんです。\n\nいまの人は、神様からいただいてる寿命を無理に縮めているんです。つまり不自然死ですね。\n\n自然死は九十以上で、九十以下はみんな不自然死ですよ。\n\n自殺、他殺、病死、それから医者にかかって死ぬのなんて・・・\n\nま、これは大きな声では言えませんから、あとは察してもらえばいい。（笑声）・・・\n\n本当のことを言うのは実に難しいことでね、嘘を言うほうがずっとやさしいんです。\n\nだから、私は「嘘を言うと本当にし、本当を言うと嘘にする」ってよく言うんですよ。」\n\n**信者の質問**  \n「そういたしますと、楽に死ぬ場合は寿命と考えてよろしいでしょうか。」\n\n**明主様御垂示**  \n「ええ寿命です。\n\nしかし楽に死ぬんでも、九十以下で死ぬのは寿命じゃありませんよ。\n\n人間は間違ったことをしてきたから、まあ、九十でしかたないんですが、\n\n本当はどうしたって百二十は生きられるものなんです。\n\nだから人生を四季に分けるといいんで、三十、三十ずつね。\n\n人生三十までが春ですよ、それから六十までが夏で、九十までが秋、百二十までが冬なんです。\n\nだから私は九十を越してから隠居するって言うんです。\n\n冬だから冬眠ですかね。（笑声）\n\nで、九十までは大いに働き続けるつもりです。また事実人間はそうなっているんです。」\n\n**信者の質問**  \n「歴史には二百くらいまで永生きしている記録がありますが、あれはなぜでしょうか。」\n\n**明主様御垂示**  \n「毒が少ないからですよ。しかし二百と言ってもいまはないですよ、昔のことですよ。\n\nこれは嘘か本当か知らないけど、仙人の一番永生きしたレコードは八百歳ですよ。\n\nその次が六百いくつでしたかね、\n\n仙人で二百歳なんて言えば早死にですよ。\n\n仙人は朝鮮が本場で、日本にたくさんいたのはみんな朝鮮の仙人の弟子なんです。\n\n朝鮮にはいまでもいるそうですがね。\n\nなにを食うかって言うと、蕎麦粉と松葉を練り合わせた団子を食っているんです。\n\nそして仙人の修業のときには、最初にその団子を一日に三つ食い、次に二つにし、一つにして最後には水ばかりにするんです。\n\nたいていの人はここでまいってしまうそうですがね。その水だけのところを卒業した人が大仙人になるわけですが、とにかくそういう食物で、永生きするんですよ。\n\n私もだから九十以上になったら絶対粗食にするつもりです。\n\n絶対粗食にすると栄養器官が非常な活動をするんで、ずっと若返るんですよ。\n\nだから年をとるほどいわゆる「栄養」を食わないようにするのがいいんです。\n\n栄養不足だから弱いって言いますがとんでもない間違いですよ。\n\nみんな、栄養過剰だから弱いんです。\n\nいまは田舎のお百姓も蛋白が足りないからどうの、ビタミンが足りないからこうのと言ってますが、あれはあべこべで、\n\nつまりお百姓はあんなに粗食をするからあれだけ労働ができるんです。\n\n肉みたいなものを食べてたらあんなに続きはしませんよ。\n\n登山家でも本当の登山家は一週間前から絶対菜食にするんです。\n\n外国の登山家でもそうなんですよ。\n\n肉や魚を食べて山に登ると息が続かないんです。\n\n菜食が一番人間の栄養なんです。\n\nですから私はいま美食してますがね、栄養不足になりゃあしないかと心配してるんです。（笑声）\n\nみんな魚や鳥がいいんだと思って、そういった料理ばかり作るもんだから、\n\n「こんな栄養不足のものばかりじゃいけない、もっと栄養のある野菜をつけるように」って始終やかましく言ってるんです。\n\n栄養のことについて今度本に書きますが、いままでの考えとはまるで違うんです。\n\nやれビタミンだなんだって言ってそういうものを摂ると、体が弱ってしょうがないですよ。\n\n完成したものを食うと必ず体が弱るんです。\n\n完成してれば栄養器官が働く必要ありませんからね。\n\nところが、そういった器官が活動するのが、人間の生きて行く力になるんですから、それが働かずにすめば器官も弱るし体も弱るんです。\n\n実に、なんて言ったらいいか、まあ馬鹿ですよ。（笑声）\n\nこれだけでも知らして眼を覚まさなくちゃ、どうにもならないんです。」\n\n---",
-      "content_ptbr": "**(Fonte: Meishu-Sama Go-Suiji, 13 de maio de 1949\\)**\n\n**Pergunta do Fiel:** \"Como características da cultura japonesa, citam-se 'Mono no Aware' (Sensibilidade às coisas/Tristeza suave) e 'Sabi' (Simplicidade rústica/Patina do tempo).\n\n(1) Na cultura também existe Linhagem Espiritual (*Reito*)? (2) Se existe, 'Mono no Aware' e 'Sabi' seriam do Povo Yamato?\"\n\n**Resposta de Meishu-Sama:** \"É natural que surja essa dúvida. Existe muito, sim.\n\nO japonês é da linhagem do Fogo; dividindo em Yin e Yang, é Yang.\n\nConsequentemente, sendo Yang, gosta do Yin.\n\nSeja no teatro ou qualquer coisa, gosta de tragédia; no geral, gostam de peças de chorar.\n\nMas os americanos detestam. Gostam mais de rir, comédia é o normal.\n\nIsso é porque os ocidentais são uma raça Yin, e a linhagem é Água; portanto, inevitavelmente gostam de Yang... de coisas vistosas/brilhantes (*Hanayaka*).\n\nPor isso, no Ocidente não se desenvolve coisas como 'Sabi'; é tudo esplendoroso (*Kenran*).\n\nSe fosse só esplendoroso estaria bom, mas o da China, por exemplo, embora também vistoso, é meio berrante/venenoso (*Dokudokushii*).\n\nIsso é porque os chineses são o Yin dentro do Oriente, por isso fica assim.\n\nA partir de agora o mundo se tornará uma cruz de vertical e horizontal; então os japoneses passarão a gostar mais de coisas esplendorosas,\n\ne os americanos passarão a gostar de 'Sabi' e 'Wabi' (Simplicidade quieta), e o mundo se equilibrará (*Heikin-ka*).\n\nAté agora havia uma diferença notável e características distintas.\n\nPor essa razão, 'Sabi' e 'Mono no Aware' são características do Povo Yamato.\"\n\n---",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年5月13日"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 6,
-      "publication_title": "本教と寿命について",
+      "publication_title": "本教と寿命 （昭和23年11月12日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「人間の寿命は信仰により延びる事があるでしょうか。」\n\n**明主様御垂示**  \n「他の宗教は知らぬが、本教団に入り、私の言う通りにすれば九十歳まで生きられる。\n\n百二十歳まで生きるのが本当だが、薬のため早逝するのである。\n\nこれは私が責任をもってもよい。\n\n要するに薬を服むか服まぬかである。\n\n但し浄化の起った際、浄化に負けて死ぬ場合がある。\n\nこれは信仰に入っても徳を積まぬ時、汚い物の浄化のされ方が少いからである。\n\n徳を積めば浄化も早く、楽に浄化されるから助かるのである。\n\n人間の寿命は百二十歳が本当で、これは四季になっている。\n\n六十歳で本家還りというが、一月から三月までの春・・・これが三十歳までである。\n\nそして二十歳前に花が咲く。\n\nそれ迄は花の蕾で、世に月経の事を花咲くという。\n\nそして三十歳から六十歳までが夏になる。\n\n丁度木の葉が繁るように最盛期となる。\n\n六十歳から九十歳までが秋になり、功成り名遂げる。\n\n九十歳から百二十歳までが冬で、このように四季になっている。\n\nそこまで生きないのは人間が間違った事をしているのである。\n\n米でも一人につき年一石収れるように神様がなされている。\n\n日本人八千万人なら八千万石出来る筈である。\n\n人間が間違った事をするから、それで減産するのである。\n\n戦争中労力が足りないのでウンと肥料を使った。\n\nその肥料で土地が痩せたのである。\n\n肥料をやらなければ食糧も訳なく解決がつく。\n\n骨折って金を使って減産しているのである。\n\n今度雑誌に出すが、著しいのは千葉県で、一反歩で四十八俵出来たのがある。\n\n一反で普通六俵ならいい方だが、その八倍になる訳である。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和23年11月12日"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 7,
-      "publication_title": "本教信者の寿命は九十歳",
+      "publication_title": "本教信者の寿命は九十歳 （昭和23年11月12日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「人間の寿命は正守護神が現世に生存中の寿命と同じでしょうか。」\n\n**明主様御垂示**  \n「皆違う。\n\n正守護神云々のごとき事は全然ない。\n\nその人の間違った行為によって早く死ぬ事もある。\n\n教団に入った人は長生きし、必ず九十歳までは生きる。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和23年11月12日"
     },
     {
       "title_idx": 4,
       "title": "寿命",
       "title_ptbr": "",
       "pub_idx": 8,
-      "publication_title": "生命保険について",
+      "publication_title": "生命保険 （昭和23年11月18日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「生命保険はいかがなものでございましょうか？」\n\n**明主様御垂示**  \n「この教団に入りある程度判ったら生命保険はいりません。\n\n早死にしないから。\n\nだいたい九十歳までは生きますからね。\n\nだから八十過ぎてから保険をつければまあ少しは得でしょうがね。\n\nしかし保険屋のほうで受けつけないでしょうね。」",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和23年11月18日"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 0,
-      "publication_title": "睡眠時間について",
+      "publication_title": "睡眠時間 （昭和24年3月23日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「大人の睡眠時間はだいたいどれくらいが適当でしょうか。」\n\n**明主様御垂示**  \n「これは医学の言う通りですよ、ちょっとは違いがありますが。\n\n赤ん坊なんかは充分睡眠をとるのがいいんで十時間から十二時間、青年から中年にかけては八時間くらい、五十歳を過ぎれば七時間、六時聞から五時間でいいんです。\n\n私はいま五時間がちょうどいいですね。\n\nそれからさらに高齢になるとともに四時間、三時間と縮めていいわけです。\n\n医学では睡眠不足はいけないと言いますがね、あれは嘘で、むしろ睡眠不足のほうがいいですよ。\n\n私は努めて不足するようにしてますがね。\n\n睡眠時間が足りないとね、それだけ活動する時間が多いですからそれだけ健康になるんです。\n\n睡眠不足はとても悪くて肺結核の主要原因だなんて言いますがね、あれは間違いですよ。\n\n肺結核の一番少ないのは花柳界です。\n\nところが花柳界ってのは一番睡眠不足でしかも一番不規則な生活をやってるんですからね。\n\n睡眠時間を少なくすることが結核をなくする実際の結果になってるんです。\n\nエジソンなんかもね、研究室に入ると一週間くらいはほとんど不眠不休でね、\n\n食事も日本で言えばおむすび・・・まあサンドイッチなんかを入れてもらって、それを食べながら研究したそうですが、\n\n所員が「エジソンは特別な人だからできるんだ」と言ったところが\n\nエジソンは「いやお前たちだって馴れればできるんだ」って言うもんだからやってみたところ、\n\n最初は辛かったけれどもだれもできるようになったって言われますが、これは有名な話ですね。\n\nだから睡眠不足が悪いってことは迷信ですよ。\n\n睡眠不足だと翌日だるいのは昨夜は睡眠が不足だった、という暗示を与えられているからそうなるんですよ。」\n\n**信者の質問**  \n「でも、大先生様（註　明主様のこと）は特別でしょうが、私どもは・・・」\n\n**明主様御垂示**  \n「いや、大先生は特別だって言うのがそもそもいけない。\n\n私の霊は特別ですよ、霊は特別だが、体はみんなと同じですよ。\n\nその代わり私はこうしてても三分か五分くらい居眠りしますがね。\n\nそうするとはっきりしますよ。字なんか書いていてもこうやって居眠りしてしまうんです。\n\nときどき筆に墨を含めたまま眠ったりしますが、そういうときは井上さんなんか困ってしまうんです。（笑声）\n\n電車に乗って腰かけたままでもよく眠りましたし、それよりか吊革にぶら下がったままでも眠ったもんです。\n\n以前、イギリスのグラッドストーンが、椅子に腰かけたまま五分くらいずつちょいちょい眠るという逸話を聞きましたが、あれなんかも特別なんじゃなくてあたりまえなんですよ。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年3月23日"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 1,
-      "publication_title": "睡眠時間が少ないほうが活動力が生じる",
+      "publication_title": "睡眠時間が少ないほうが活動力が生じる （昭和24年8月3日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「睡眠不足のため気力減退の状態で御浄霊をさせていただいたとき、\n\nあるいは飲酒して御浄霊させていただいたときには効果がありましょうか。\n\nまた、神様に対して失礼ではないでしょうか。」\n\n**明主様御垂示**  \n「気力減退なんて本当じゃないですよ。\n\n私はなるたけ睡眠を少なくしてるんです。そのほうが活動力がありますよ。\n\n睡眠が不足すると気力が減退するっていうのは、医学でそれを強く教育されているからです。\n\nそれでボンヤリした気がするんです。\n\nしかし、本当はそうじゃないんです。芸者を見てごらんなさい。\n\n芸者ってのは一番睡眠不足ですが、日本女性の中で一番頭がいい、（笑声）あれで見ても判りますよ。\n\n飲酒といっても、そう、これも臨機応変ですよ。\n\nけど、この道の信者で酒を飲んでヘベレケになるのはまだ腹のお客様、・・・霊が萎縮してないんです。\n\nだから、そういう人は信仰が浅いんですね。\n\n信仰が深くなればある程度しか飲めないはずのもんです。\n\n無信仰者なら酔ったって差し支えないですがね。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年8月3日"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 2,
-      "publication_title": "睡眠不足について",
-      "publication_title_ptbr": "Instrução de Meishu-Sama: \"Sobre o Daishogun",
+      "publication_title": "睡眠不足 （昭和25年4月20日発行）",
+      "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「睡眠不足で気力減退の状態で御浄霊をさせていただいたとき、また飲酒して御浄霊をさせていただいた場合、効果はあるものでしょうか、\n\nまた神に対し失礼ではないでしょうか。」\n\n**明主様御垂示**  \n「睡眠不足は不衛生と医学では言うが、これは誤りであることはしばしば述べた。\n\n私など不足はなんとも思わない。\n\nあまり寝過ぎるとかえって頭の働きが悪いくらいだ。\n\n日本女性で花柳界の人などなかなか頭がよいが、最も睡眠不足の階級である。\n\n従って事実これは神経作用によるほうが多い。\n\n飲酒も絶対いけないこともない。臨機応変である。\n\n信者でありながら度を越し、へベレケに酔うのは勿論悪い、本当の信仰に入っていない証拠であるから浄霊のききも悪いこととなる。\n\n無信仰者なら酔っていても浄霊してやるのは差し支えない。」\n\n---",
-      "content_ptbr": "**(Fonte: Publicação, 20 de abril de 1950\\)**\n\n**Pergunta do Fiel:** \"Sobre o Daishogun (Grande General).\"\n\n**Meishu-Sama:** \"É o filho de Kunitokotachi no Mikoto-sama; na Era dos Deuses, cometeu pecados.\n\nNo sentido de expiação por isso, possuiu primeiro a Fundadora da Tenrikyo, Miki Nakayama Toji, e escreveu o Ofudesaki.\"",
-      "has_translation": true
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和25年4月20日発行"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 3,
-      "publication_title": "老人の過眠と死",
+      "publication_title": "老人の過眠と死 （昭和24年7月7日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「七十一歳の老人が最近とてもよく眠ります。\n\n老人が死ぬ時はよく眠るようになると言う事ですが、いかなる理由か御教え下さい。\n\nまた、右のような場合の御浄霊法を御伺い申し上げます。」\n\n**明主様御垂示**  \n「体力・・・精力がなくなって来たのである。\n\n糖分が身体中へ廻らず衰弱したものであろう。\n\n糖尿病でよくそういう事がある。\n\n膵臓は糖分を処置する機能であるが、糖尿病は膵臓が圧迫されるので働かなくなり、糖分がそのまま出るのである。糖分は非常に体力をつけるものである。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年7月7日"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 4,
-      "publication_title": "丑満時は人間が一番安眠できる時間",
+      "publication_title": "丑満時は人間が一番安眠できる時間 （昭和24年8月）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「俗に丑満時と申しますが、午前二時から四時までのこの時刻は霊と人間との間になにか特別の関係があるものでしょうか。」\n\n**明主様御垂示**  \n「ありますよ。\n\nつまり、丑満時っていうのは一昼夜の中で一番静止したときなんです。\n\n「草木も眠る丑満時」って言って草木も眠るくらいだから、すべての活動が絶えるんじゃないけど、ごく少なくなったときですね。\n\nだから人間だけじゃなくて、あらゆるものに影響があるわけなんです。\n\n人間にすれば一番安眠のできる時間なんで、神様がちゃんと寝るための時間を作っていてくださるんです。\n\n「ひとのみち」ではそういうことがとてもやかましくて、太陽が沈むっていうことは人間が眠るっていうことだと言って\n\nとても早寝だし、また太陽が出るってことは人間が起きて働くようにっていうことだと言って恐ろしく早起きなんです。\n\nしかし、まあ実際にはそうは行かないから、そこんところは臨機応変にやるんですね。\n\nあまり朝寝坊は勿論いけませんが、そんなに早く起きて馬鹿に早く寝ちゃうっていうわけにも、いまの文化生活ではいかないでしょうからね。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年8月"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 5,
-      "publication_title": "すべてのものは日光を受けて生育",
+      "publication_title": "すべてのものは日光を受けて生育 （昭和24年8月）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「丑満（うしみつどき）時に万物は生育すると申しますが事実でしょうか。」\n\n**明主様御垂示**  \n「こんなことはありませんよ。\n\nかえって反対に万物は萎縮するでしょう。\n\nだから「丑満時には棟木が三寸下がる」って言うし、「草木も眠る丑満時」って言うんですよ。\n\nすべてのものは日光を受けて生育するんですよ、夜中は休んでるもんです。」\n\n---",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年8月"
     },
     {
       "title_idx": 5,
       "title": "睡眠",
       "title_ptbr": "",
       "pub_idx": 6,
-      "publication_title": "寝相の種々相",
+      "publication_title": "寝相の種々相 （昭和24年11月25日）",
       "publication_title_ptbr": "",
       "content": "**信者の質問**  \n「寝相の種々相について御伺い致します。例えば口を開いて寝る、伏せて寝る、手足を猫のように縮めて寝る、\n\n横向きより外に寝れない人、虫一匹いても寝れない人、正体なくいつもよく寝る人等あります。\n\n何か霊的関係があるように考えられますが、いかがで御座居ましょうか。御教示願います。」\n\n**明主様御垂示**  \n「口を開いてるのは鼻が悪い。\n\n鼻の通りが悪く口から息するのである。\n\n口で呼吸する人は鼻が高くならぬ。口ばかりが出る。そして鼻が低い。\n\n浄霊で治る。鼾（いびき）も鼻の通りが悪いのである。\n\n臥せて寝るのは動物霊の習性が残っている。\n\nうつ向くのは動物である。\n\n横向きは本当で、右を下にするのが本当である。\n\nこれが生きた人間の寝方であるが、大した事でない。\n\n寝いいようにして寝ればよい。\n\n虫一匹でも気にするのは神経質な人かまたは運動不足の人である。\n\n身体に苦痛のある時は寝相は悪い。\n\n正体なく寝るのは苦痛がなく、霊的に障りのない人である。\n\n仰向きに寝るのは死人の寝方である。\n\n寝られぬのは頭の血が不足するからで、右延髄に塊があると頭の血が稀薄になり寝れない。\n\n故に寝れぬ人は右延髄をみるべきである。」",
       "content_ptbr": "",
-      "has_translation": false
+      "has_translation": false,
+      "date": "昭和24年11月25日"
+    },
+    {
+      "title_idx": 6,
+      "title": "歯磨き",
+      "title_ptbr": "",
+      "pub_idx": 0,
+      "publication_title": "歯磨き （昭和24年4月23日）",
+      "publication_title_ptbr": "",
+      "content": "**信者の質問**  \n「歯を磨くのに塩を用うるのはいかがでしょうか。」\n\n**明主様の御垂示**  \n「結構ですよ。薬の入った歯磨きよりかえって塩がいいですよ。\n\n薬の入ったのは歯が弱りますからね。\n\nハッカの入ったのも歯が弱りますね。\n\nその点では塩が一番いいでしょう。」\n\n---",
+      "content_ptbr": "",
+      "has_translation": false,
+      "date": "昭和24年4月23日"
     }
   ]
 }

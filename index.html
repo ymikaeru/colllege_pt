@@ -21,12 +21,17 @@
         <!-- Header -->
         <header class="header">
             <div class="header-content">
-                <h1 class="logo">Shin College</h1>
-                <div class="search-container">
-                    <div class="search-box">
-                        <input type="text" id="searchInput" class="search-input"
-                            placeholder="Pesquisar por documentos, temas ou volumes...">
-                        <span class="search-icon">🔍</span>
+                <h1 class="logo" id="siteLogo">Shin College</h1>
+                <div class="header-controls">
+                    <button id="globalLanguageBtn" class="language-toggle-btn" title="Alternar Idioma">
+                        JP
+                    </button>
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="text" id="searchInput" class="search-input"
+                                placeholder="Pesquisar por documentos, temas ou volumes...">
+                            <span class="search-icon">🔍</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,7 +52,7 @@
 
             <!-- Volumes View -->
             <div id="volumesView" class="content-view hidden">
-                <h2 class="view-title">Selecione um Volume</h2>
+                <h2 class="view-title" id="volumesTitle">Selecione um Volume</h2>
                 <div id="volumesList" class="cards-grid"></div>
             </div>
 
@@ -107,7 +112,7 @@
         <div id="historySection" class="history-container hidden">
             <div class="history-header" onclick="toggleHistory()">
                 <div class="history-title">
-                    <span class="history-icon">🕒</span> Visto Recentemente
+                    <span class="history-icon">🕒</span> <span id="historyTitleText">Visto Recentemente</span>
                 </div>
                 <button id="clearHistoryBtn" class="clear-history-btn"
                     onclick="event.stopPropagation(); clearHistory()">Limpar Histórico</button>
@@ -121,15 +126,15 @@
             <div class="stats-grid">
                 <div class="stat-item">
                     <span class="stat-value" id="totalThemes">0</span>
-                    <span class="stat-label">Temas</span>
+                    <span class="stat-label" id="labelThemes">Temas</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-value" id="totalTitles">0</span>
-                    <span class="stat-label">Tópicos</span>
+                    <span class="stat-label" id="labelTopics">Tópicos</span>
                 </div>
                 <div class="stat-item">
                     <span class="stat-value" id="totalArticles">0</span>
-                    <span class="stat-label">Documentos</span>
+                    <span class="stat-label" id="labelDocs">Documentos</span>
                 </div>
             </div>
         </footer>
