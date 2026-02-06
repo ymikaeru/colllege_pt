@@ -760,7 +760,7 @@ function showThemes(volumeIndex) {
     document.getElementById('statsFooter').style.display = 'none';
 
     // Update Header
-    const displayVol = getLocalizedVolume(volume.volume);
+    const displayVol = getLocalizedVolume(volume);
     document.getElementById('volumeTitle').textContent = displayVol;
     document.getElementById('backToThemes').style.display = 'none';
     document.getElementById('backToVolumes').style.display = 'inline-flex';
