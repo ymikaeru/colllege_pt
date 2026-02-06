@@ -1,0 +1,58 @@
+/* Language Toggle Button */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.language-toggle-btn {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.language-toggle-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+}
+
+/* Update search container to respect flex layout */
+.search-container {
+    max-width: 500px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header-controls {
+        width: 100%;
+        gap: var(--spacing-sm);
+        flex-direction: row-reverse; /* Put search first, lang button second? Or keep as is */
+        /* Let's keep search accessible. */
+        flex-wrap: wrap;
+    }
+    
+    .language-toggle-btn {
+        position: absolute;
+        top: var(--spacing-md); /* Align with logo roughly */
+        right: var(--spacing-md);
+    }
+    
+    .logo {
+        padding-right: 60px; /* Make space for button */
+    }
+}

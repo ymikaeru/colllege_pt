@@ -117,15 +117,19 @@ body {
 
 .search-input {
     width: 100%;
-    padding: var(--spacing-sm) var(--spacing-lg);
+    padding: 12px var(--spacing-lg);
+    /* Increased padding for better height */
     padding-right: 3rem;
     background: var(--bg-tertiary);
     /* Muted background */
     border: 1px solid transparent;
     border-radius: var(--radius-md);
     color: var(--text-primary);
-    font-size: 0.95rem;
+    font-size: 1rem;
+    /* Larger font */
     transition: all var(--transition-base);
+    min-height: 44px;
+    /* Ensure consistent generous height */
 }
 
 .search-input:focus {
@@ -369,20 +373,26 @@ body {
 
 .title-item-name {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--text-primary);
     flex: 1;
+    line-height: 1.4;
+    padding-right: 1.5rem;
+    /* Added padding to separate from badge */
 }
 
 .title-item-badge {
     background: var(--bg-tertiary);
     color: var(--text-secondary);
-    padding: 2px 8px;
-    border-radius: 12px;
+    padding: 0px 20px;
+    border-radius: 20px;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
     border: 1px solid var(--border);
+    height: fit-content;
+    line-height: 2;
+    /* Added line-height to give some vertical volume with 0 padding */
 }
 
 .title-item-publications {
@@ -499,8 +509,9 @@ body {
 }
 
 .modal-close:hover {
-    background: var(--primary);
+    background: transparent;
     transform: rotate(90deg);
+    color: var(--primary);
 }
 
 .modal-header {
@@ -1379,6 +1390,7 @@ body {
         box-shadow: 0 0 0 4px rgba(46, 91, 255, 0.2);
     }
 }
+
 /* ============================================
    FILTER BUTTON
    ============================================ */
@@ -1420,5 +1432,72 @@ body {
         width: 100%;
         justify-content: center;
         margin-top: var(--spacing-sm);
+    }
+}
+
+/* Language Toggle Button */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex-shrink: 0;
+    /* Don't shrink to ensure contents fit */
+    margin-left: auto;
+    /* Push to right */
+}
+
+.language-toggle-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-md);
+    /* Match other inputs radius */
+    font-weight: 500;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.language-toggle-btn:hover {
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-color: var(--primary);
+}
+
+/* Update search container to respect flex layout */
+.search-container {
+    max-width: 800px;
+    /* Increased max-width further */
+    min-width: 320px;
+    /* Ensure it doesn't get too small */
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header-controls {
+        width: 100%;
+        gap: var(--spacing-sm);
+        flex-direction: row-reverse;
+        /* Put search first, lang button second? Or keep as is */
+        /* Let's keep search accessible. */
+        flex-wrap: wrap;
+    }
+
+    .language-toggle-btn {
+        position: absolute;
+        top: var(--spacing-md);
+        /* Align with logo roughly */
+        right: var(--spacing-md);
+    }
+
+    .logo {
+        padding-right: 60px;
+        /* Make space for button */
     }
 }

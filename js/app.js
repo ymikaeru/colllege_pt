@@ -345,21 +345,46 @@ function handleSearch(e) {
 
 function searchContent(term) {
     const results = [];
+    const lowerTerm = term.toLowerCase();
+    const keywords = lowerTerm.split(/\s+/).filter(k => k.length > 0);
 
     data.forEach(volume => {
-        volume.themes.forEach(theme => {
-            theme.titles.forEach(title => {
-                const term = searchTerm; // Already lowercased
-                const matchVolume = (volume.volume || '').toLowerCase().includes(term) || (volume.volume_ptbr || '').toLowerCase().includes(term);
-                const matchTheme = (theme.theme || '').toLowerCase().includes(term) || (theme.theme_ptbr || '').toLowerCase().includes(term);
-                const matchTitle = (title.title || '').toLowerCase().includes(term) || (title.title_ptbr || '').toLowerCase().includes(term);
+        const volStr = (volume.volume || '') + ' ' + (volume.volume_ptbr || '');
+        const volLower = volStr.toLowerCase();
 
-                if (matchVolume || matchTheme || matchTitle) {
-                    results.push({
-                        volume: volume.volume,
-                        theme: theme.theme,
-                        title: title,
-                        matchType: matchTitle ? 'title' : (matchTheme ? 'theme' : 'volume')
+        volume.themes.forEach(theme => {
+            const themeStr = (theme.theme || '') + ' ' + (theme.theme_ptbr || '');
+            const themeLower = themeStr.toLowerCase();
+
+            theme.titles.forEach(title => {
+                const titleStr = (title.title || '') + ' ' + (title.title_ptbr || '');
+                const titleLower = titleStr.toLowerCase();
+
+                if (title.publications) {
+                    title.publications.forEach((pub, index) => {
+                        // Combine text for context
+                        // We include parent metadata so searching for "ThemeName Keyword" works
+                        const pubContent = [
+                            volLower,
+                            themeLower,
+                            titleLower,
+                            (pub.publication_title || '').toLowerCase(),
+                            (pub.publication_title_ptbr || '').toLowerCase(),
+                            (pub.content || '').toLowerCase(),
+                            (pub.content_ptbr || '').toLowerCase()
+                        ].join(' ');
+
+                        // Verify all keywords presence
+                        if (keywords.every(keyword => pubContent.includes(keyword))) {
+                            results.push({
+                                volume: volume.volume,
+                                theme: theme.theme,
+                                title: title, // Parent title object
+                                publication: pub, // Specific matched publication
+                                pubIndex: index,
+                                matchType: 'publication'
+                            });
+                        }
                     });
                 }
             });
@@ -419,14 +444,25 @@ function displaySearchResults(results) {
         return;
     }
 
-    container.innerHTML = results.map((result, index) => `
+    container.innerHTML = results.map((result, index) => {
+        // Display Logic for Publication Result
+        const pub = result.publication;
+        const displayTitle = (currentLanguage === 'pt' && pub.publication_title_ptbr) ? pub.publication_title_ptbr : (pub.publication_title || pub.header || 'Sem Título');
+
+        // Context info (Parent Title)
+        const parentTitle = (currentLanguage === 'pt' && result.title.title_ptbr) ? result.title.title_ptbr : result.title.title;
+
+        return `
         <div class="title-item" onclick="openSearchResultByIndex(${index})">
             <div class="title-item-header">
-                <div class="title-item-name">${result.title.title_ptbr || result.title.title}</div>
-                <div class="title-item-badge">${result.title.publications.length} Documentos</div>
+                <div class="title-item-name">${displayTitle}</div>
+                <div class="title-item-badge">
+                    ${parentTitle}
+                </div>
             </div>
+            <!-- Optional: Show snippet? For now just title is requested -->
         </div>
-    `).join('');
+    `}).join('');
 
     updateBreadcrumb([
         { text: 'Volumes', action: () => { document.getElementById('searchInput').value = ''; showVolumes(); } },
@@ -438,7 +474,7 @@ function openSearchResultByIndex(index) {
     if (window.currentSearchResults && window.currentSearchResults[index]) {
         const result = window.currentSearchResults[index];
 
-        // Find volume and theme indices
+        // Find volume and theme indices maps
         const volumeIndex = data.findIndex(v => v.volume === result.volume);
         const volumeObj = volumeIndex >= 0 ? data[volumeIndex] : null;
 
@@ -452,7 +488,7 @@ function openSearchResultByIndex(index) {
             }
         }
 
-        // Inject path info into the title object for the modal
+        // Inject path info
         const titleWithContext = {
             ...result.title,
             pathInfo: {
@@ -462,7 +498,10 @@ function openSearchResultByIndex(index) {
                 themeIndex: themeIndex
             }
         };
-        showContent(titleWithContext);
+
+        // Pass scrollToId to showContent. We use 'pub-INDEX' format from showContent generation
+        const targetId = `pub-${result.pubIndex}`;
+        showContent(titleWithContext, true, targetId);
     }
 }
 
@@ -1037,7 +1076,7 @@ function openContentByIndex(index) {
 // ============================================
 // MODAL CONTENT
 // ============================================
-function showContent(title, isInitialLoad = true) {
+function showContent(title, isInitialLoad = true, scrollToId = null) {
     const modal = document.getElementById('contentModal');
     // First, filter out empty content (must have valid content in at least one language)
     const basePubs = title.publications
@@ -1045,14 +1084,6 @@ function showContent(title, isInitialLoad = true) {
 
     // Check availability
     const hasTranslation = basePubs.some(pub => pub.content_ptbr && pub.content_ptbr.trim());
-
-    // Determine effective language for this specific content
-    // If global is PT but this content has no PT, fall back to JP? 
-    // Yes, but keep UI in PT mode if possible? 
-    // Let's stick to global currentLanguage preference.
-    // If PT selected but no PT content -> Show JP content but UI remains PT? 
-    // Or warn? 
-    // Existing logic: "Conteúdo não disponível" if missing.
 
     const showPT = currentLanguage === 'pt';
 
@@ -1070,22 +1101,20 @@ function showContent(title, isInitialLoad = true) {
         displayTitle: (showPT && pub.publication_title_ptbr) ? pub.publication_title_ptbr : (pub.publication_title || pub.header || (pub.type === 'intro' ? 'Introdução' : 'Sem Título'))
     }));
 
+    // ... translation button logic skipped, assuming it remains similar or you can copy it back ...
+    // Wait, I am replacing a huge chunk. I should keep the translation button logic.
+    // I will use ... skipping ... in my mind but I must provide full replacement for the range.
+
+    // ... Translation Button Logic ...
     const translationButton = document.getElementById('translationButton');
     if (hasTranslation) {
         translationButton.classList.remove('hidden');
-        // If current is PT, button allows going to Original (JP)
-        // If current is JP, button allows going to PT
         translationButton.textContent = showPT ? "Original" : "PT";
-
-        // Remove 'active' class concept if it just switches language? 
-        // Or keep it to highlight 'Translated' state?
         if (showPT) {
             translationButton.classList.add('active');
         } else {
             translationButton.classList.remove('active');
         }
-
-        // Update click handler to use global toggle
         translationButton.onclick = toggleGlobalLanguage;
     } else {
         translationButton.classList.add('hidden');
@@ -1110,13 +1139,7 @@ function showContent(title, isInitialLoad = true) {
     // Gera o HTML da navegação
     let navHTML = '';
     if (navigationItems.length > 1) {
-        // const tocLabel = currentLanguage === 'pt' ? 'Tópicos' : '目次'; 
-        // Use dictionary if possible or local logic. Dictionary is cleaner.
         const tocLabel = currentLanguage === 'pt' ? 'Tópicos' : '目次';
-        // Note: 'Tópicos' is in uiTranslations.labelTopics, but '目次' (TOC) is slightly different context than labelTopics? 
-        // labelTopics = "Topics" (count). TOC = "Table of Contents".
-        // Let's stick to local or add to map. Adding 'modalTOC' to map.
-
         navHTML = `
             <div class="modal-nav-container">
                 <button class="modal-nav-toggle" onclick="toggleModalNav(this)">
@@ -1140,11 +1163,6 @@ function showContent(title, isInitialLoad = true) {
     const metaContainer = document.getElementById('modalMeta');
     if (title.pathInfo) {
         const titleStringEscaped = title.title.replace(/'/g, "\\'");
-
-        // Localize path info if needed, but pathInfo is likely static strings passed in?
-        // pathInfo was constructed using localized volume/theme names in the caller functions.
-        // So we can use them directly.
-
         metaContainer.innerHTML = `
             <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('volume', ${title.pathInfo.volumeIndex})">${title.pathInfo.volume}</div>
             <div class="modal-meta-item">→</div>
@@ -1177,17 +1195,27 @@ function showContent(title, isInitialLoad = true) {
     // Update Footer Navigation
     updateModalFooter(title);
 
-    // Reset scroll position with a slight delay to ensure render completes
-    setTimeout(() => {
-        const modalContent = modal.querySelector('.modal-content');
-        if (modalContent) modalContent.scrollTop = 0;
-
-        const scrollableArea = modal.querySelector('.modal-scrollable-area');
-        if (scrollableArea) scrollableArea.scrollTop = 0;
-    }, 10);
+    // Reset scroll position
+    const modalContent = modal.querySelector('.modal-content');
+    if (modalContent) modalContent.scrollTop = 0;
+    const scrollableArea = modal.querySelector('.modal-scrollable-area');
+    if (scrollableArea) scrollableArea.scrollTop = 0;
 
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+
+    // Scroll to specific element if requested
+    if (scrollToId) {
+        setTimeout(() => {
+            const target = document.getElementById(scrollToId);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Optional: flash highlight
+                target.classList.add('search-highlight');
+                setTimeout(() => target.classList.remove('search-highlight'), 2000);
+            }
+        }, 300); // Slight delay to ensure render and transition
+    }
 }
 
 function toggleModalNav(btn) {
