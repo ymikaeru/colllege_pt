@@ -384,12 +384,15 @@ body {
 .title-item-badge {
     background: var(--bg-tertiary);
     color: var(--text-secondary);
-    padding: 0px 20px;
-    border-radius: 12px;
+    padding: 6px 20px;
+    /* Increased vertical padding */
+    border-radius: 20px;
+    /* Increased radius for pill shape */
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
     white-space: nowrap;
     border: 1px solid var(--border);
+    height: fit-content;
 }
 
 .title-item-publications {
