@@ -6,7 +6,7 @@ let currentVolume = null;
 let currentTheme = null;
 let searchTerm = '';
 let currentFontSize = localStorage.getItem('modalFontSize') || 'medium';
-let showTranslation = false;
+let currentLanguage = localStorage.getItem('appLanguage') || 'pt'; // 'pt' or 'jp'
 let currentTitleData = null;
 let searchTimeout = null;
 let filterTranslatedOnly = false;
@@ -39,6 +39,7 @@ async function loadData() {
 // INITIALIZATION
 // ============================================
 function initializeApp() {
+    updateGlobalLanguageUI();
     updateStatistics();
     showVolumes();
     setupEventListeners();
@@ -69,9 +70,166 @@ function setupEventListeners() {
     document.getElementById('resetFontSize').addEventListener('click', () => changeFontSize('reset'));
     document.getElementById('increaseFontSize').addEventListener('click', () => changeFontSize('increase'));
 
-    // Translation button
-    document.getElementById('translationButton').addEventListener('click', toggleTranslation);
+    // Translation button (Modal)
+    // document.getElementById('translationButton').addEventListener('click', toggleTranslation); // Deprecated/Replaced by global? 
+    // Let's keep the modal button but make it trigger global toggle for now, or just hide it?
+    // User wants a button on HOME. 
+    // I will hook up the NEW button.
+    const globalBtn = document.getElementById('globalLanguageBtn');
+    if (globalBtn) {
+        globalBtn.addEventListener('click', toggleGlobalLanguage);
+    }
+}
 
+const uiTranslations = {
+    'pt': {
+        'volumesTitle': 'Selecione um Volume',
+        'backToVolumes': '← Voltar aos Volumes',
+        'backToThemes': '← Voltar aos Temas',
+        'closeAllThemesBtn': { open: 'Abrir Todos', close: 'Fechar Todos' },
+        'historyTitleText': 'Visto Recentemente',
+        'clearHistoryBtn': 'Limpar Histórico',
+        'labelThemes': 'Temas',
+        'labelTopics': 'Tópicos',
+        'labelDocs': 'Documentos',
+        'loading': 'Carregando...',
+        'breadcrumbVolumes': 'Volumes',
+        'searchPlaceholder': 'Pesquisar por documentos, temas ou volumes...',
+        'modalNavNext': 'Próximo',
+        'modalNavPrev': 'Anterior',
+        'modalNavClose': 'Fechar',
+        'modalTOC': 'Tópicos',
+        'siteTitle': 'Shin College'
+    },
+    'jp': {
+        'volumesTitle': '巻を選択',
+        'backToVolumes': '← 巻一覧に戻る',
+        'backToThemes': '← テーマ一覧に戻る',
+        'closeAllThemesBtn': { open: 'すべて開く', close: 'すべて閉じる' },
+        'historyTitleText': '最近見た項目',
+        'clearHistoryBtn': '履歴を消去',
+        'labelThemes': 'テーマ',
+        'labelTopics': 'トピック',
+        'labelDocs': '文書',
+        'loading': '読み込み中...',
+        'breadcrumbVolumes': '巻一覧',
+        'searchPlaceholder': '文書、テーマ、巻を検索...',
+        'modalNavNext': '次へ',
+        'modalNavPrev': '前へ',
+        'modalNavClose': '閉じる',
+        'modalTOC': '目次',
+        'siteTitle': '新・カレッジ'
+    }
+};
+
+// Volume Reversion Map (Since JSON has PT names in 'volume' field)
+const volumeReverseMap = {
+    "1. Seção de Busca do Caminho": "1.求道編",
+    "2. Seção de Pontos Essenciais": "2.要義編",
+    "3. Seção da Fé": "3.信仰編",
+    "4. Outros": "4.その他",
+    "5. Seção da Salvação": "5.救世編" // Assuming this exists or will exist
+};
+
+function getLocalizedVolume(ptName) {
+    if (currentLanguage === 'jp') {
+        return volumeReverseMap[ptName] || ptName;
+    }
+    return ptName;
+}
+
+function updateGlobalLanguageUI() {
+    const btn = document.getElementById('globalLanguageBtn');
+    if (btn) {
+        btn.textContent = currentLanguage.toUpperCase();
+    }
+
+    const t = uiTranslations[currentLanguage];
+
+    // Static Elements
+    const setText = (id, text) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = text;
+    };
+
+    setText('volumesTitle', t.volumesTitle);
+    setText('backToVolumes', t.backToVolumes); // Note: render functions might override this, handled there too?
+    setText('backToThemes', t.backToThemes);
+    setText('historyTitleText', t.historyTitleText);
+    setText('clearHistoryBtn', t.clearHistoryBtn);
+    setText('labelThemes', t.labelThemes);
+    setText('labelTopics', t.labelTopics);
+    setText('labelDocs', t.labelDocs);
+    setText('loading', t.loading); // Wrapper content replacement? No, just p tag if p has id, but loading has p inside.
+
+    // Loading text is inside #loading p. 
+    const loadingEl = document.querySelector('#loading p');
+    if (loadingEl) loadingEl.textContent = t.loading;
+
+    // Site Title
+    const siteLogo = document.getElementById('siteLogo');
+    if (siteLogo) siteLogo.textContent = t.siteTitle;
+
+    // Search Placeholder
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) searchInput.placeholder = t.searchPlaceholder;
+
+    // Breadcrumb Root
+    const breadcrumbRoot = document.querySelector('.breadcrumb-item[data-level="volumes"]');
+    if (breadcrumbRoot) breadcrumbRoot.textContent = t.breadcrumbVolumes;
+
+    // Modal Footer Tooltips
+    const setTooltip = (id, text) => {
+        const el = document.getElementById(id);
+        if (el) el.title = text;
+    }
+    setTooltip('prevTitleBtn', t.modalNavPrev);
+    setTooltip('nextTitleBtn', t.modalNavNext);
+    setTooltip('closeModalFooterBtn', t.modalNavClose);
+
+    // Toggle All Button text depends on state, handled in toggleAllThemes?
+    // We should update it if it exists and we know state? 
+    // Just force updateToggleAllButtonState if in themes view?
+    updateToggleAllButtonState();
+}
+
+function toggleGlobalLanguage() {
+    currentLanguage = currentLanguage === 'pt' ? 'jp' : 'pt';
+    localStorage.setItem('appLanguage', currentLanguage);
+    updateGlobalLanguageUI();
+
+    // Re-render active view
+    const modal = document.getElementById('contentModal');
+    if (modal && !modal.classList.contains('hidden') && currentTitleData) {
+        showContent(currentTitleData, false);
+        return;
+    }
+
+    const titlesView = document.getElementById('titlesView');
+    if (titlesView && !titlesView.classList.contains('hidden') && currentVolume !== null && currentTheme !== null) {
+        showTitles(currentVolume, currentTheme);
+        return;
+    }
+
+    const themesView = document.getElementById('themesView');
+    if (themesView && !themesView.classList.contains('hidden') && currentVolume !== null) {
+        showThemes(currentVolume);
+        return;
+    }
+
+    // Default
+    showVolumes();
+}
+
+
+
+// Helper for localization
+function getLocalizedText(obj, fieldBase) {
+    if (currentLanguage === 'pt') {
+        return obj[fieldBase + '_ptbr'] || obj[fieldBase]; // Fallback to JP if empty
+    } else {
+        return obj[fieldBase]; // Original Japanese
+    }
 }
 
 // ============================================
@@ -340,28 +498,28 @@ function showVolumes() {
         let titleCount = 0;
         volume.themes.forEach(theme => titleCount += theme.titles.length);
 
+        // Use localized volume name (Reverting PT -> JP if needed)
+        const displayVol = getLocalizedVolume(volume.volume);
+
+        const t = uiTranslations[currentLanguage];
+        const labelThemes = t.labelThemes;
+        const labelTopics = t.labelTopics;
+
         return `
             <div class="card" onclick="showThemes(${index})">
-                <div class="card-title">${volume.volume_ptbr || formatVolumeName(volume.volume)}</div>
+                <div class="card-title">${displayVol}</div>
                 <div class="card-subtitle">
-                    ${themeCount} Temas · ${titleCount} Tópicos
+                    ${themeCount} ${labelThemes} · ${titleCount} ${labelTopics}
                 </div>
             </div>
         `;
     }).join('');
 
     // Append Virtual Volume Card for Translations
-    html += `
-        <div class="card" onclick="enterTranslatedFilter()" style="border-style: dashed; border-color: var(--primary);">
-            <div class="card-title">🌐 Ensinamentos Traduzidos</div>
-            <div class="card-subtitle">
-                Acesse todo o conteúdo já traduzido para Português em lista única
-            </div>
-        </div>
-    `;
+
 
     container.innerHTML = html;
-    updateBreadcrumb([{ text: 'Volumes', active: true }]);
+    updateBreadcrumb([{ text: uiTranslations[currentLanguage].breadcrumbVolumes, active: true }]);
 }
 
 function enterTranslatedFilter() {
@@ -553,9 +711,12 @@ function showThemes(volumeIndex) {
     // Hide statistics on themes view
     document.getElementById('statsFooter').style.display = 'none';
 
-    document.getElementById('volumeTitle').textContent = volume.volume_ptbr || formatVolumeName(volume.volume);
+    // Update Header
+    const displayVol = getLocalizedVolume(volume.volume);
+    document.getElementById('volumeTitle').textContent = displayVol;
     document.getElementById('backToThemes').style.display = 'none';
     document.getElementById('backToVolumes').style.display = 'inline-flex';
+    document.getElementById('backToVolumes').textContent = uiTranslations[currentLanguage].backToVolumes;
 
     // Ocultar botão de toggle já que não há mais accordion
     const toggleBtn = document.getElementById('closeAllThemesBtn');
@@ -573,7 +734,7 @@ function showThemes(volumeIndex) {
         container.innerHTML = `
             <div style="text-align: center; padding: 3rem; color: var(--text-tertiary); grid-column: 1/-1;">
                 <p style="font-size: 3rem; margin-bottom: 1rem;">🌐</p>
-                <p>Nenhum tema traduzido neste volume</p>
+                <p>${currentLanguage === 'pt' ? 'Nenhum tema traduzido neste volume' : '翻訳されたテーマはありません'}</p>
             </div>
         `;
         return;
@@ -592,23 +753,30 @@ function showThemes(volumeIndex) {
             if (title.title === '---') {
                 return `<div class="separator-item"></div>`;
             }
+
+            const displayTitle = getLocalizedText(title, 'title');
+            const labelDocs = currentLanguage === 'pt' ? 'Documentos' : '文書';
+
             return `
             <div class="title-item" onclick="event.stopPropagation(); showContentFromAccordion('${title.title.replace(/'/g, "\\'")}')">
                 <div class="title-item-header">
-                    <div class="title-item-name">${title.title_ptbr || title.title}</div>
-                    <div class="title-item-badge">${title.publications.length} Documentos</div>
+                    <div class="title-item-name">${displayTitle}</div>
+                    <div class="title-item-badge">${title.publications.length} ${labelDocs}</div>
                 </div>
             </div>
             `;
         }).join('');
 
+        const displayTheme = getLocalizedText(theme, 'theme');
+        const labelTopics = currentLanguage === 'pt' ? 'Tópicos' : 'トピック';
+
         return `
             <div id="theme-card-${themeIndex}" class="card">
                 <div class="card-header-content">
                     <div class="card-info">
-                        <div class="card-title">${theme.theme_ptbr || theme.theme}</div>
+                        <div class="card-title">${displayTheme}</div>
                         <div class="card-subtitle">
-                            ${groupedTitles.filter(t => t.title !== '---').length} Tópicos
+                            ${groupedTitles.filter(t => t.title !== '---').length} ${labelTopics}
                         </div>
                     </div>
                 </div>
@@ -618,8 +786,8 @@ function showThemes(volumeIndex) {
     }).join('');
 
     updateBreadcrumb([
-        { text: 'Volumes', action: showVolumes },
-        { text: volume.volume_ptbr || formatVolumeName(volume.volume), active: true }
+        { text: uiTranslations[currentLanguage].breadcrumbVolumes, action: showVolumes },
+        { text: displayVol, active: true }
     ]);
 }
 
@@ -659,7 +827,8 @@ function toggleAllThemes() {
     if (anyExpanded) {
         // Close all
         cards.forEach(card => card.classList.remove('expanded'));
-        btn.textContent = 'Abrir Todos';
+        const t = uiTranslations[currentLanguage];
+        btn.textContent = t.closeAllThemesBtn.open;
     } else {
         // Open all
         const volume = data[data.findIndex(v => v.volume === document.getElementById('volumeTitle').textContent)] || data[currentVolume];
@@ -679,7 +848,8 @@ function toggleAllThemes() {
                 card.classList.add('expanded');
             }
         });
-        btn.textContent = 'Fechar Todos';
+        const t = uiTranslations[currentLanguage];
+        btn.textContent = t.closeAllThemesBtn.close;
     }
 }
 
@@ -691,10 +861,11 @@ function updateToggleAllButtonState() {
 
     const anyExpanded = Array.from(cards).some(card => card.classList.contains('expanded'));
 
+    const t = uiTranslations[currentLanguage];
     if (anyExpanded) {
-        btn.textContent = 'Fechar Todos';
+        btn.textContent = t.closeAllThemesBtn.close;
     } else {
-        btn.textContent = 'Abrir Todos';
+        btn.textContent = t.closeAllThemesBtn.open;
     }
 }
 
@@ -868,41 +1039,54 @@ function openContentByIndex(index) {
 // ============================================
 function showContent(title, isInitialLoad = true) {
     const modal = document.getElementById('contentModal');
-    // First, filter out empty content
+    // First, filter out empty content (must have valid content in at least one language)
     const basePubs = title.publications
-        .filter(pub => pub.content && pub.content.trim());
+        .filter(pub => (pub.content && pub.content.trim()) || (pub.content_ptbr && pub.content_ptbr.trim()));
 
-    // Check if any publication has translation
+    // Check availability
     const hasTranslation = basePubs.some(pub => pub.content_ptbr && pub.content_ptbr.trim());
 
-    // Store current title data for translation toggle
+    // Determine effective language for this specific content
+    // If global is PT but this content has no PT, fall back to JP? 
+    // Yes, but keep UI in PT mode if possible? 
+    // Let's stick to global currentLanguage preference.
+    // If PT selected but no PT content -> Show JP content but UI remains PT? 
+    // Or warn? 
+    // Existing logic: "Conteúdo não disponível" if missing.
+
+    const showPT = currentLanguage === 'pt';
+
+    // Store current title data
     currentTitleData = title;
 
-    // Default to translation if available, ONLY on initial load
-    if (isInitialLoad) {
-        showTranslation = hasTranslation;
-    }
-
     // Update Modal Title
-    document.getElementById('modalTitle').textContent = showTranslation ? getDisplayTitle(title) : title.title;
+    const displayTitle = getLocalizedText(title, 'title');
+    document.getElementById('modalTitle').textContent = displayTitle;
 
     // Processa os dados para navegação e conteúdo
     const processedPubs = basePubs.map((pub, index) => ({
         ...pub,
         id: `pub-${index}`,
-        displayTitle: (showTranslation && pub.publication_title_ptbr) ? pub.publication_title_ptbr : (pub.publication_title || pub.header || (pub.type === 'intro' ? 'Introdução' : 'Sem Título'))
+        displayTitle: (showPT && pub.publication_title_ptbr) ? pub.publication_title_ptbr : (pub.publication_title || pub.header || (pub.type === 'intro' ? 'Introdução' : 'Sem Título'))
     }));
 
     const translationButton = document.getElementById('translationButton');
     if (hasTranslation) {
         translationButton.classList.remove('hidden');
-        // If showing translation, button allows going back to Original
-        translationButton.textContent = showTranslation ? "Original" : "PT";
-        if (showTranslation) {
+        // If current is PT, button allows going to Original (JP)
+        // If current is JP, button allows going to PT
+        translationButton.textContent = showPT ? "Original" : "PT";
+
+        // Remove 'active' class concept if it just switches language? 
+        // Or keep it to highlight 'Translated' state?
+        if (showPT) {
             translationButton.classList.add('active');
         } else {
             translationButton.classList.remove('active');
         }
+
+        // Update click handler to use global toggle
+        translationButton.onclick = toggleGlobalLanguage;
     } else {
         translationButton.classList.add('hidden');
     }
@@ -924,10 +1108,15 @@ function showContent(title, isInitialLoad = true) {
     });
 
     // Gera o HTML da navegação
-    // Only show if there is more than 1 item
     let navHTML = '';
     if (navigationItems.length > 1) {
-        const tocLabel = 'Tópicos';
+        // const tocLabel = currentLanguage === 'pt' ? 'Tópicos' : '目次'; 
+        // Use dictionary if possible or local logic. Dictionary is cleaner.
+        const tocLabel = currentLanguage === 'pt' ? 'Tópicos' : '目次';
+        // Note: 'Tópicos' is in uiTranslations.labelTopics, but '目次' (TOC) is slightly different context than labelTopics? 
+        // labelTopics = "Topics" (count). TOC = "Table of Contents".
+        // Let's stick to local or add to map. Adding 'modalTOC' to map.
+
         navHTML = `
             <div class="modal-nav-container">
                 <button class="modal-nav-toggle" onclick="toggleModalNav(this)">
@@ -950,8 +1139,11 @@ function showContent(title, isInitialLoad = true) {
     // Metadados - Caminho do conteúdo
     const metaContainer = document.getElementById('modalMeta');
     if (title.pathInfo) {
-        // Prepare title string for passing to function - escape single quotes
         const titleStringEscaped = title.title.replace(/'/g, "\\'");
+
+        // Localize path info if needed, but pathInfo is likely static strings passed in?
+        // pathInfo was constructed using localized volume/theme names in the caller functions.
+        // So we can use them directly.
 
         metaContainer.innerHTML = `
             <div class="modal-meta-item modal-meta-link" onclick="closeModalAndNavigate('volume', ${title.pathInfo.volumeIndex})">${title.pathInfo.volume}</div>
@@ -967,11 +1159,13 @@ function showContent(title, isInitialLoad = true) {
 
     // Gera o HTML do conteúdo
     const publicationsHTML = navigationItems.map(pub => {
-        const contentToShow = showTranslation && pub.content_ptbr ? pub.content_ptbr : pub.content;
+        const contentToShow = (showPT && pub.content_ptbr) ? pub.content_ptbr : pub.content;
+        const noContentMsg = currentLanguage === 'pt' ? 'Conteúdo não disponível' : 'コンテンツなし';
+
         return `
         <div id="${pub.id}" class="publication">
             <div class="publication-header">${parseMarkdown(pub.displayTitle)}</div>
-            <div class="publication-content">${parseMarkdown(contentToShow || 'Conteúdo não disponível')}</div>
+            <div class="publication-content">${parseMarkdown(contentToShow || noContentMsg)}</div>
         </div>
     `}).join('');
 
@@ -985,7 +1179,6 @@ function showContent(title, isInitialLoad = true) {
 
     // Reset scroll position with a slight delay to ensure render completes
     setTimeout(() => {
-        // Scroll both potential containers to ensure top position
         const modalContent = modal.querySelector('.modal-content');
         if (modalContent) modalContent.scrollTop = 0;
 
@@ -1227,24 +1420,9 @@ function navigateToAndHighlight(volumeIndex, themeIndex, titleString) {
 // ============================================
 // TRANSLATION TOGGLE
 // ============================================
-function toggleTranslation() {
-    showTranslation = !showTranslation;
-    const translationButton = document.getElementById('translationButton');
+// function toggleTranslation() { ... } // Replaced by toggleGlobalLanguage 
+// We can remove it or leave it as a no-op if referenced elsewhere (checked listeners, simplified).
 
-    // Update text and style
-    translationButton.textContent = showTranslation ? "Original" : "PT";
-
-    if (showTranslation) {
-        translationButton.classList.add('active');
-    } else {
-        translationButton.classList.remove('active');
-    }
-
-    // Reload content with translation toggle
-    if (currentTitleData) {
-        showContent(currentTitleData, false);
-    }
-}
 
 // ============================================
 // SCROLL TO TOP
