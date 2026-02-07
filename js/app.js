@@ -259,8 +259,14 @@ function updateStatistics(contextData = null) {
         stats.titles += titlesList.length;
         titlesList.forEach(title => {
             title.publications.forEach(pub => {
-                if (pub.content && pub.content.trim()) {
-                    uniqueContent.add(pub.content.trim());
+                // Count publications with content in either language
+                const hasJP = pub.content && pub.content.trim();
+                const hasPT = pub.content_ptbr && pub.content_ptbr.trim();
+
+                if (hasJP || hasPT) {
+                    // Use JP content as unique key if available, otherwise PT
+                    const contentKey = hasJP ? pub.content.trim() : pub.content_ptbr.trim();
+                    uniqueContent.add(contentKey);
                 }
             });
         });
@@ -286,8 +292,13 @@ function updateStatistics(contextData = null) {
                 // For titles/articles in search, we iterate the result items
                 stats.titles++;
                 result.title.publications.forEach(pub => {
-                    if (pub.content && pub.content.trim()) {
-                        uniqueContent.add(pub.content.trim());
+                    // Count publications with content in either language
+                    const hasJP = pub.content && pub.content.trim();
+                    const hasPT = pub.content_ptbr && pub.content_ptbr.trim();
+
+                    if (hasJP || hasPT) {
+                        const contentKey = hasJP ? pub.content.trim() : pub.content_ptbr.trim();
+                        uniqueContent.add(contentKey);
                     }
                 });
             });
@@ -1318,6 +1329,12 @@ function groupNumberedTitles(titles) {
         // Skip empty titles (without publications) and separators
         if (title.title === '---' || !title.publications || title.publications.length === 0) {
             return;
+        }
+
+        // Defensive check: ensure title.title exists and is a string
+        if (!title.title || typeof title.title !== 'string') {
+            // Use PT title as fallback if available
+            title.title = title.title_ptbr || 'Sem Título';
         }
 
         // Remove números do final do título (suporta 1, 2, ３, ４, (1), （１）, - 1, etc.)

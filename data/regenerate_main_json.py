@@ -9,6 +9,7 @@ OUTPUT_FILE = os.path.join(DATA_DIR, "shin_college_data.json")
 # Volume Translation Map
 VOLUME_MAP = {
     "1.経綸・霊主体従・夜昼転換・祖霊祭祀編": "1. Plano Divino, Precedência do Espírito sobre a Matéria, Transição da Noite para o Dia e Culto aos Antepassados",
+    "2.浄霊・神示の健康法・自然農法編": "2. Johrei, Ensinamentos sobre Saúde e Agricultura Natural",
     "3.信仰編": "3. Seção da Fé",
     "4.その他": "4. Outros",
     "4.その他_04_宗教断片集.json": "4. Outros"
